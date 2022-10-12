@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://zihao-ai.github.io/sitemap.xml
