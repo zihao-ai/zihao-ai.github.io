@@ -312,12 +312,12 @@
 
   
 
-<meta name="description" content="Adversarial machine learning (AML) studies the adversarial phenomenon of machine learning, which may make inconsistent or unexpected predictions with humans. Some paradigms have been recently developed to explore this adversarial phenomenon occurring at different stages of a machine learning system, such as training-time adversarial attack (i.e., backdoor attack), deployment-time adversarial attack (i.e., weight attack), and inference-time adversarial attack (i.e., adversarial example). However, although these paradigms share a common goal, their developments are almost independent, and there is still no big picture of AML. In this work, we aim to provide a unified perspective to the AML community to systematically review the overall progress of this field. We firstly provide a general definition about AML, and then propose a unified mathematical framework to covering existing attack paradigms. According to the proposed unified framework, we can not only clearly figure out the connections and differences among these paradigms, but also systematically categorize and review existing works in each paradigm." />
+<meta name="description" content="Deep neural networks (DNNs) can be manipulated to exhibit specific behaviors when exposed to specific trigger patterns, without affecting their performance on normal samples. This type of attack is known as a backdoor attack. Recent research has focused on designing invisible triggers for backdoor attacks to ensure visual stealthiness. These triggers have demonstrated strong attack performance even under backdoor defense, which aims to eliminate or suppress the backdoor effect in the model. However, through experimental observations, we have noticed that these carefully designed invisible triggers are often susceptible to visual distortion during inference, such as Gaussian blurring or environmental variations in real-world scenarios. This phenomenon significantly undermines the effectiveness of attacks in practical applications. Unfortunately, this issue has not received sufficient attention and has not been thoroughly investigated. To address this limitation, we propose a novel approach called the Visible, Semantic, Sample-Specific, and Compatible trigger (VSSC-trigger), which leverages a recent powerful image method known as the stable diffusion model. In this approach, a text trigger is utilized as a prompt and combined with a benign image. The resulting combination is then processed by a pre-trained stable diffusion model, generating a corresponding semantic object. This object is seamlessly integrated with the original image, resulting in a new realistic image, referred to as the poisoned image. Extensive experimental results and analysis validate the effectiveness and robustness of our proposed attack method, even in the presence of visual distortion. We believe that the new trigger proposed in this work, along with the proposed idea to address the aforementioned issues, will have significant prospective implications for further advancements in this direction." />
 
 
 
-<link rel="alternate" hreflang="en-us" href="https://zihao-ai.github.io/publication/arxiv-2023-aml-survey/" />
-<link rel="canonical" href="https://zihao-ai.github.io/publication/arxiv-2023-aml-survey/" />
+<link rel="alternate" hreflang="en-us" href="https://zihao-ai.github.io/publication/arxiv-2023-wangruotong/" />
+<link rel="canonical" href="https://zihao-ai.github.io/publication/arxiv-2023-wangruotong/" />
 
 
 
@@ -350,18 +350,18 @@
 <meta property="twitter:card" content="summary" />
 <meta property="twitter:image" content="https://zihao-ai.github.io/media/icon_hu138da60867ca5596f7b8eec40aac42c2_29112_512x512_fill_lanczos_center_3.png" />
 <meta property="og:site_name" content="Zihao ZHU" />
-<meta property="og:url" content="https://zihao-ai.github.io/publication/arxiv-2023-aml-survey/" />
-<meta property="og:title" content="Adversarial Machine Learning: A Systematic Survey of Backdoor Attack, Weight Attack and Adversarial Example | Zihao ZHU" />
-<meta property="og:description" content="Adversarial machine learning (AML) studies the adversarial phenomenon of machine learning, which may make inconsistent or unexpected predictions with humans. Some paradigms have been recently developed to explore this adversarial phenomenon occurring at different stages of a machine learning system, such as training-time adversarial attack (i.e., backdoor attack), deployment-time adversarial attack (i.e., weight attack), and inference-time adversarial attack (i.e., adversarial example). However, although these paradigms share a common goal, their developments are almost independent, and there is still no big picture of AML. In this work, we aim to provide a unified perspective to the AML community to systematically review the overall progress of this field. We firstly provide a general definition about AML, and then propose a unified mathematical framework to covering existing attack paradigms. According to the proposed unified framework, we can not only clearly figure out the connections and differences among these paradigms, but also systematically categorize and review existing works in each paradigm." /><meta property="og:image" content="https://zihao-ai.github.io/media/icon_hu138da60867ca5596f7b8eec40aac42c2_29112_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:url" content="https://zihao-ai.github.io/publication/arxiv-2023-wangruotong/" />
+<meta property="og:title" content="Robust Backdoor Attack with Visible, Semantic, Sample-Specific, and Compatible Triggers | Zihao ZHU" />
+<meta property="og:description" content="Deep neural networks (DNNs) can be manipulated to exhibit specific behaviors when exposed to specific trigger patterns, without affecting their performance on normal samples. This type of attack is known as a backdoor attack. Recent research has focused on designing invisible triggers for backdoor attacks to ensure visual stealthiness. These triggers have demonstrated strong attack performance even under backdoor defense, which aims to eliminate or suppress the backdoor effect in the model. However, through experimental observations, we have noticed that these carefully designed invisible triggers are often susceptible to visual distortion during inference, such as Gaussian blurring or environmental variations in real-world scenarios. This phenomenon significantly undermines the effectiveness of attacks in practical applications. Unfortunately, this issue has not received sufficient attention and has not been thoroughly investigated. To address this limitation, we propose a novel approach called the Visible, Semantic, Sample-Specific, and Compatible trigger (VSSC-trigger), which leverages a recent powerful image method known as the stable diffusion model. In this approach, a text trigger is utilized as a prompt and combined with a benign image. The resulting combination is then processed by a pre-trained stable diffusion model, generating a corresponding semantic object. This object is seamlessly integrated with the original image, resulting in a new realistic image, referred to as the poisoned image. Extensive experimental results and analysis validate the effectiveness and robustness of our proposed attack method, even in the presence of visual distortion. We believe that the new trigger proposed in this work, along with the proposed idea to address the aforementioned issues, will have significant prospective implications for further advancements in this direction." /><meta property="og:image" content="https://zihao-ai.github.io/media/icon_hu138da60867ca5596f7b8eec40aac42c2_29112_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
     <meta
       property="article:published_time"
-      content="2023-02-19T00:00:00&#43;00:00"
+      content="2023-06-01T00:00:00&#43;00:00"
     />
   
   
-    <meta property="article:modified_time" content="2023-02-19T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2023-06-01T00:00:00&#43;00:00">
   
 
 
@@ -385,16 +385,16 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://zihao-ai.github.io/publication/arxiv-2023-aml-survey/"
+    "@id": "https://zihao-ai.github.io/publication/arxiv-2023-wangruotong/"
   },
-  "headline": "Adversarial Machine Learning: A Systematic Survey of Backdoor Attack, Weight Attack and Adversarial Example",
+  "headline": "Robust Backdoor Attack with Visible, Semantic, Sample-Specific, and Compatible Triggers",
   
-  "datePublished": "2023-02-19T00:00:00Z",
-  "dateModified": "2023-02-19T00:00:00Z",
+  "datePublished": "2023-06-01T00:00:00Z",
+  "dateModified": "2023-06-01T00:00:00Z",
   
   "author": {
     "@type": "Person",
-    "name": "Baoyuan Wu"
+    "name": "Ruotong Wang"
   },
   
   "publisher": {
@@ -405,7 +405,7 @@
       "url": "https://zihao-ai.github.io/media/icon_hu138da60867ca5596f7b8eec40aac42c2_29112_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Adversarial machine learning (AML) studies the adversarial phenomenon of machine learning, which may make inconsistent or unexpected predictions with humans. Some paradigms have been recently developed to explore this adversarial phenomenon occurring at different stages of a machine learning system, such as training-time adversarial attack (i.e., backdoor attack), deployment-time adversarial attack (i.e., weight attack), and inference-time adversarial attack (i.e., adversarial example). However, although these paradigms share a common goal, their developments are almost independent, and there is still no big picture of AML. In this work, we aim to provide a unified perspective to the AML community to systematically review the overall progress of this field. We firstly provide a general definition about AML, and then propose a unified mathematical framework to covering existing attack paradigms. According to the proposed unified framework, we can not only clearly figure out the connections and differences among these paradigms, but also systematically categorize and review existing works in each paradigm."
+  "description": "Deep neural networks (DNNs) can be manipulated to exhibit specific behaviors when exposed to specific trigger patterns, without affecting their performance on normal samples. This type of attack is known as a backdoor attack. Recent research has focused on designing invisible triggers for backdoor attacks to ensure visual stealthiness. These triggers have demonstrated strong attack performance even under backdoor defense, which aims to eliminate or suppress the backdoor effect in the model. However, through experimental observations, we have noticed that these carefully designed invisible triggers are often susceptible to visual distortion during inference, such as Gaussian blurring or environmental variations in real-world scenarios. This phenomenon significantly undermines the effectiveness of attacks in practical applications. Unfortunately, this issue has not received sufficient attention and has not been thoroughly investigated. To address this limitation, we propose a novel approach called the Visible, Semantic, Sample-Specific, and Compatible trigger (VSSC-trigger), which leverages a recent powerful image method known as the stable diffusion model. In this approach, a text trigger is utilized as a prompt and combined with a benign image. The resulting combination is then processed by a pre-trained stable diffusion model, generating a corresponding semantic object. This object is seamlessly integrated with the original image, resulting in a new realistic image, referred to as the poisoned image. Extensive experimental results and analysis validate the effectiveness and robustness of our proposed attack method, even in the presence of visual distortion. We believe that the new trigger proposed in this work, along with the proposed idea to address the aforementioned issues, will have significant prospective implications for further advancements in this direction."
 }
 </script>
 
@@ -427,7 +427,7 @@
 
 
   
-  <title>Adversarial Machine Learning: A Systematic Survey of Backdoor Attack, Weight Attack and Adversarial Example | Zihao ZHU</title>
+  <title>Robust Backdoor Attack with Visible, Semantic, Sample-Specific, and Compatible Triggers | Zihao ZHU</title>
 
   
   
@@ -447,7 +447,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="97efce254c558b703a71a79ddb5749b7" >
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="ebf30e0487da0fbb4380a5eb57140e76" >
 
   
   
@@ -785,7 +785,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Adversarial Machine Learning: A Systematic Survey of Backdoor Attack, Weight Attack and Adversarial Example</h1>
+  <h1>Robust Backdoor Attack with Visible, Semantic, Sample-Specific, and Compatible Triggers</h1>
 
   
 
@@ -803,12 +803,13 @@
     
 
   <span >
-      Baoyuan Wu</span>, <span >
-      Li Liu</span>, <span class="author-highlighted">
+      Ruotong Wang</span>, <span >
+      Hongrui Chen</span>, <span class="author-highlighted">
       Zihao Zhu</span>, <span >
-      Qingshan Liu</span>, <span >
-      Zhaofeng He</span>, <span >
-      Siwei Lyu</span>
+      Li Liu</span>, <span >
+      Yong Zhang</span>, <span >
+      Yanbo Fan</span>, <span >
+      Baoyuan Wu</span>
   </div>
   
   
@@ -819,7 +820,7 @@
     
       
     
-    February, 2023
+    June, 2023
   </span>
   
 
@@ -859,14 +860,14 @@
 
 
 
-<a class="btn btn-outline-primary btn-page-header" href="https://arxiv.org/abs/2302.09457" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary btn-page-header" href="https://arxiv.org/pdf/2306.00816.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <a href="#" class="btn btn-outline-primary btn-page-header js-cite-modal"
-        data-filename="/publication/arxiv-2023-aml-survey/cite.bib">
+        data-filename="/publication/arxiv-2023-wangruotong/cite.bib">
   Cite
 </a>
 
@@ -896,7 +897,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">Adversarial machine learning (AML) studies the adversarial phenomenon of machine learning, which may make inconsistent or unexpected predictions with humans. Some paradigms have been recently developed to explore this adversarial phenomenon occurring at different stages of a machine learning system, such as training-time adversarial attack (i.e., backdoor attack), deployment-time adversarial attack (i.e., weight attack), and inference-time adversarial attack (i.e., adversarial example). However, although these paradigms share a common goal, their developments are almost independent, and there is still no big picture of AML. In this work, we aim to provide a unified perspective to the AML community to systematically review the overall progress of this field. We firstly provide a general definition about AML, and then propose a unified mathematical framework to covering existing attack paradigms. According to the proposed unified framework, we can not only clearly figure out the connections and differences among these paradigms, but also systematically categorize and review existing works in each paradigm.</p>
+    <p class="pub-abstract">Deep neural networks (DNNs) can be manipulated to exhibit specific behaviors when exposed to specific trigger patterns, without affecting their performance on normal samples. This type of attack is known as a backdoor attack. Recent research has focused on designing invisible triggers for backdoor attacks to ensure visual stealthiness. These triggers have demonstrated strong attack performance even under backdoor defense, which aims to eliminate or suppress the backdoor effect in the model. However, through experimental observations, we have noticed that these carefully designed invisible triggers are often susceptible to visual distortion during inference, such as Gaussian blurring or environmental variations in real-world scenarios. This phenomenon significantly undermines the effectiveness of attacks in practical applications. Unfortunately, this issue has not received sufficient attention and has not been thoroughly investigated. To address this limitation, we propose a novel approach called the Visible, Semantic, Sample-Specific, and Compatible trigger (VSSC-trigger), which leverages a recent powerful image method known as the stable diffusion model. In this approach, a text trigger is utilized as a prompt and combined with a benign image. The resulting combination is then processed by a pre-trained stable diffusion model, generating a corresponding semantic object. This object is seamlessly integrated with the original image, resulting in a new realistic image, referred to as the poisoned image. Extensive experimental results and analysis validate the effectiveness and robustness of our proposed attack method, even in the presence of visual distortion. We believe that the new trigger proposed in this work, along with the proposed idea to address the aforementioned issues, will have significant prospective implications for further advancements in this direction.</p>
     
 
     
@@ -978,7 +979,7 @@ Supplementary notes can be added here, including [code, math, and images](https:
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fzihao-ai.github.io%2Fpublication%2Farxiv-2023-aml-survey%2F&amp;text=Adversarial&#43;Machine&#43;Learning%3A&#43;A&#43;Systematic&#43;Survey&#43;of&#43;Backdoor&#43;Attack%2C&#43;Weight&#43;Attack&#43;and&#43;Adversarial&#43;Example" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fzihao-ai.github.io%2Fpublication%2Farxiv-2023-wangruotong%2F&amp;text=Robust&#43;Backdoor&#43;Attack&#43;with&#43;Visible%2C&#43;Semantic%2C&#43;Sample-Specific%2C&#43;and&#43;Compatible&#43;Triggers" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -995,7 +996,7 @@ Supplementary notes can be added here, including [code, math, and images](https:
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fzihao-ai.github.io%2Fpublication%2Farxiv-2023-aml-survey%2F&amp;t=Adversarial&#43;Machine&#43;Learning%3A&#43;A&#43;Systematic&#43;Survey&#43;of&#43;Backdoor&#43;Attack%2C&#43;Weight&#43;Attack&#43;and&#43;Adversarial&#43;Example" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fzihao-ai.github.io%2Fpublication%2Farxiv-2023-wangruotong%2F&amp;t=Robust&#43;Backdoor&#43;Attack&#43;with&#43;Visible%2C&#43;Semantic%2C&#43;Sample-Specific%2C&#43;and&#43;Compatible&#43;Triggers" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1014,7 +1015,7 @@ Supplementary notes can be added here, including [code, math, and images](https:
         
       
       <li>
-        <a href="mailto:?subject=Adversarial%20Machine%20Learning%3A%20A%20Systematic%20Survey%20of%20Backdoor%20Attack%2C%20Weight%20Attack%20and%20Adversarial%20Example&amp;body=https%3A%2F%2Fzihao-ai.github.io%2Fpublication%2Farxiv-2023-aml-survey%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=Robust%20Backdoor%20Attack%20with%20Visible%2C%20Semantic%2C%20Sample-Specific%2C%20and%20Compatible%20Triggers&amp;body=https%3A%2F%2Fzihao-ai.github.io%2Fpublication%2Farxiv-2023-wangruotong%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1031,7 +1032,7 @@ Supplementary notes can be added here, including [code, math, and images](https:
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fzihao-ai.github.io%2Fpublication%2Farxiv-2023-aml-survey%2F&amp;title=Adversarial&#43;Machine&#43;Learning%3A&#43;A&#43;Systematic&#43;Survey&#43;of&#43;Backdoor&#43;Attack%2C&#43;Weight&#43;Attack&#43;and&#43;Adversarial&#43;Example" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fzihao-ai.github.io%2Fpublication%2Farxiv-2023-wangruotong%2F&amp;title=Robust&#43;Backdoor&#43;Attack&#43;with&#43;Visible%2C&#43;Semantic%2C&#43;Sample-Specific%2C&#43;and&#43;Compatible&#43;Triggers" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1048,7 +1049,7 @@ Supplementary notes can be added here, including [code, math, and images](https:
       
       
       <li>
-        <a href="whatsapp://send?text=Adversarial&#43;Machine&#43;Learning%3A&#43;A&#43;Systematic&#43;Survey&#43;of&#43;Backdoor&#43;Attack%2C&#43;Weight&#43;Attack&#43;and&#43;Adversarial&#43;Example%20https%3A%2F%2Fzihao-ai.github.io%2Fpublication%2Farxiv-2023-aml-survey%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=Robust&#43;Backdoor&#43;Attack&#43;with&#43;Visible%2C&#43;Semantic%2C&#43;Sample-Specific%2C&#43;and&#43;Compatible&#43;Triggers%20https%3A%2F%2Fzihao-ai.github.io%2Fpublication%2Farxiv-2023-wangruotong%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1065,7 +1066,7 @@ Supplementary notes can be added here, including [code, math, and images](https:
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fzihao-ai.github.io%2Fpublication%2Farxiv-2023-aml-survey%2F&amp;title=Adversarial&#43;Machine&#43;Learning%3A&#43;A&#43;Systematic&#43;Survey&#43;of&#43;Backdoor&#43;Attack%2C&#43;Weight&#43;Attack&#43;and&#43;Adversarial&#43;Example" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fzihao-ai.github.io%2Fpublication%2Farxiv-2023-wangruotong%2F&amp;title=Robust&#43;Backdoor&#43;Attack&#43;with&#43;Visible%2C&#43;Semantic%2C&#43;Sample-Specific%2C&#43;and&#43;Compatible&#43;Triggers" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -1188,6 +1189,12 @@ Supplementary notes can be added here, including [code, math, and images](https:
 
     </div>
   </div>
+
+
+  
+    
+
+
 
 
   
