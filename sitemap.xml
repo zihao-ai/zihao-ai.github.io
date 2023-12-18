@@ -15,18 +15,34 @@
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://zihao-ai.github.io/publication-type/3/</loc>
-    <lastmod>2023-07-03T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://zihao-ai.github.io/publication/arxiv-2023-backdoorselection/</loc>
-    <lastmod>2023-07-03T00:00:00+00:00</lastmod>
+    <loc>https://zihao-ai.github.io/publication/arxiv-2023-aml-defense-survey/</loc>
+    <lastmod>2023-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://zihao-ai.github.io/publication_types/</loc>
-    <lastmod>2023-07-03T00:00:00+00:00</lastmod>
+    <lastmod>2023-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://zihao-ai.github.io/publication/</loc>
+    <lastmod>2023-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/publication-type/1/</loc>
+    <lastmod>2023-11-30T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/publication/aaai-2024-lilongkang/</loc>
+    <lastmod>2023-11-30T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/publication/arxiv-2023-vdc/</loc>
+    <lastmod>2023-10-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/publication/arxiv-2023-backdoorselection/</loc>
     <lastmod>2023-07-03T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -36,14 +52,6 @@
   </url><url>
     <loc>https://zihao-ai.github.io/publication/arxiv-2023-aml-survey/</loc>
     <lastmod>2023-02-19T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://zihao-ai.github.io/publication/arxiv-2022-lilongkang/</loc>
-    <lastmod>2022-10-31T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://zihao-ai.github.io/publication-type/1/</loc>
-    <lastmod>2022-09-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://zihao-ai.github.io/publication/nips-2022/</loc>

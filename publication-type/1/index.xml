@@ -5,12 +5,39 @@
     <link>https://zihao-ai.github.io/publication-type/1/</link>
       <atom:link href="https://zihao-ai.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 17 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 30 Nov 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://zihao-ai.github.io/media/icon_hu138da60867ca5596f7b8eec40aac42c2_29112_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
       <link>https://zihao-ai.github.io/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>Learning to Optimize Permutation Flow Shop Scheduling via Graph-based Imitation Learning</title>
+      <link>https://zihao-ai.github.io/publication/aaai-2024-lilongkang/</link>
+      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://zihao-ai.github.io/publication/aaai-2024-lilongkang/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
     
     <item>
       <title>BackdoorBench: A Comprehensive Benchmark of Backdoor Learning</title>
@@ -68,7 +95,7 @@ Supplementary notes can be added here, including [code, math, and images](https:
     </item>
     
     <item>
-      <title>From Shallow to Deep: Compositional Reasoning over Graphs for Visual Question Answering</title>
+      <title>MCR-NET: A Multi-Step Co-Interactive Relation Network for Unanswerable Questions on Machine Reading Comprehension</title>
       <link>https://zihao-ai.github.io/publication/icassp-2021/</link>
       <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
       <guid>https://zihao-ai.github.io/publication/icassp-2021/</guid>

@@ -33,6 +33,87 @@
     </item>
     
     <item>
+      <title>Defenses in Adversarial Machine Learning: A Survey</title>
+      <link>https://zihao-ai.github.io/publication/arxiv-2023-aml-defense-survey/</link>
+      <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://zihao-ai.github.io/publication/arxiv-2023-aml-defense-survey/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Learning to Optimize Permutation Flow Shop Scheduling via Graph-based Imitation Learning</title>
+      <link>https://zihao-ai.github.io/publication/aaai-2024-lilongkang/</link>
+      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://zihao-ai.github.io/publication/aaai-2024-lilongkang/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>VDC: Versatile Data Cleanser for Detecting Dirty Samples via Visual-Linguistic Inconsistency</title>
+      <link>https://zihao-ai.github.io/publication/arxiv-2023-vdc/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://zihao-ai.github.io/publication/arxiv-2023-vdc/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Boosting Backdoor Attack with A Learnable Poisoning Sample Selection Strategy</title>
       <link>https://zihao-ai.github.io/publication/arxiv-2023-backdoorselection/</link>
       <pubDate>Mon, 03 Jul 2023 00:00:00 +0000</pubDate>
@@ -114,33 +195,6 @@ Supplementary notes can be added here, including [code, math, and images](https:
     </item>
     
     <item>
-      <title>Learning to Optimize Permutation Flow Shop Scheduling via Graph-based Imitation Learning</title>
-      <link>https://zihao-ai.github.io/publication/arxiv-2022-lilongkang/</link>
-      <pubDate>Mon, 31 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://zihao-ai.github.io/publication/arxiv-2022-lilongkang/</guid>
-      <description>&lt;!-- 
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
-</description>
-    </item>
-    
-    <item>
       <title>BackdoorBench: A Comprehensive Benchmark of Backdoor Learning</title>
       <link>https://zihao-ai.github.io/publication/nips-2022/</link>
       <pubDate>Sat, 17 Sep 2022 00:00:00 +0000</pubDate>
@@ -196,7 +250,7 @@ Supplementary notes can be added here, including [code, math, and images](https:
     </item>
     
     <item>
-      <title>From Shallow to Deep: Compositional Reasoning over Graphs for Visual Question Answering</title>
+      <title>MCR-NET: A Multi-Step Co-Interactive Relation Network for Unanswerable Questions on Machine Reading Comprehension</title>
       <link>https://zihao-ai.github.io/publication/icassp-2021/</link>
       <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
       <guid>https://zihao-ai.github.io/publication/icassp-2021/</guid>
@@ -490,7 +544,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-416593287&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-651794823&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -500,7 +554,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-416593287&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-651794823&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
