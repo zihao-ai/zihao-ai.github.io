@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chao Shen | Zihao ZHU</title>
+    <link>https://zihao-ai.github.io/authors/chao-shen/</link>
+      <atom:link href="https://zihao-ai.github.io/authors/chao-shen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Chao Shen</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 17 Sep 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zihao-ai.github.io/media/icon_hub84b49cea6ab5e4a4f19ed79d020b03d_12846_512x512_fill_lanczos_center_3.png</url>
+      <title>Chao Shen</title>
+      <link>https://zihao-ai.github.io/authors/chao-shen/</link>
+    </image>
+    
+    <item>
+      <title>BackdoorBench: A Comprehensive Benchmark of Backdoor Learning</title>
+      <link>https://zihao-ai.github.io/publication/2022-nips-backdoorbench/</link>
+      <pubDate>Sat, 17 Sep 2022 00:00:00 +0000</pubDate>
+      <guid>https://zihao-ai.github.io/publication/2022-nips-backdoorbench/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

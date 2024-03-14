@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruotong Wang | Zihao ZHU</title>
+    <link>https://zihao-ai.github.io/authors/ruotong-wang/</link>
+      <atom:link href="https://zihao-ai.github.io/authors/ruotong-wang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ruotong Wang</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 08 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zihao-ai.github.io/authors/ruotong-wang/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg</url>
+      <title>Ruotong Wang</title>
+      <link>https://zihao-ai.github.io/authors/ruotong-wang/</link>
+    </image>
+    
+    <item>
+      <title>Robust Backdoor Attack with Visible, Semantic, Sample-Specific, and Compatible Triggers</title>
+      <link>https://zihao-ai.github.io/publication/2023-arxiv-wangruotong-vssc/</link>
+      <pubDate>Sun, 08 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://zihao-ai.github.io/publication/2023-arxiv-wangruotong-vssc/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -2,72 +2,276 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zihao-ai.github.io/talk/example-talk/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <loc>https://zihao-ai.github.io/talk/ai-time-iclr-2024/</loc>
+    <lastmod>2024-03-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://zihao-ai.github.io/event/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <lastmod>2024-03-07T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://zihao-ai.github.io/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <loc>https://zihao-ai.github.io/authors/</loc>
+    <lastmod>2024-01-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://zihao-ai.github.io/publication-type/3/</loc>
-    <lastmod>2023-12-13T00:00:00+00:00</lastmod>
+    <loc>https://zihao-ai.github.io/tag/backdoor-learning/</loc>
+    <lastmod>2024-01-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://zihao-ai.github.io/publication/arxiv-2023-aml-defense-survey/</loc>
-    <lastmod>2023-12-13T00:00:00+00:00</lastmod>
+    <loc>https://zihao-ai.github.io/authors/baoyuan-wu/</loc>
+    <lastmod>2024-01-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/authors/bingzhe-wu/</loc>
+    <lastmod>2024-01-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/tag/data-centric-ai/</loc>
+    <lastmod>2024-01-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/tag/large-language-model/</loc>
+    <lastmod>2024-01-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/authors/mingda-zhang/</loc>
+    <lastmod>2024-01-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/tag/multimodal/</loc>
+    <lastmod>2024-01-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/publication-type/paper-conference/</loc>
+    <lastmod>2024-01-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://zihao-ai.github.io/publication_types/</loc>
-    <lastmod>2023-12-13T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://zihao-ai.github.io/publication/</loc>
+    <lastmod>2024-01-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/authors/shaokui-wei/</loc>
+    <lastmod>2024-01-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/tags/</loc>
+    <lastmod>2024-01-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/publication/2024-iclr-vdc/</loc>
+    <lastmod>2024-01-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/tag/vqa/</loc>
+    <lastmod>2024-01-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/authors/admin/</loc>
+    <lastmod>2024-01-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/publication-type/article/</loc>
+    <lastmod>2024-01-14T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/authors/chen-chen/</loc>
+    <lastmod>2024-01-14T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/publication/2023-arxiv-zhumingli-fewshot/</loc>
+    <lastmod>2024-01-14T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/tag/few-shot-learning/</loc>
+    <lastmod>2024-01-14T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/authors/mingli-zhu/</loc>
+    <lastmod>2024-01-14T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/authors/sihong-chen/</loc>
+    <lastmod>2024-01-14T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/authors/chris-ding/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/tag/gnn/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/authors/hongyuan-zha/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/publication/2024-aaai-lilongkang/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/authors/longkang-li/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/tag/optimization/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/authors/siyuan-liang/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/authors/xiaochun-cao/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/tag/adversarial-machine-learning/</loc>
     <lastmod>2023-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://zihao-ai.github.io/publication-type/1/</loc>
-    <lastmod>2023-11-30T00:00:00+00:00</lastmod>
+    <loc>https://zihao-ai.github.io/publication-type/artical/</loc>
+    <lastmod>2023-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://zihao-ai.github.io/publication/aaai-2024-lilongkang/</loc>
-    <lastmod>2023-11-30T00:00:00+00:00</lastmod>
+    <loc>https://zihao-ai.github.io/publication/2023-arxiv-blackboxbench/</loc>
+    <lastmod>2023-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://zihao-ai.github.io/publication/arxiv-2023-vdc/</loc>
-    <lastmod>2023-10-01T00:00:00+00:00</lastmod>
+    <loc>https://zihao-ai.github.io/authors/danni-yuan/</loc>
+    <lastmod>2023-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://zihao-ai.github.io/publication/arxiv-2023-backdoorselection/</loc>
+    <loc>https://zihao-ai.github.io/publication/2023-arxiv-aml-defense-survey/</loc>
+    <lastmod>2023-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/authors/hongrui-chen/</loc>
+    <lastmod>2023-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/authors/li-liu/</loc>
+    <lastmod>2023-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/authors/meixi-zheng/</loc>
+    <lastmod>2023-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/authors/qingshan-liu/</loc>
+    <lastmod>2023-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/tag/survey/</loc>
+    <lastmod>2023-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/authors/xuanchen-yan/</loc>
+    <lastmod>2023-12-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/post/blog-with-jupyter/</loc>
+    <lastmod>2023-11-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/post/</loc>
+    <lastmod>2023-11-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/tag/diffusion/</loc>
+    <lastmod>2023-10-08T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/publication/2023-arxiv-wangruotong-vssc/</loc>
+    <lastmod>2023-10-08T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/authors/ruotong-wang/</loc>
+    <lastmod>2023-10-08T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/authors/yanbo-fan/</loc>
+    <lastmod>2023-10-08T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/authors/yong-zhang/</loc>
+    <lastmod>2023-10-08T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/publication/2023-arxiv-backdoorselection/</loc>
     <lastmod>2023-07-03T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://zihao-ai.github.io/publication/arxiv-2023-wangruotong/</loc>
-    <lastmod>2023-06-01T00:00:00+00:00</lastmod>
+    <loc>https://zihao-ai.github.io/tag/data-selection/</loc>
+    <lastmod>2023-07-03T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://zihao-ai.github.io/publication/arxiv-2023-aml-survey/</loc>
+    <loc>https://zihao-ai.github.io/authors/li-shen/</loc>
+    <lastmod>2023-07-03T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/publication/2023-arxiv-aml-attack-survey/</loc>
     <lastmod>2023-02-19T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://zihao-ai.github.io/publication/nips-2022/</loc>
+    <loc>https://zihao-ai.github.io/authors/siwei-lyu/</loc>
+    <lastmod>2023-02-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/authors/zhaofeng-he/</loc>
+    <lastmod>2023-02-19T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/</loc>
+    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/publication/2022-nips-backdoorbench/</loc>
     <lastmod>2022-09-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://zihao-ai.github.io/publication/icassp-2022/</loc>
+    <loc>https://zihao-ai.github.io/tag/benchmark/</loc>
+    <lastmod>2022-09-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/authors/chao-shen/</loc>
+    <lastmod>2022-09-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/publication/2022-icassp/</loc>
     <lastmod>2022-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://zihao-ai.github.io/publication/icassp-2021/</loc>
+    <loc>https://zihao-ai.github.io/authors/luxi-xing/</loc>
     <lastmod>2021-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://zihao-ai.github.io/tag/academic/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+    <loc>https://zihao-ai.github.io/publication/2021-icassp/</loc>
+    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/tag/nlp/</loc>
+    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/authors/wei-peng/</loc>
+    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/authors/yajing-sun/</loc>
+    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/authors/yue-hu/</loc>
+    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/authors/yuqiang-xie/</loc>
+    <lastmod>2021-04-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://zihao-ai.github.io/categories/</loc>
@@ -78,19 +282,11 @@
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://zihao-ai.github.io/post/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://zihao-ai.github.io/tags/</loc>
-    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
     <loc>https://zihao-ai.github.io/post/getting-started/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://zihao-ai.github.io/tag/%E5%BC%80%E6%BA%90/</loc>
+    <loc>https://zihao-ai.github.io/authors/%E5%90%B3%E6%81%A9%E9%81%94/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -98,28 +294,60 @@
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://zihao-ai.github.io/publication-type/2/</loc>
+    <loc>https://zihao-ai.github.io/publication-type/article-journal/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://zihao-ai.github.io/publication/pr-2020/</loc>
+    <loc>https://zihao-ai.github.io/publication/2020-pr/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://zihao-ai.github.io/publication/ijcai-2020-mucko/</loc>
+    <loc>https://zihao-ai.github.io/authors/jianlong-tan/</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/authors/jing-yu/</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/tag/visual-reasoning/</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/authors/weifeng-zhang/</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/authors/yujing-wang/</loc>
+    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/publication/2020-ijcai-mucko/</loc>
     <lastmod>2020-09-17T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://zihao-ai.github.io/publication/ijcai-2020-dam/</loc>
+    <loc>https://zihao-ai.github.io/authors/qi-wu/</loc>
+    <lastmod>2020-09-17T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/publication/2020-ijcai-dam/</loc>
+    <lastmod>2020-09-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/tag/visual-dialogue/</loc>
+    <lastmod>2020-09-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/authors/xiaoze-jiang/</loc>
+    <lastmod>2020-09-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://zihao-ai.github.io/authors/zengchang-qin/</loc>
     <lastmod>2020-09-16T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://zihao-ai.github.io/post/writing-technical-content/</loc>
     <lastmod>2019-07-12T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://zihao-ai.github.io/post/jupyter/</loc>
-    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://zihao-ai.github.io/slides/</loc>
@@ -148,9 +376,6 @@
   </url><url>
     <loc>https://zihao-ai.github.io/project/</loc>
     <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://zihao-ai.github.io/admin/</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
