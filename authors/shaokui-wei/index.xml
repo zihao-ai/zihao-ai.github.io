@@ -5,12 +5,39 @@
     <link>https://zihao-ai.github.io/authors/shaokui-wei/</link>
       <atom:link href="https://zihao-ai.github.io/authors/shaokui-wei/index.xml" rel="self" type="application/rss+xml" />
     <description>Shaokui Wei</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 16 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 26 Jan 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://zihao-ai.github.io/authors/shaokui-wei/avatar_hu52a603635ecebd45650b162dadabb4e5_12861_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Shaokui Wei</title>
       <link>https://zihao-ai.github.io/authors/shaokui-wei/</link>
     </image>
+    
+    <item>
+      <title>BackdoorBench: A Comprehensive Benchmark and Analysis of Backdoor Learning</title>
+      <link>https://zihao-ai.github.io/publication/2024-arxiv-backdoorbench/</link>
+      <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://zihao-ai.github.io/publication/2024-arxiv-backdoorbench/</guid>
+      <description>&lt;!-- 
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
     
     <item>
       <title>VDC: Versatile Data Cleanser based on Visual-Linguistic Inconsistency by Multimodal Large Language Models</title>
