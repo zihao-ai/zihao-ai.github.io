@@ -1,20 +1,17 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: 
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: me.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
+    <p>zihaozhu@link.cuhk.edu.cn</p>
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
@@ -22,13 +19,19 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi, this is Zihao Zhu (朱梓豪). I am currently a Ph.D. student in Data Science at [The Chinese University of Hong Kong, Shenzhen](https://www.cuhk.edu.cn), under the supervision of Prof. [Baoyuan Wu](https://sites.google.com/site/baoyuanwu2015). Previously, I received my Master's degree from the Institute of Information Engineering at the [University of Chinese Academy of Sciences](https://www.ucas.edu.cn) in 2021.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+<!-- My research interests lie in the broad area of AI security, spanning three main directions: security of large language models (e.g. jailbreak attacks and alignment), data security in data-centric AI (DCAI) systems (e.g. backdoor attacks and data quality assessment), and security concerns in embodied AI (e.g. risk assessment for AI agents). Through my work published in top-tier venues like ICLR, NeurIPS. I strive to develop more robust and reliable AI systems while identifying and addressing potential security vulnerabilities.   -->
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research interests lie in the broad area of AI security, with focuses on three main directions:
+
+- **Security of Large Language Models**: I work on understanding and addressing security challenges in LLMs, including jailbreak attacks and AI alignment. This research aims to make language models more robust while maintaining their utility.
+- **Data Security in AI Systems**: Data is the fuel of AI.  I investigate various aspects of data security in Data-centric AI (DCAI), with particular emphasis on backdoor attacks and  data quality assessment. 
+- **Security in Embodied AI**: I explore security concerns in embodied AI systems, focusing on risk assessment for AI agents. This emerging area is crucial as AI systems become more integrated into physical environments.
+
+If you share similar interests, please feel free to reach out. I am happy to chat and open to exploring opportunities for collaboration.

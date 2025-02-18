@@ -2,96 +2,110 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Zihao Zhu （朱梓豪）
+    - name: Email
+      value: zihaozhu@link.cuhk.edu.cn
+    - name: Address
+      value: 2001 Longxiang Road, Shenzhen, China
+    - name: Homepage
+      value: <a href="https://zihao-ai.github.io">https://zihao-ai.github.io</a>
+    - name: Google Scholar
+      value: <a href="https://scholar.google.com/citations?user=lBSoR4IAAAAJ&hl=en">Link</a>
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. of Data Science
+      institution: The Chinese University of Hong Kong, Shenzhen
+      year: 2021.09 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - School of Data Science
+        - "Advisor: Baoyuan Wu"
+    - title: Master of Science in Engineering
+      institution: University of Chinese Academy of Sciences
+      year: 2018.09 - 2021.06
       description:
-        - Description 1.
-        - Description 2.
+        - Institute of Information Engineering
+        - "Advisor: Yue Hu, Jing Yu"
+    - title: Bachelor of Engineering
+      institution: China University of Mining and Technology
+      year: 2014.09 - 2018.06
+      description:
+        - School of Computer Science and Technology
+
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Intern
+      institution: Tencent AI Lab, Shenzhen, China
+      year: 2024.03 - Present
+    - title: Research Assistant
+      institution: Shenzhen Research Institute of Big Data, Shenzhen, China
+      year: 2021.06 - 2024.01
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+        - Secure Computing Lab of Big Data
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+- title: Publications
+  type: nested_list
+  contents:
+    - title: Journal Papers
+      items:
+        - 'Cross-Modal Knowledge Reasoning for Knowledge-based Visual Question Answering (Pattern Recognition, 2020)'
+    - title: Conference Papers
+      items:
+        - 'VDC: Versatile Data Cleanser for Detecting Dirty Samples via Visual-Linguistic Inconsistency (ICLR 2024)'
+        - 'Learning to Optimize Permutation Flow Shop Scheduling via Graph-based Imitation Learning (AAAI 2024)'
+        - 'BackdoorBench: A Comprehensive Benchmark of Backdoor Learning (NeurIPS 2022)'
+        - 'From Shallow to Deep: Compositional Reasoning over Graphs for Visual Question Answering (ICASSP 2022)'
+        - 'MCR-NET: A Multi-Step Co-Interactive Relation Network for Unanswerable Questions on Machine Reading Comprehension (ICASSP 2021)'
+        - 'Mucko: Multi-Layer Cross-Modal Knowledge Reasoning for Fact-based Visual Question Answering (IJCAI 2020)'
+        - 'DAM: Deliberation, Abandon and Memory Networks for Generating Detailed and Non-repetitive Responses (IJCAI 2020)'
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+- title: Academic Service
+  type: list
+  contents:
+    - "Reviewer: AAAI 2020, NeurIPS 2023, CVPR 2024, NeurIPS 2024"
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Teaching
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Teaching Assistant
+      institution: MFE5260 Data Sciences in Financial Engineering
+      year: 2022 Spring
+    - title: Teaching Assistant
+      institution: DDA6309 Probabilistic Graphical Models
+      year: 2021 Fall
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2021
+      items: 
+        - AIRS Talent of PhD Research Program
+    - year: 2020
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - University of Chinese Academy of Sciences Merit Student
+    - year: 2018
       items:
-        - Max Planck Medal
+        - Outstanding Undergraduate Thesis Award
+    - year: 2016 & 2015
+      items:
+        - The First Prize Scholarship of CUMT
 
-- title: Academic Interests
+
+- title: Research Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Large Language Models
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Data Quality
+        - Jailbreak
+        - Chain-of-Thought
+    - title: AI Security & Privacy
       items:
-        - Description 1.
-        - Description 2.
+        - Backdoor Attack & Defense
+        - Adversarial Attack & Defense
+        - Model Inversion
+        - Membership Inference
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.

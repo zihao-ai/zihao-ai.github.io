@@ -82,20 +82,11 @@
           {%- if forloop.last and author_array_limit == author_array_size %}and&nbsp;{% endif -%}
         {% endif %}
         {%- if author_is_self -%}
-          <em>
-            {{- author.first }}
-            {{ author_last_html -}}
-          </em>
+          <strong style="color: var(--global-theme-color)">{{- author.first }} {{ author_last_html -}}</strong>
+        {%- elsif coauthor_url -%}
+          <a href="{{coauthor_url}}">{{- author.first }} {{ author_last_html -}}</a>
         {%- else -%}
-          {%- if coauthor_url -%}
-            <a href="{{ coauthor_url }}">
-              {{- author.first }}
-              {{ author_last_html -}}
-            </a>
-          {%- else -%}
-            {{- author.first }}
-            {{ author_last_html -}}
-          {% endif %}
+          {{- author.first }} {{ author_last_html -}}
         {%- endif -%}
       {% endfor %}
       {%- assign more_authors = author_array_size | minus: author_array_limit -%}
