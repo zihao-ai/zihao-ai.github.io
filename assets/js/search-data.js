@@ -11,7 +11,7 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "Publications",
-          description: "An up-to-date list is available on",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
@@ -353,16 +353,14 @@ ninja.data = [{
           window.location.href = "/blog/2015/formatting-and-links/";
         
       },
-    },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+    },{id: "news-our-paper-vdc-versatile-data-cleanser-based-on-visual-linguistic-inconsistency-by-multimodal-large-language-models-has-been-accepted-to-iclr-2024-tada",
+          title: 'Our paper “VDC: Versatile Data Cleanser based on Visual-Linguistic Inconsistency by Multimodal Large...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-our-paper-learning-to-optimize-permutation-flow-shop-scheduling-via-graph-based-imitation-learning-has-been-accepted-to-aaai-2024-rocket",
+          title: 'Our paper “Learning to Optimize Permutation Flow Shop Scheduling via Graph-based Imitation Learning”...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-one-new-preprint-is-available-hmgie-hierarchical-and-multi-grained-inconsistency-evaluation-for-vision-language-data-cleansing-page-facing-up",
+          title: 'One new preprint is available: “HMGIE: Hierarchical and Multi-Grained Inconsistency Evaluation for Vision-Language...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
