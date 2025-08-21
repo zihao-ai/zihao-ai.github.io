@@ -10,7 +10,7 @@
     - name: Homepage
       value: <a href="https://zihao-ai.github.io">https://zihao-ai.github.io</a>
     - name: Google Scholar
-      value: <a href="https://scholar.google.com/citations?user=lBSoR4IAAAAJ&hl=en">Link</a>
+      value: <a href="https://scholar.google.com/citations?user=PnLq3EwAAAAJ">Link</a>
 
 - title: Education
   type: time_table
