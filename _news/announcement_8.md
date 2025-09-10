@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our paper "BackdoorBench: A Comprehensive Benchmark and Analysis of Backdoor Learning" has been accepted to <strong>IJCV</strong>! :rocket: 
+Our paper "BackdoorBench: A Comprehensive Benchmark and Analysis of Backdoor Learning" has been accepted to <strong>IJCV</strong>! 
