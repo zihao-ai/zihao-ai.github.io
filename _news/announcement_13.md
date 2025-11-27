@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One open-source project I participated in "Loong: Synthesize Long Chain-of-Thoughts at Scale through Verifiers" has been accepted to <strong>NeurISP 2025 workshop</strong>!
+One open-source project I participated in "Loong: Synthesize Long Chain-of-Thoughts at Scale through Verifiers" has been accepted to <strong>NeurIPS 2025 workshop on LAW</strong>!
