@@ -10,78 +10,102 @@
     - name: Homepage
       value: <a href="https://zihao-ai.github.io">https://zihao-ai.github.io</a>
     - name: Google Scholar
-      value: <a href="https://scholar.google.com/citations?user=PnLq3EwAAAAJ">Link</a>
+      value: <a href="https://scholar.google.com/citations?user=PnLq3EwAAAAJ">Link</a> (800+ Citations)
 
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D. of Data Science
+    - title: Ph.D. in Data Science
       institution: The Chinese University of Hong Kong, Shenzhen
-      year: 2021.09 - Present
+      year: 2021 - 2026 (Expected)
       description:
         - School of Data Science
         - "Advisor: Baoyuan Wu"
-    - title: Master of Science in Engineering
+    - title: M.S. in Cybersecurity
       institution: University of Chinese Academy of Sciences
-      year: 2018.09 - 2021.06
+      year: 2018 - 2021
       description:
         - Institute of Information Engineering
-        - "Advisor: Yue Hu, Jing Yu"
-    - title: Bachelor of Engineering
+        - "Advisor: Jing Yu"
+    - title: B.Eng. in Computer Science and Technology
       institution: China University of Mining and Technology
-      year: 2014.09 - 2018.06
+      year: 2014 - 2018
       description:
         - School of Computer Science and Technology
 
+- title: Research Interests
+  type: list
+  contents:
+    - Large Language Model Safety
+    - Reasoning Models
+    - Embodied AI Agents
+    - Data Governance
+    - AI Security & Privacy
+    - Multimodal Learning
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
+    - title: Research Collaboration
+      institution: Huawei 2012 Lab (University-Industry Collaboration), Shenzhen, China
+      year: Dec. 2024 - Present
+      description:
+        - 'Investigated the "unthinking vulnerability" in reasoning models. Proposed the Breaking of Thought (BoT) attack and designed the Monitoring of Thought (MoT) framework to dynamically terminate redundant or risky reasoning.'
+        - "Proposed Adversarial Chain-of-Thought Tuning (AdvChain) to address the snowball effect in safety alignment of reasoning models, improving robustness against jailbreak attacks and CoT hijacking."
     - title: Research Intern
       institution: Tencent AI Lab, Shenzhen, China
-      year: 2024.03 - Present
-    - title: Research Assistant
-      institution: Shenzhen Research Institute of Big Data, Shenzhen, China
-      year: 2021.06 - 2024.01
+      year: Mar. 2024 - Jul. 2024
       description:
-        - Secure Computing Lab of Big Data
+        - "Led the design of EARBench, the first physical risk awareness evaluation benchmark for embodied AI. Built EARDataset using multi-agent collaboration to generate risk scenarios for task planning safety evaluation."
 
 - title: Publications
   type: nested_list
   contents:
-    - title: Journal Papers
+    - title: Large Language Model Safety & Chain-of-Thought
       items:
-        - 'Cross-Modal Knowledge Reasoning for Knowledge-based Visual Question Answering (Pattern Recognition, 2020)'
-    - title: Conference Papers
+        - '<a href="https://arxiv.org/abs/2509.24269">AdvChain: Adversarial Chain-of-Thought Tuning for Robust Safety Alignment of Large Reasoning Models</a><br><b>Zihao Zhu</b>, Xinyu Wu, Gehan Hu, Siwei Lyu, Ke Xu, Baoyuan Wu (ICLR 2026)'
+        - '<a href="https://arxiv.org/abs/2502.12202v2">To Think or Not to Think: Exploring the Unthinking Vulnerability in Large Reasoning Models</a><br><b>Zihao Zhu</b>, Hongbao Zhang, Ruotong Wang, Xu Ke, Siwei Lyu, Baoyuan Wu (NeurIPS 2025 Workshop)'
+        - '<a href="https://arxiv.org/abs/2509.03059v1">Loong: Synthesize Long Chain-of-Thoughts at Scale through Verifiers</a><br>Huang et al., <b>Zihao Zhu</b>, Bernard Ghanem, Philip Torr, Guohao Li (NeurIPS 2025 Workshop)'
+    - title: AI Agents
       items:
-        - 'VDC: Versatile Data Cleanser for Detecting Dirty Samples via Visual-Linguistic Inconsistency (ICLR 2024)'
-        - 'Learning to Optimize Permutation Flow Shop Scheduling via Graph-based Imitation Learning (AAAI 2024)'
-        - 'BackdoorBench: A Comprehensive Benchmark of Backdoor Learning (NeurIPS 2022)'
-        - 'From Shallow to Deep: Compositional Reasoning over Graphs for Visual Question Answering (ICASSP 2022)'
-        - 'MCR-NET: A Multi-Step Co-Interactive Relation Network for Unanswerable Questions on Machine Reading Comprehension (ICASSP 2021)'
-        - 'Mucko: Multi-Layer Cross-Modal Knowledge Reasoning for Fact-based Visual Question Answering (IJCAI 2020)'
-        - 'DAM: Deliberation, Abandon and Memory Networks for Generating Detailed and Non-repetitive Responses (IJCAI 2020)'
+        - '<a href="https://arxiv.org/abs/2408.04449">EARBench: Towards Evaluating Physical Risk Awareness for Task Planning of Foundation Model-based Embodied AI Agents</a><br><b>Zihao Zhu</b>, Bingzhe Wu, Zhengyou Zhang, Lei Han, Qingshan Liu, Baoyuan Wu'
+    - title: Data Governance
+      items:
+        - '<a href="https://arxiv.org/abs/2309.16211">VDC: Versatile Data Cleanser based on Visual-Linguistic Inconsistency by Multimodal Large Language Models</a><br><b>Zihao Zhu</b>, Mingda Zhang, Shaokui Wei, Bingzhe Wu, Baoyuan Wu (ICLR 2024)'
+        - '<a href="https://arxiv.org/abs/2412.05685">HMGIE: Hierarchical and Multi-Grained Inconsistency Evaluation for Vision-Language Data Cleansing</a><br><b>Zihao Zhu</b>, Hongbao Zhang, Guanzong Wu, Siwei Lyu, Baoyuan Wu'
+    - title: AI Security
+      items:
+        - '<a href="https://arxiv.org/abs/2302.09457">Attacks in Adversarial Machine Learning: A Systematic Survey from the Life-cycle Perspective</a><br>Baoyuan Wu*, <b>Zihao Zhu</b>*, Li Liu, Yanbo Fan, Siwei Lyu (*Co-first author with advisor)'
+        - '<a href="https://arxiv.org/abs/2312.08890">Defenses in Adversarial Machine Learning: A Survey</a><br>Baoyuan Wu, Shaokui Wei, Mingli Zhu, Meixi Zheng, <b>Zihao Zhu</b>, Mingda Zhang, Hongrui Chen, Danni Yuan, Li Liu, Qingshan Liu (IEEE TPAMI 2025)'
+        - '<a href="https://arxiv.org/abs/2312.16979">BlackboxBench: A Comprehensive Benchmark of Black-box Adversarial Attacks</a><br>Meixi Zheng, Xuanchen Yan, <b>Zihao Zhu</b>, Hongrui Chen, Baoyuan Wu (IEEE TPAMI 2025)'
+        - '<a href="https://arxiv.org/abs/2401.15002">BackdoorBench: A Comprehensive Benchmark and Analysis of Backdoor Learning</a><br>Baoyuan Wu, Hongrui Chen, Mingda Zhang, <b>Zihao Zhu</b>, Shaokui Wei, Danni Yuan, Mingli Zhu, Ruotong Wang, Li Liu, Chao Shen (IJCV 2025; NeurIPS 2022)'
+        - '<a href="https://arxiv.org/abs/2306.00816">Versatile Backdoor Attack with Visible, Semantic, Sample-Specific, and Compatible Triggers</a><br>Ruotong Wang, Hongrui Chen, <b>Zihao Zhu</b>, Li Liu, Baoyuan Wu (IEEE TPAMI)'
+        - '<a href="https://arxiv.org/abs/2411.11525">Reliable Poisoned Sample Detection against Backdoor Attacks Enhanced by Sharpness Aware Minimization</a><br>Mingda Zhang, Mingli Zhu, <b>Zihao Zhu</b>, Baoyuan Wu (ICLR 2026)'
+        - '<a href="https://arxiv.org/abs/2307.07328">Boosting Backdoor Attack with A Learnable Poisoning Sample Selection Strategy</a><br><b>Zihao Zhu</b>, Mingda Zhang, Shaokui Wei, Li Shen, Yanbo Fan, Baoyuan Wu'
+    - title: Multimodal Learning
+      items:
+        - '<a href="https://arxiv.org/abs/2206.12533">From Shallow to Deep: Compositional Reasoning over Graphs for Visual Question Answering</a><br><b>Zihao Zhu</b> (ICASSP 2022)'
+        - '<a href="https://arxiv.org/abs/2006.09073">Mucko: Multi-Layer Cross-Modal Knowledge Reasoning for Fact-based Visual Question Answering</a><br><b>Zihao Zhu</b>, Jing Yu, Yujing Wang, Yajing Sun, Yue Hu, Qi Wu (IJCAI 2020)'
+        - '<a href="https://arxiv.org/abs/2009.00145">Cross-Modal Knowledge Reasoning for Knowledge-based Visual Question Answering</a><br>Jing Yu*, <b>Zihao Zhu</b>*, Yujing Wang, Weifeng Zhang, Yue Hu (*Co-first author with advisor) (Pattern Recognition 2020)'
+    - title: Other Publications
+      items:
+        - '<a href="https://arxiv.org/abs/2210.17178">Learning to Optimize Permutation Flow Shop Scheduling via Graph-based Imitation Learning</a><br>Longkang Li, Siyuan Liang, <b>Zihao Zhu</b>, Xiaochun Cao, Chris Ding, Hongyuan Zha, Baoyuan Wu (AAAI 2024)'
+        - '<a href="https://arxiv.org/abs/2103.04567">MCR-NET: A Multi-Step Co-Interactive Relation Network for Unanswerable Questions on Machine Reading Comprehension</a><br>Wei Peng, Yue Hu, Luxi Xing, Yuqiang Xie, <b>Zihao Zhu</b>, Yajing Sun (ICASSP 2021)'
+        - '<a href="https://arxiv.org/abs/2007.03310">DAM: Deliberation, Abandon and Memory Networks for Generating Detailed and Non-repetitive Responses</a><br>Xiaoze Jiang, Jing Yu, Zengchang Qin, <b>Zihao Zhu</b>, Qi Wu (IJCAI 2020)'
 
 - title: Academic Service
   type: list
   contents:
-    - "Reviewer: AAAI 2020, NeurIPS 2023, CVPR 2024, NeurIPS 2024"
-
-- title: Teaching
-  type: time_table
-  contents:
-    - title: Teaching Assistant
-      institution: MFE5260 Data Sciences in Financial Engineering
-      year: 2022 Spring
-    - title: Teaching Assistant
-      institution: DDA6309 Probabilistic Graphical Models
-      year: 2021 Fall
+    - "Reviewer: IEEE TIP, ICLR, ICML, NeurIPS, CVPR, ICCV, AAAI, AISTATS"
 
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2024
+      items:
+        - Guotai Junan Scholarship
     - year: 2021
-      items: 
+      items:
         - AIRS Talent of PhD Research Program
     - year: 2020
       items:
@@ -89,23 +113,6 @@
     - year: 2018
       items:
         - Outstanding Undergraduate Thesis Award
-    - year: 2016 & 2015
+    - year: 2015, 2016
       items:
         - The First Prize Scholarship of CUMT
-
-
-- title: Research Interests
-  type: nested_list
-  contents:
-    - title: Large Language Models
-      items:
-        - Data Quality
-        - Jailbreak
-        - Chain-of-Thought
-    - title: AI Security & Privacy
-      items:
-        - Backdoor Attack & Defense
-        - Adversarial Attack & Defense
-        - Model Inversion
-        - Membership Inference
-
