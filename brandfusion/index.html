@@ -1397,7 +1397,7 @@ function toggleExpand(btn, id) {
 }
 
 function copyCitation() {
-  const text = `@article{zhu2026brandfusion,\n  title     = {BrandFusion: A Multi-Agent Framework for Seamless Brand Integration in Text-to-Video Generation},\n  author    = {Zhu, Zihao and Wang, Ruotong and Lyu, Siwei and Zhang, Min and Wu, Baoyuan},\n  journal   = {arXiv preprint arXiv:2603.02816},\n  year      = {2026}\n}`;
+  const text = `@inproceedings{zhu2026brandfusion,\n  title     = {BrandFusion: A Multi-Agent Framework for Seamless Brand Integration in Text-to-Video Generation},\n  author    = {Zhu, Zihao and Wang, Ruotong and Lyu, Siwei and Zhang, Min and Wu, Baoyuan},\n  booktitle = {Findings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n  year      = {2026}\n}`;
   navigator.clipboard.writeText(text).then(() => {
     const btn = document.getElementById('copyBtn');
     btn.classList.add('copied');
