@@ -144,7 +144,7 @@ window.SITE_PUBLICATIONS = [
     year: 2024,
     type: "preprint",
     topics: ["Trustworthy AI"],
-    selected: true,
+    selected: false,
     links: { paper: "https://arxiv.org/pdf/2401.07208" },
   },
   {
