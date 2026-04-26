@@ -205,7 +205,7 @@ window.SITE_PUBLICATIONS = [
     authors: ["Baoyuan Wu", "Zihao Zhu", "Li Liu", "Qingshan Liu", "Zhaofeng He", "Siwei Lyu"],
     venue: "IJCV",
     venueFull: "International Journal of Computer Vision",
-    year: 2023,
+    year: 2025,
     type: "journal",
     topics: ["Backdoor & Adversarial Learning", "Trustworthy AI"],
     selected: true,
