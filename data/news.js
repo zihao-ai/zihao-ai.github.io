@@ -2,8 +2,7 @@ window.SITE_NEWS = [
   {
     date: "2026-04-20",
     text: "I launched PaperDue, an app for tracking conference deadlines. Welcome to download and try it.",
-    links: [{ label: "App Store", href: "https://apps.apple.com/cn/iphone/search?term=paperdue" }],
-    tags: ["App"],
+    links: [{ label: "App Store", href: "https://apps.apple.com/cn/app/paperdue-%E5%AD%A6%E6%9C%AF%E4%BC%9A%E8%AE%AE%E6%88%AA%E7%A8%BF%E6%97%A5%E6%9C%9F%E8%BF%BD%E8%B8%AA/id6761820921" }]
   },
   {
     date: "2026-04-26",
