@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Zihao Zhu is a Ph.D. candidate in Data Science at The Chinese University of Hong Kong, Shenzhen, working on trustworthy AI, LLM safety, reasoning robustness, embodied AI agents, data governance, and adversarial machine learning."
+    />
+    <meta name="theme-color" content="#fdfcfa" />
+    <title>Zihao Zhu</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23fdfcfa'/%3E%3Ctext x='32' y='45' text-anchor='middle' font-family='Georgia,serif' font-size='38' font-weight='700' fill='%23166a6f'%3EZ%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="index.html#about">About</a>
+        <a href="publications.html">Publications</a>
+        <a href="news.html">News</a>
+        <a href="cv.html">CV</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" data-theme-toggle>
+        <i class="icon" data-lucide="moon" aria-hidden="true"></i>
+      </button>
+    </header>
+
+    <main id="main">
+      <section class="hero-band" id="about">
+        <div class="hero-shell">
+          <div class="identity">
+            <h1>Zihao Zhu</h1>
+            <p class="role">Ph.D. Candidate in Data Science</p>
+            <p class="affiliation">The Chinese University of Hong Kong, Shenzhen</p>
+            <p class="bio">
+              My research focuses on building trustworthy AI systems, with an emphasis on LLM safety,
+              reasoning robustness, embodied agent safety, data governance, and adversarial & backdoor
+              machine learning.
+            </p>
+            <div class="profile-links" aria-label="Profile links">
+              <a href="mailto:zihaozhu@link.cuhk.edu.cn">
+                <i class="icon" data-lucide="mail" aria-hidden="true"></i>
+                Email
+              </a>
+              <a href="https://scholar.google.com/citations?user=PnLq3EwAAAAJ">
+                <i class="icon" data-lucide="graduation-cap" aria-hidden="true"></i>
+                Google Scholar
+              </a>
+              <a href="https://github.com/zihao-ai">
+                <iconify-icon icon="simple-icons:github" aria-hidden="true"></iconify-icon>
+                GitHub
+              </a>
+              <a href="assets/pdf/CV-zihaozhu.pdf">
+                <i class="icon" data-lucide="file-text" aria-hidden="true"></i>
+                CV
+              </a>
+            </div>
+          </div>
+
+          <aside class="research-areas" aria-labelledby="areas-title">
+            <p id="areas-title">Research Areas</p>
+            <div class="area-grid">
+              <div class="area-card">
+                <i class="icon" data-lucide="shield" aria-hidden="true"></i>
+                <span>Trustworthy AI</span>
+              </div>
+              <div class="area-card">
+                <i class="icon" data-lucide="bug" aria-hidden="true"></i>
+                <span>Backdoor Defense</span>
+              </div>
+              <div class="area-card">
+                <i class="icon" data-lucide="shield-check" aria-hidden="true"></i>
+                <span>LLM Safety</span>
+              </div>
+              <div class="area-card">
+                <i class="icon" data-lucide="database" aria-hidden="true"></i>
+                <span>Data Governance</span>
+              </div>
+              <div class="area-card">
+                <i class="icon" data-lucide="puzzle" aria-hidden="true"></i>
+                <span>Reasoning Robustness</span>
+              </div>
+              <div class="area-card">
+                <i class="icon" data-lucide="bot" aria-hidden="true"></i>
+                <span>Embodied AI Agents</span>
+              </div>
+            </div>
+          </aside>
+
+          <figure class="portrait">
+            <img src="assets/img/me.png" alt="Portrait of Zihao Zhu" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="content-band">
+        <div class="content-shell">
+          <section class="publication-column" id="publications" aria-labelledby="publications-title">
+            <div class="section-title-row">
+              <h2 id="publications-title">Selected Publications</h2>
+              <a href="publications.html" aria-label="View all publications">View all publications</a>
+            </div>
+
+            <div data-publications-preview></div>
+          </section>
+
+          <aside class="news-column" id="news" aria-labelledby="news-title">
+            <h2 id="news-title">News</h2>
+            <ol class="news-list" data-news-preview></ol>
+            <a class="news-more" href="news.html">View all news</a>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span data-year></span> Zihao Zhu</p>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+    <script src="data/publications.js"></script>
+    <script src="data/news.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

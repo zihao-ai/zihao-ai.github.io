@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="News and research updates from Zihao Zhu." />
+    <meta name="theme-color" content="#fdfcfa" />
+    <title>News | Zihao Zhu</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23fdfcfa'/%3E%3Ctext x='32' y='45' text-anchor='middle' font-family='Georgia,serif' font-size='38' font-weight='700' fill='%23166a6f'%3EZ%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="index.html#about">About</a>
+        <a href="publications.html">Publications</a>
+        <a href="news.html" aria-current="page">News</a>
+        <a href="cv.html">CV</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" data-theme-toggle>
+        <i class="icon" data-lucide="moon" aria-hidden="true"></i>
+      </button>
+    </header>
+
+    <main id="main">
+      <section class="page-hero">
+        <div class="page-shell">
+          <p class="eyebrow">Updates</p>
+          <h1>News</h1>
+          <p>Recent paper acceptances, preprints, and research milestones.</p>
+        </div>
+      </section>
+
+      <section class="page-band">
+        <div class="page-shell narrow">
+          <ol class="news-list news-list-full" data-news-list></ol>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span data-year></span> Zihao Zhu</p>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+    <script src="data/publications.js"></script>
+    <script src="data/news.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

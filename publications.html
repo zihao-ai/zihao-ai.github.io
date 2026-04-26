@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Publications by Zihao Zhu, organized by year with search and filters." />
+    <meta name="theme-color" content="#fdfcfa" />
+    <title>Publications | Zihao Zhu</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23fdfcfa'/%3E%3Ctext x='32' y='45' text-anchor='middle' font-family='Georgia,serif' font-size='38' font-weight='700' fill='%23166a6f'%3EZ%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="index.html#about">About</a>
+        <a href="publications.html" aria-current="page">Publications</a>
+        <a href="news.html">News</a>
+        <a href="cv.html">CV</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" data-theme-toggle>
+        <i class="icon" data-lucide="moon" aria-hidden="true"></i>
+      </button>
+    </header>
+
+    <main id="main">
+      <section class="page-hero">
+        <div class="page-shell">
+          <p class="eyebrow">Research Output</p>
+          <h1>Publications</h1>
+          <p>Selected and full research papers organized by year.</p>
+          <div class="page-topic-list" aria-label="Filter publications by topic" data-topic-tabs></div>
+        </div>
+      </section>
+
+      <section class="page-band">
+        <div class="page-shell">
+          <div class="publication-toolbar" aria-label="Publication filters">
+            <label class="search-field">
+              <i class="icon" data-lucide="search" aria-hidden="true"></i>
+              <input type="search" placeholder="Search title, author, venue, or topic" data-publication-search />
+            </label>
+            <span class="result-count" data-publication-count></span>
+            <div class="year-tabs" aria-label="Filter publications by year" data-year-tabs></div>
+          </div>
+
+          <div class="publication-results" data-publications-list></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span data-year></span> Zihao Zhu</p>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+    <script src="data/publications.js"></script>
+    <script src="data/news.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
