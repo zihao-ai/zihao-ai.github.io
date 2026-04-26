@@ -133,6 +133,7 @@ window.SITE_PUBLICATIONS = [
     links: {
       paper: "https://arxiv.org/pdf/2408.04449",
       code: "https://github.com/zihao-ai/EARBench",
+      press: "https://mp.weixin.qq.com/s/n_c2MFcixSSC2sDELdJaTA",
     },
   },
   {
@@ -161,6 +162,7 @@ window.SITE_PUBLICATIONS = [
       paper: "https://arxiv.org/pdf/2309.16211",
       code: "https://github.com/zihao-zhu/vdc",
       project: "https://versatile-data-cleanser.github.io/",
+      press: "https://www.techbeat.net/article-info?id=5853",
     },
   },
   {

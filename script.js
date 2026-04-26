@@ -12,6 +12,7 @@ const linkIcons = {
   project: "globe",
   dataset: "database",
   slides: "presentation",
+  press: "newspaper",
 };
 
 const linkLabels = {
@@ -20,6 +21,7 @@ const linkLabels = {
   project: "Project",
   dataset: "Dataset",
   slides: "Slides",
+  press: "Press",
   video: "Video",
   report: "Report",
   event: "Event",
@@ -144,7 +146,6 @@ function talkLinks(links = {}) {
 }
 
 function talkItem(talk) {
-  const tags = (talk.tags || []).map((tag) => `<span>${escapeHtml(tag)}</span>`).join("");
   const links = talkLinks(talk.links);
   return `
     <article class="talk-card">
@@ -156,7 +157,6 @@ function talkItem(talk) {
         <h3>${escapeHtml(talk.title)}</h3>
         <p class="talk-event">${[talk.event, talk.location].filter(Boolean).map(escapeHtml).join(" · ")}</p>
         ${talk.description ? `<p class="talk-description">${escapeHtml(talk.description)}</p>` : ""}
-        ${tags ? `<div class="talk-tags">${tags}</div>` : ""}
         ${links ? `<div class="talk-links">${links}</div>` : ""}
       </div>
     </article>

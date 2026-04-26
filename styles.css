@@ -1191,24 +1191,11 @@ h2 {
   line-height: 1.58;
 }
 
-.talk-tags,
 .talk-links {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
   margin-top: 12px;
-}
-
-.talk-tags span {
-  display: inline-flex;
-  align-items: center;
-  min-height: 25px;
-  padding: 0 10px;
-  border: 1px solid var(--line-soft);
-  border-radius: 999px;
-  color: var(--muted-strong);
-  background: var(--top-bg);
-  font-size: 0.79rem;
 }
 
 .talk-links a {
