@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Recent updates from Zihao Zhu's research and academic life." />
+    <meta name="description" content="Selected talks on recent research work by Zihao Zhu." />
     <meta name="theme-color" content="#fdfcfa" />
-    <title>News | Zihao Zhu</title>
+    <title>Talks | Zihao Zhu</title>
     <link
       rel="icon"
       href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23fdfcfa'/%3E%3Ctext x='32' y='45' text-anchor='middle' font-family='Georgia,serif' font-size='38' font-weight='700' fill='%23166a6f'%3EZ%3C/text%3E%3C/svg%3E"
@@ -19,9 +19,9 @@
       <nav class="nav" aria-label="Primary navigation">
         <a href="index.html#about">About</a>
         <a href="publications.html">Publications</a>
-        <a href="news.html" aria-current="page">News</a>
+        <a href="news.html">News</a>
         <a href="blog.html">Blog</a>
-        <a href="talks.html">Talks</a>
+        <a href="talks.html" aria-current="page">Talks</a>
         <a href="cv.html">CV</a>
       </nav>
       <button class="theme-toggle" type="button" aria-label="Toggle dark mode" data-theme-toggle>
@@ -31,16 +31,29 @@
 
     <main id="main">
       <section class="page-hero">
-        <div class="page-shell">
-          <p class="eyebrow">Updates</p>
-          <h1>News</h1>
-          <p>Recent updates from my research and academic life.</p>
+        <div class="page-shell talks-hero">
+          <div>
+            <p class="eyebrow">Speaking</p>
+            <h1>Talks</h1>
+            <p>Selected talks on recent research work.</p>
+          </div>
+          <label class="search-field talks-search">
+            <i class="icon" data-lucide="search" aria-hidden="true"></i>
+            <input type="search" placeholder="Search talks" data-talk-search />
+          </label>
         </div>
       </section>
 
       <section class="page-band">
-        <div class="page-shell narrow">
-          <ol class="news-list news-list-full" data-news-list></ol>
+        <div class="page-shell talks-layout">
+          <aside class="talks-filters" aria-label="Talk filters">
+            <p>Types</p>
+            <div class="talk-type-list" data-talk-types></div>
+          </aside>
+          <div>
+            <div class="result-count talks-count" data-talk-count></div>
+            <div class="talk-results" data-talks-list></div>
+          </div>
         </div>
       </section>
     </main>
@@ -53,6 +66,8 @@
     <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
     <script src="data/publications.js"></script>
     <script src="data/news.js"></script>
+    <script src="data/blog/index.js"></script>
+    <script src="data/talks.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

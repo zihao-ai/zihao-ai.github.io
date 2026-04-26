@@ -23,6 +23,8 @@
         <a href="index.html#about">About</a>
         <a href="publications.html">Publications</a>
         <a href="news.html">News</a>
+        <a href="blog.html">Blog</a>
+        <a href="talks.html">Talks</a>
         <a href="cv.html">CV</a>
       </nav>
       <button class="theme-toggle" type="button" aria-label="Toggle dark mode" data-theme-toggle>
@@ -110,9 +112,23 @@
           </section>
 
           <aside class="news-column" id="news" aria-labelledby="news-title">
-            <h2 id="news-title">News</h2>
-            <ol class="news-list" data-news-preview></ol>
-            <a class="news-more" href="news.html">View all news</a>
+            <section class="side-section">
+              <h2 id="news-title">Recent News</h2>
+              <ol class="news-list" data-news-preview></ol>
+              <a class="news-more" href="news.html">View all news</a>
+            </section>
+
+            <section class="side-section" aria-labelledby="recent-blogs-title">
+              <h2 id="recent-blogs-title">Recent Blog Posts</h2>
+              <ol class="home-blog-list" data-blog-preview></ol>
+              <a class="news-more" href="blog.html">View all blogs</a>
+            </section>
+
+            <section class="side-section" aria-labelledby="recent-talks-title">
+              <h2 id="recent-talks-title">Recent Talks</h2>
+              <ol class="home-talk-list" data-talk-preview></ol>
+              <a class="news-more" href="talks.html">View all talks</a>
+            </section>
           </aside>
         </div>
       </section>
@@ -126,6 +142,8 @@
     <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
     <script src="data/publications.js"></script>
     <script src="data/news.js"></script>
+    <script src="data/blog/index.js"></script>
+    <script src="data/talks.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

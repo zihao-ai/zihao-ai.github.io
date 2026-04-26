@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Blog post by Zihao Zhu." />
+    <meta name="theme-color" content="#fdfcfa" />
+    <title>Blog Post | Zihao Zhu</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23fdfcfa'/%3E%3Ctext x='32' y='45' text-anchor='middle' font-family='Georgia,serif' font-size='38' font-weight='700' fill='%23166a6f'%3EZ%3C/text%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.11.1/styles/github.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="index.html#about">About</a>
+        <a href="publications.html">Publications</a>
+        <a href="news.html">News</a>
+        <a href="blog.html" aria-current="page">Blog</a>
+        <a href="talks.html">Talks</a>
+        <a href="cv.html">CV</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" data-theme-toggle>
+        <i class="icon" data-lucide="moon" aria-hidden="true"></i>
+      </button>
+    </header>
+
+    <main id="main">
+      <article class="post-page">
+        <header class="post-hero">
+          <div class="page-shell narrow">
+            <a class="post-back" href="blog.html">Back to Blog</a>
+            <p class="eyebrow" data-post-date></p>
+            <h1 data-post-title>Loading...</h1>
+            <p class="post-description" data-post-description></p>
+            <div class="post-tags" data-post-tags></div>
+          </div>
+        </header>
+
+        <div class="page-shell post-layout">
+          <aside class="post-toc" data-post-toc aria-label="Table of contents"></aside>
+          <div class="post-body" data-post-body></div>
+        </div>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span data-year></span> Zihao Zhu</p>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dompurify@3.2.5/dist/purify.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked@15.0.12/marked.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/highlight.js@11.11.1/build/highlight.min.js"></script>
+    <script src="data/publications.js"></script>
+    <script src="data/news.js"></script>
+    <script src="data/blog/index.js"></script>
+    <script src="script.js"></script>
+    <script src="blog.js"></script>
+  </body>
+</html>

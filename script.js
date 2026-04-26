@@ -3,6 +3,8 @@ const toggle = document.querySelector("[data-theme-toggle]");
 const root = document.documentElement;
 const publications = window.SITE_PUBLICATIONS || [];
 const news = window.SITE_NEWS || [];
+const siteBlogPosts = window.SITE_BLOG_POSTS || [];
+const talks = window.SITE_TALKS || [];
 
 const linkIcons = {
   paper: "file-text",
@@ -18,6 +20,9 @@ const linkLabels = {
   project: "Project",
   dataset: "Dataset",
   slides: "Slides",
+  video: "Video",
+  report: "Report",
+  event: "Event",
 };
 
 function escapeHtml(value) {
@@ -108,6 +113,74 @@ function sortPublications(items) {
   return [...items].sort((a, b) => b.year - a.year || a.title.localeCompare(b.title));
 }
 
+function sortBlogPosts(items) {
+  return [...items].sort((a, b) => new Date(`${b.date}T00:00:00Z`) - new Date(`${a.date}T00:00:00Z`));
+}
+
+function blogPostUrl(post) {
+  return `post.html?slug=${encodeURIComponent(post.slug)}`;
+}
+
+function sortTalks(items) {
+  return [...items].sort((a, b) => new Date(`${b.date}T00:00:00Z`) - new Date(`${a.date}T00:00:00Z`));
+}
+
+function talkLinks(links = {}) {
+  const icons = {
+    video: "video",
+    slides: "presentation",
+    report: "newspaper",
+    event: "calendar",
+  };
+
+  return Object.entries(links)
+    .filter(([, href]) => Boolean(href))
+    .map(([kind, href]) => {
+      const icon = icons[kind] || "external-link";
+      const label = linkLabels[kind] || kind;
+      return `<a href="${escapeHtml(href)}"><i class="icon" data-lucide="${icon}" aria-hidden="true"></i>${escapeHtml(label)}</a>`;
+    })
+    .join("");
+}
+
+function talkItem(talk) {
+  const tags = (talk.tags || []).map((tag) => `<span>${escapeHtml(tag)}</span>`).join("");
+  const links = talkLinks(talk.links);
+  return `
+    <article class="talk-card">
+      <div class="talk-date">
+        <time datetime="${escapeHtml(talk.date)}">${formatDate(talk.date)}</time>
+        ${talk.type ? `<span>${escapeHtml(talk.type)}</span>` : ""}
+      </div>
+      <div class="talk-body">
+        <h3>${escapeHtml(talk.title)}</h3>
+        <p class="talk-event">${[talk.event, talk.location].filter(Boolean).map(escapeHtml).join(" · ")}</p>
+        ${talk.description ? `<p class="talk-description">${escapeHtml(talk.description)}</p>` : ""}
+        ${tags ? `<div class="talk-tags">${tags}</div>` : ""}
+        ${links ? `<div class="talk-links">${links}</div>` : ""}
+      </div>
+    </article>
+  `;
+}
+
+function renderTalkYears(items) {
+  const years = [...new Set(items.map((talk) => new Date(`${talk.date}T00:00:00Z`).getUTCFullYear()))].sort((a, b) => b - a);
+  return years
+    .map((yearValue) => {
+      const yearTalks = items.filter((talk) => new Date(`${talk.date}T00:00:00Z`).getUTCFullYear() === yearValue);
+      return `
+        <section class="talk-year-group">
+          <div class="year-heading">
+            <h2>${yearValue}</h2>
+            <span>${yearTalks.length} ${yearTalks.length === 1 ? "talk" : "talks"}</span>
+          </div>
+          <div class="talk-list">${yearTalks.map(talkItem).join("")}</div>
+        </section>
+      `;
+    })
+    .join("");
+}
+
 function renderHome() {
   const preview = document.querySelector("[data-publications-preview]");
   if (preview) {
@@ -121,7 +194,7 @@ function renderHome() {
   if (newsPreview) {
     newsPreview.innerHTML = [...news]
       .sort((a, b) => new Date(`${b.date}T00:00:00Z`) - new Date(`${a.date}T00:00:00Z`))
-      .slice(0, 10)
+      .slice(0, 5)
       .map(
         (item) => `
           <li>
@@ -131,6 +204,40 @@ function renderHome() {
         `,
       )
       .join("");
+  }
+
+  const blogPreview = document.querySelector("[data-blog-preview]");
+  if (blogPreview) {
+    blogPreview.innerHTML = sortBlogPosts(siteBlogPosts)
+      .slice(0, 5)
+      .map(
+        (post) => `
+          <li>
+            <time datetime="${escapeHtml(post.date)}">${formatDate(post.date)}</time>
+            <h3><a href="${blogPostUrl(post)}">${escapeHtml(post.title)}</a></h3>
+            <p>${escapeHtml(post.description || "")}</p>
+          </li>
+        `,
+      )
+      .join("");
+  }
+
+  const talkPreview = document.querySelector("[data-talk-preview]");
+  if (talkPreview) {
+    const recentTalks = sortTalks(talks).slice(0, 5);
+    talkPreview.innerHTML = recentTalks.length
+      ? recentTalks
+          .map(
+            (talk) => `
+              <li>
+                <time datetime="${escapeHtml(talk.date)}">${formatDate(talk.date)}</time>
+                <h3>${escapeHtml(talk.title)}</h3>
+                <p>${[talk.event, talk.location].filter(Boolean).map(escapeHtml).join(" · ")}</p>
+              </li>
+            `,
+          )
+          .join("")
+      : `<li class="empty-inline">No talks listed yet.</li>`;
   }
 }
 
@@ -282,7 +389,8 @@ function renderNewsPage() {
   const list = document.querySelector("[data-news-list]");
   if (!list) return;
 
-  list.innerHTML = news
+  list.innerHTML = [...news]
+    .sort((a, b) => new Date(`${b.date}T00:00:00Z`) - new Date(`${a.date}T00:00:00Z`))
     .map(
       (item) => `
         <li>
@@ -295,9 +403,66 @@ function renderNewsPage() {
     .join("");
 }
 
+function renderTalkTypeFilters(activeType = "") {
+  const target = document.querySelector("[data-talk-types]");
+  if (!target) return;
+
+  const types = [...new Set(talks.map((talk) => talk.type).filter(Boolean))].sort((a, b) => a.localeCompare(b));
+  target.innerHTML = [
+    `<button type="button" class="${activeType ? "" : "is-active"}" data-talk-type="">All</button>`,
+    ...types.map(
+      (type) =>
+        `<button type="button" class="${activeType === type ? "is-active" : ""}" data-talk-type="${escapeHtml(type)}">${escapeHtml(type)}</button>`,
+    ),
+  ].join("");
+}
+
+function renderTalksPage() {
+  const list = document.querySelector("[data-talks-list]");
+  const count = document.querySelector("[data-talk-count]");
+  if (!list) return;
+
+  const search = document.querySelector("[data-talk-search]");
+  let activeType = "";
+
+  const applyFilters = () => {
+    const query = (search?.value || "").trim().toLowerCase();
+    const filtered = sortTalks(talks).filter((talk) => {
+      const haystack = [
+        talk.title,
+        talk.event,
+        talk.location,
+        talk.type,
+        talk.description,
+        (talk.tags || []).join(" "),
+      ]
+        .filter(Boolean)
+        .join(" ")
+        .toLowerCase();
+      return (!query || haystack.includes(query)) && (!activeType || talk.type === activeType);
+    });
+
+    list.innerHTML = filtered.length ? renderTalkYears(filtered) : `<p class="empty-state">No talks match the current filters.</p>`;
+    if (count) count.textContent = `${filtered.length} ${filtered.length === 1 ? "talk" : "talks"}`;
+    renderTalkTypeFilters(activeType);
+    renderIcons();
+  };
+
+  document.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-talk-type]");
+    if (!button) return;
+    activeType = button.dataset.talkType || "";
+    applyFilters();
+  });
+
+  search?.addEventListener("input", applyFilters);
+  applyFilters();
+}
+
 renderHome();
 renderPublicationsPage();
 renderNewsPage();
+renderTalksPage();
 renderIcons();
 
 if (year) {
