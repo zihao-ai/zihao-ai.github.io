@@ -1,0 +1,190 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvcolor{blue}
+\moderncvstyle{banking}
+\usepackage[UTF8]{ctex}
+
+\usepackage[utf8]{inputenc}
+\usepackage[left=0.8in,right=0.8in,top=0.8in,bottom=0.8in]{geometry}
+\usepackage{enumitem} % for customizing list spacing
+
+
+% Define Google Scholar icon and command
+\usepackage{academicons}
+\newcommand*{\googlescholarsymbol}{\aiGoogleScholar~}
+\newcommand*{\googlescholarlink}[1]{\href{https://scholar.google.com/citations?user=#1}{Google Scholar}}
+
+
+
+% custom colors and commands
+\definecolor{harvardcrimson}{rgb}{0.79, 0.0, 0.09}
+\newcommand{\darkred}[1]{\textcolor{harvardcrimson}{#1}}
+\newcommand{\paperlink}[2]{\hypersetup{urlcolor=black}\href{#1}{#2}\hypersetup{urlcolor=blue}}
+
+% allow page breaks
+\raggedbottom
+
+% personal data
+\name{Zihao}{Zhu}
+\phone[mobile]{(86)166-1982-1803}
+\email{zihaozhu.ai@gmail.com}
+\homepage{zihao-ai.github.io}
+% \social[googlescholar]{PnLq3EwAAAAJ}{Google Scholar}
+\extrainfo{\googlescholarsymbol\googlescholarlink{PnLq3EwAAAAJ} (1000+ Citations)}
+
+\begin{document}
+
+\makecvtitle
+\section{Education}
+    \cventry
+        {2021--2026} % years
+        {Ph.D. in Data Science} % degree
+        {The Chinese University of Hong Kong, Shenzhen} % institution
+        {Shenzhen, China} % location
+        {School of Data Science} % additional info
+        {Advisor: Baoyuan Wu}
+
+    \cventry
+        {2018--2021}
+        {M.S. in Cybersecurity}
+        {University of Chinese Academy of Sciences}
+        {Beijing, China}
+        {Institute of Information Engineering}
+        {Advisor: Jing Yu}
+        
+    \cventry
+        {2014--2018}
+        {B.S. in Computer Science and Technology}
+        {China University of Mining and Technology}
+        {Xuzhou, China}
+        {School of Computer Science and Technology}
+        {}
+
+\section{Research Interests}
+    \cvitem{}{Large Language Model Safety, Reasoning Models, Embodied AI Agents, Data Governance, AI Security \& Privacy, Multimodal Learning}
+
+\section{Research Experience}
+    \cventry
+        {2026--Present}
+        {Postdoctoral Researcher}
+        {University at Buffalo, SUNY}
+        {Buffalo, NY, USA}
+        {}
+        {\begin{itemize}
+        \item Continuing research on trustworthy AI, large language models, and AI safety.
+        \end{itemize}}
+
+    \cventry
+        {Mar. 2024--July 2024}
+        {Research Intern}
+        {Tencent AI Lab}
+        {Shenzhen, China}
+        {}
+        {\begin{itemize}
+        \item Led the design of EARBench, the first physical risk awareness evaluation benchmark for embodied AI. Built EARDataset using multi-agent collaboration to generate risk scenarios for task planning safety evaluation.
+        \end{itemize}}
+
+
+\section{Publications}
+    \cvitem{}{Published/accepted 18 journal, conference, and workshop papers (6 as first author); 4 preprints (3 as first author)}
+    \cvitem{}{\darkred{(TPAMI: 3; IJCV: 2; NeurIPS: 3; ICLR: 3; CVPR: 1; IJCAI: 2; AAAI: 1; ICASSP: 2; PR: 1)}}
+
+\subsection{Large Language Model Safety \& Chain-of-Thought}
+    \begin{enumerate}[itemsep=2pt, topsep=2pt, parsep=0pt]
+    \item \paperlink{https://arxiv.org/pdf/2502.12202}{To Think or Not to Think: Exploring the Unthinking Vulnerability in Large Reasoning Models}\\
+    \textit{\textbf{Zihao Zhu}, Hongbao Zhang, Ruotong Wang, Xu Ke, Siwei Lyu, Baoyuan Wu} \darkred{(NeurIPS 2025 Workshop)}
+    
+    \item \paperlink{https://arxiv.org/abs/2509.03059}{Loong: Synthesize Long Chain-of-Thoughts at Scale through Verifiers}\\
+    \textit{\textbf{Zihao Zhu} contributed as one of the project participants} \darkred{(NeurIPS 2025 Workshop)}
+    
+    \item \paperlink{https://arxiv.org/pdf/2509.24269}{AdvChain: Adversarial Chain-of-Thought Tuning for Robust Safety Alignment of Large Reasoning Models}\\
+    \textit{\textbf{Zihao Zhu}, Xinyu Wu, Gehan Hu, Siwei Lyu, Ke Xu, Baoyuan Wu} \darkred{(ICLR 2026)}
+    \end{enumerate}
+
+\subsection{AI Agents}
+    \begin{enumerate}[itemsep=2pt, topsep=2pt, parsep=0pt]
+    \setcounter{enumi}{3}
+    \item \paperlink{https://arxiv.org/abs/2408.04449}{EARBench: Towards Evaluating Physical Risk Awareness for Task Planning of Foundation Model-based Embodied AI Agents}\\
+    \textit{\textbf{Zihao Zhu}, Bingzhe Wu, Zhengyou Zhang, Lei Han, Qingshan Liu, Baoyuan Wu} \darkred{(arXiv 2024)}
+    
+    \item \paperlink{https://arxiv.org/pdf/2603.02816}{BrandFusion: A Multi-Agent Framework for Seamless Brand Integration in Text-to-Video Generation}\\
+    \textit{\textbf{Zihao Zhu}, Ruotong Wang, Siwei Lyu, Min Zhang, Baoyuan Wu} \darkred{(CVPR 2026 Findings)}
+    \end{enumerate}
+
+\subsection{Data Governance}
+    \begin{enumerate}[itemsep=2pt, topsep=2pt, parsep=0pt]
+    \setcounter{enumi}{5}
+    \item \paperlink{https://arxiv.org/abs/2309.16211}{VDC: Versatile Data Cleanser based on Visual-Linguistic Inconsistency by Multimodal Large Language Models}\\
+    \textit{\textbf{Zihao Zhu}, Mingda Zhang, Shaokui Wei, Bingzhe Wu, Baoyuan Wu} \darkred{(ICLR 2024)}
+    
+    \item \paperlink{https://arxiv.org/pdf/2412.05685}{HMGIE: Hierarchical and Multi-Grained Inconsistency Evaluation for Vision-Language Data Cleansing}\\
+    \textit{\textbf{Zihao Zhu}, Hongbao Zhang, Guanzong Wu, Siwei Lyu, Baoyuan Wu} \darkred{(arXiv 2024)}
+    \end{enumerate}
+
+\subsection{AI Security}
+    \begin{enumerate}[itemsep=2pt, topsep=2pt, parsep=0pt]
+    \setcounter{enumi}{7}
+    \item \paperlink{https://arxiv.org/pdf/2302.09457}{Attacks in Adversarial Machine Learning: A Systematic Survey from the Life-cycle Perspective}\\
+    \textit{Baoyuan Wu, \textbf{Zihao Zhu}, Li Liu, Qingshan Liu, Zhaofeng He, Siwei Lyu} \darkred{(IJCV 2025)}
+    
+    \item \paperlink{https://arxiv.org/pdf/2312.08890}{Defenses in Adversarial Machine Learning: A Survey}\\
+    \textit{Baoyuan Wu, Mingli Zhu, Meixi Zheng, \textbf{Zihao Zhu}, Shaokui Wei, Mingda Zhang, Hongrui Chen, Danni Yuan, Li Liu, Qingshan Liu} \darkred{(IEEE TPAMI 2025)}
+    
+    \item \paperlink{https://arxiv.org/pdf/2312.16979}{BlackboxBench: A Comprehensive Benchmark of Black-box Adversarial Attacks}\\
+    \textit{Meixi Zheng, Xuanchen Yan, \textbf{Zihao Zhu}, Hongrui Chen, Baoyuan Wu} \darkred{(IEEE TPAMI 2025)}
+    
+    \item \paperlink{https://arxiv.org/abs/2401.15002}{BackdoorBench: A Comprehensive Benchmark and Analysis of Backdoor Learning}\\
+    \textit{Baoyuan Wu, Hongrui Chen, Mingda Zhang, \textbf{Zihao Zhu}, Shaokui Wei, Danni Yuan, Mingli Zhu, Ruotong Wang, Li Liu, Chao Shen} \darkred{(IJCV 2025)}
+    
+    \item \paperlink{https://arxiv.org/pdf/2306.00816}{Versatile Backdoor Attack with Visible, Semantic, Sample-Specific, and Compatible Triggers}\\
+    \textit{Ruotong Wang, Hongrui Chen, \textbf{Zihao Zhu}, Li Liu, Baoyuan Wu} \darkred{(IEEE TPAMI 2024)}
+    
+    \item \paperlink{https://arxiv.org/pdf/2411.11525}{Reliable Poisoned Sample Detection against Backdoor Attacks Enhanced by Sharpness Aware Minimization}\\
+    \textit{Mingda Zhang, Mingli Zhu, \textbf{Zihao Zhu}, Baoyuan Wu} \darkred{(ICLR 2026)}
+    
+    \item \paperlink{https://arxiv.org/pdf/2211.00346}{BackdoorBench: A Comprehensive Benchmark of Backdoor Learning}\\
+    \textit{Baoyuan Wu, Hongrui Chen, Mingda Zhang, \textbf{Zihao Zhu}, Shaokui Wei, Danni Yuan, Hongyuan Zha} \darkred{(NeurIPS 2022)}
+    
+    \item \paperlink{https://arxiv.org/pdf/2307.07328}{Boosting Backdoor Attack with a Learnable Poisoning Sample Selection Strategy}\\
+    \textit{\textbf{Zihao Zhu}, Mingda Zhang, Shaokui Wei, Li Shen, Yanbo Fan, Baoyuan Wu} \darkred{(arXiv 2023)}
+    \end{enumerate}
+
+\subsection{Multimodal Learning}
+    \begin{enumerate}[itemsep=2pt, topsep=2pt, parsep=0pt]
+    \setcounter{enumi}{15}
+    \item \paperlink{https://arxiv.org/pdf/2206.12533}{From Shallow to Deep: Compositional Reasoning over Graphs for Visual Question Answering}\\
+    \textit{\textbf{Zihao Zhu}} \darkred{(ICASSP 2022)}
+    
+    \item \paperlink{https://arxiv.org/pdf/2006.09073}{Mucko: Multi-Layer Cross-Modal Knowledge Reasoning for Fact-based Visual Question Answering}\\
+    \textit{\textbf{Zihao Zhu}, Jing Yu, Yujing Wang, Yajing Sun, Yue Hu, Qi Wu} \darkred{(IJCAI 2020, 177 citations)}
+    
+    \item \paperlink{https://arxiv.org/pdf/2009.00145}{Cross-Modal Knowledge Reasoning for Knowledge-based Visual Question Answering}\\
+    \textit{Jing Yu, \textbf{Zihao Zhu}, Yujing Wang, Weifeng Zhang, Yue Hu, Jianlong Tan} \darkred{(Pattern Recognition 2020)}
+    \end{enumerate}
+
+\subsection{Other Publications}
+    \begin{enumerate}[itemsep=2pt, topsep=2pt, parsep=0pt]
+    \setcounter{enumi}{18}
+    \item \paperlink{https://arxiv.org/pdf/2210.17178}{Learning to Optimize Permutation Flow Shop Scheduling via Graph-based Imitation Learning}\\
+    \textit{Longkang Li, Siyuan Liang, \textbf{Zihao Zhu}, Xiaochun Cao, Chris Ding, Hongyuan Zha, Baoyuan Wu} \darkred{(AAAI 2024)}
+    
+    \item \paperlink{https://arxiv.org/pdf/2401.07208}{Enhanced Few-Shot Class-Incremental Learning via Ensemble Models}\\
+    \textit{Mingli Zhu, \textbf{Zihao Zhu}, Sihong Chen, Chen Chen, Baoyuan Wu} \darkred{(arXiv 2024)}
+    
+    \item \paperlink{https://arxiv.org/pdf/2103.04567}{MCR-NET: A Multi-Step Co-Interactive Relation Network for Unanswerable Questions on Machine Reading Comprehension}\\
+    \textit{Wei Peng, Yue Hu, Luxi Xing, Yuqiang Xie, \textbf{Zihao Zhu}, Yajing Sun} \darkred{(ICASSP 2021)}
+    
+    \item \paperlink{https://arxiv.org/pdf/2007.03310}{DAM: Deliberation, Abandon and Memory Networks for Generating Detailed and Non-repetitive Responses}\\
+    \textit{Xiaoze Jiang, Jing Yu, Zengchang Qin, \textbf{Zihao Zhu}, Qi Wu} \darkred{(IJCAI 2020)}
+    \end{enumerate}
+
+\section{Academic Service}
+    \cvitem{Reviewer}{IEEE TIP, ICLR, ICML, NeurIPS, CVPR, ICCV, AAAI, AISTATS}
+
+\section{Awards \& Honors}
+    \cvitem{2024}{Guotai Junan Scholarship}
+    \cvitem{2021}{AIRS Talent of PhD Research Program}
+    \cvitem{2020}{University of Chinese Academy of Sciences Merit Student}
+    \cvitem{2018}{Outstanding Undergraduate Thesis Award}
+    \cvitem{2015, 2016}{The First Prize Scholarship of CUMT}
+
+\end{document}

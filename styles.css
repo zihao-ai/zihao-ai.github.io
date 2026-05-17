@@ -193,8 +193,8 @@ button {
 
 .hero-shell {
   display: grid;
-  grid-template-columns: minmax(0, 1.1fr) minmax(340px, 0.9fr) minmax(220px, 0.55fr);
-  gap: clamp(28px, 4vw, 56px);
+  grid-template-columns: minmax(0, 1fr) 280px;
+  gap: clamp(20px, 3vw, 44px);
   align-items: center;
   width: min(var(--max), calc(100% - var(--gutter) * 2));
   min-height: 360px;
@@ -223,19 +223,31 @@ h1 {
   line-height: 0.96;
 }
 
-.role,
-.affiliation {
+.role {
   color: var(--ink);
   font-size: clamp(1.02rem, 1.5vw, 1.18rem);
   line-height: 1.55;
 }
 
 .bio {
-  max-width: 610px;
+  max-width: 760px;
   margin-top: 25px;
   color: var(--muted-strong);
   font-size: 0.99rem;
   line-height: 1.72;
+}
+
+.bio + .bio {
+  margin-top: 14px;
+}
+
+.bio a {
+  color: var(--accent);
+  transition: opacity 160ms ease;
+}
+
+.bio a:hover {
+  opacity: 0.7;
 }
 
 .profile-links {
@@ -280,64 +292,7 @@ h1 {
   height: 17px;
 }
 
-.research-areas {
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-width: 0;
-}
-
-.research-areas > p {
-  margin-bottom: 16px;
-  color: var(--accent);
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-}
-
-.area-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  border-color: var(--line-soft);
-}
-
-.area-card {
-  display: grid;
-  grid-template-columns: 36px minmax(0, 1fr);
-  gap: 12px;
-  align-items: center;
-  min-height: 66px;
-  padding: 12px 18px 12px 0;
-  color: var(--muted-strong);
-  font-size: 0.9rem;
-  font-weight: 400;
-  line-height: 1.28;
-}
-
-.area-card:nth-child(2n) {
-  padding-left: 22px;
-  border-left: 1px solid var(--line-soft);
-}
-
-.area-card:nth-child(-n + 4) {
-  border-bottom: 1px solid var(--line-soft);
-}
-
-.area-card svg {
-  width: 27px;
-  height: 27px;
-  color: var(--accent);
-  stroke-width: 1.55;
-}
-
-.area-card:hover {
-  color: var(--accent);
-}
-
 .portrait {
-  justify-self: end;
   width: min(100%, 280px);
   overflow: hidden;
   border-radius: 7px;
@@ -1051,6 +1006,42 @@ h2 {
   font-weight: 620;
 }
 
+.cv-entry-body {
+  display: flex;
+  gap: 22px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.cv-entry-body > div {
+  min-width: 0;
+}
+
+.cv-logo {
+  display: grid;
+  flex: 0 0 clamp(128px, 16vw, 174px);
+  height: 62px;
+  place-items: center;
+  padding: 9px 12px;
+  border: 1px solid var(--line-soft);
+  border-radius: 6px;
+  background: #fff;
+  transition:
+    border-color 160ms ease,
+    transform 160ms ease;
+}
+
+.cv-logo:hover {
+  border-color: color-mix(in srgb, var(--accent) 36%, var(--line));
+  transform: translateY(-1px);
+}
+
+.cv-logo img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
 .cv-entry p,
 .cv-text {
   color: var(--muted-strong);
@@ -1557,15 +1548,6 @@ h2 {
     grid-template-columns: minmax(0, 1fr) 220px;
   }
 
-  .research-areas {
-    grid-column: 1 / -1;
-    order: 3;
-  }
-
-  .area-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
   .content-shell {
     grid-template-columns: 1fr;
   }
@@ -1658,14 +1640,6 @@ h2 {
     width: min(72vw, 250px);
   }
 
-  .research-areas {
-    order: 0;
-  }
-
-  .area-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-
   .profile-links a {
     width: 50%;
     margin-bottom: 12px;
@@ -1716,6 +1690,15 @@ h2 {
     gap: 5px;
   }
 
+  .cv-entry-body {
+    gap: 16px;
+  }
+
+  .cv-logo {
+    flex-basis: 132px;
+    height: 56px;
+  }
+
   .blog-hero {
     grid-template-columns: 1fr;
   }
@@ -1744,24 +1727,20 @@ h2 {
 }
 
 @media (max-width: 460px) {
-  .area-grid,
   .publication {
     grid-template-columns: 1fr;
   }
 
-  .area-card,
-  .area-card:nth-child(2n) {
-    padding-right: 0;
-    padding-left: 0;
-    border-left: 0;
-  }
-
-  .area-card:nth-child(-n + 5) {
-    border-bottom: 1px solid var(--line-soft);
-  }
-
   .venue-badge {
     width: 72px;
+  }
+
+  .cv-entry-body {
+    flex-direction: column;
+  }
+
+  .cv-logo {
+    width: 148px;
   }
 
   .section-title-row {
