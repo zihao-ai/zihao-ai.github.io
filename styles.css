@@ -352,7 +352,7 @@ h2 {
 
 .publication {
   display: grid;
-  grid-template-columns: 66px minmax(0, 1fr);
+  grid-template-columns: 86px minmax(0, 1fr);
   gap: 22px;
   align-items: start;
   padding: 14px 0 16px;
@@ -361,7 +361,10 @@ h2 {
 
 .venue-badge {
   display: grid;
+  box-sizing: border-box;
+  width: 100%;
   min-height: 58px;
+  padding: 8px 10px;
   place-items: center;
   align-content: center;
   border-radius: 6px;
@@ -372,8 +375,12 @@ h2 {
 
 .venue-badge strong {
   display: block;
-  font-size: 0.91rem;
+  font-size: 0.84rem;
   line-height: 1.2;
+  max-width: 100%;
+  overflow-wrap: normal;
+  text-align: center;
+  white-space: pre-line;
 }
 
 .venue-badge span {
@@ -1019,26 +1026,20 @@ h2 {
 
 .cv-logo {
   display: grid;
-  flex: 0 0 clamp(128px, 16vw, 174px);
-  height: 62px;
+  flex: 0 0 auto;
   place-items: center;
-  padding: 9px 12px;
-  border: 1px solid var(--line-soft);
-  border-radius: 6px;
-  background: #fff;
-  transition:
-    border-color 160ms ease,
-    transform 160ms ease;
+  padding: 0;
+  transition: transform 160ms ease;
 }
 
 .cv-logo:hover {
-  border-color: color-mix(in srgb, var(--accent) 36%, var(--line));
   transform: translateY(-1px);
 }
 
 .cv-logo img {
-  max-width: 100%;
-  max-height: 100%;
+  width: auto;
+  height: 64px;
+  max-width: 260px;
   object-fit: contain;
 }
 
@@ -1655,12 +1656,13 @@ h2 {
   }
 
   .publication {
-    grid-template-columns: 54px minmax(0, 1fr);
+    grid-template-columns: 76px minmax(0, 1fr);
     gap: 14px;
   }
 
   .venue-badge {
     min-height: 50px;
+    padding: 7px 8px;
   }
 
   .venue-badge strong {
@@ -1695,8 +1697,7 @@ h2 {
   }
 
   .cv-logo {
-    flex-basis: 132px;
-    height: 56px;
+    flex-basis: auto;
   }
 
   .blog-hero {
@@ -1732,7 +1733,8 @@ h2 {
   }
 
   .venue-badge {
-    width: 72px;
+    width: 86px;
+    max-width: 100%;
   }
 
   .cv-entry-body {
@@ -1740,7 +1742,12 @@ h2 {
   }
 
   .cv-logo {
-    width: 148px;
+    width: auto;
+  }
+
+  .cv-logo img {
+    height: 54px;
+    max-width: 220px;
   }
 
   .section-title-row {

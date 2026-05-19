@@ -91,10 +91,11 @@ function topicTags(paper, activeTopic = "") {
 function publicationItem(paper, options = {}) {
   const showTopics = Boolean(options.showTopics);
   const activeTopic = options.activeTopic || "";
+  const venueLabel = escapeHtml(paper.venue).replace(/\n/g, "<br>");
   return `
     <article class="publication" data-year="${paper.year}" data-type="${escapeHtml(paper.type)}">
       <div class="venue-badge">
-        <strong>${escapeHtml(paper.venue)}</strong>
+        <strong>${venueLabel}</strong>
         <span>${paper.year}</span>
       </div>
       <div class="paper-body">

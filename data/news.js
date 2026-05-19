@@ -1,5 +1,10 @@
 window.SITE_NEWS = [
   {
+    date: "2026-05-19",
+    text: "One paper has been accepted to Neurocomputing.",
+    tags: ["Publication"],
+  },
+  {
     date: "2026-05-14",
     text: "I successfully defended my PhD dissertation.",
     tags: ["Milestone"],
