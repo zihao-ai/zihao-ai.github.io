@@ -219,7 +219,7 @@ h2 {
 
 h1 {
   margin-bottom: 10px;
-  font-size: clamp(4.1rem, 7vw, 5.9rem);
+  font-size: clamp(2.8rem, 4.8vw, 4rem);
   line-height: 0.96;
 }
 
@@ -854,30 +854,82 @@ h2 {
 }
 
 .news-list-full {
-  padding-left: 24px;
+  display: grid;
+  gap: 0;
+  padding-left: 0;
 }
 
 .news-list-full::before {
+  display: none;
+}
+
+.news-year-group {
+  display: grid;
+  grid-template-columns: 106px minmax(0, 1fr);
+  column-gap: 32px;
+  align-items: start;
+  min-width: 0;
+}
+
+.news-year-group + .news-year-group {
+  margin-top: 2px;
+}
+
+.news-year {
+  position: sticky;
+  top: 86px;
+  align-self: start;
+  color: var(--accent);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.2rem, 4vw, 3.1rem);
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.news-year-list {
+  position: relative;
+  display: grid;
+  gap: 0;
+  min-width: 0;
+  margin: 0;
+  padding: 0 0 0 24px;
+  list-style: none;
+}
+
+.news-year-list::before {
+  position: absolute;
   top: 12px;
   bottom: 12px;
+  left: 3px;
+  width: 1px;
+  background: var(--line);
+  content: "";
 }
 
-.news-list-full li {
+.news-year-list li {
+  position: relative;
+  min-width: 0;
   padding-bottom: 22px;
+  border-bottom: 1px solid var(--line-soft);
 }
 
-.news-list-full li + li {
+.news-year-list li + li {
   padding-top: 22px;
 }
 
-.news-list-full li::before {
+.news-year-list li::before {
+  position: absolute;
   top: 10px;
   left: -25px;
   width: 8px;
   height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  content: "";
 }
 
-.news-list-full li + li::before {
+.news-year-list li + li::before {
   top: 32px;
 }
 
@@ -885,16 +937,9 @@ h2 {
   max-width: 690px;
   font-size: 1rem;
   line-height: 1.62;
+  overflow-wrap: break-word;
 }
 
-.news-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 10px;
-}
-
-.news-tags span,
 .interest-tags span {
   display: inline-flex;
   align-items: center;
@@ -1633,7 +1678,7 @@ h2 {
   }
 
   h1 {
-    font-size: clamp(3.45rem, 17vw, 4.6rem);
+    font-size: clamp(2.35rem, 11.5vw, 3.1rem);
   }
 
   .portrait {
@@ -1680,6 +1725,23 @@ h2 {
 
   .result-count {
     justify-self: start;
+  }
+
+  .news-year-group {
+    grid-template-columns: 1fr;
+  }
+
+  .news-year {
+    top: 58px;
+    z-index: 1;
+    margin-bottom: 16px;
+    padding: 8px 0 10px;
+    background: var(--paper);
+    font-size: clamp(1.95rem, 11vw, 2.65rem);
+  }
+
+  .news-year-list {
+    padding-left: 24px;
   }
 
   .cv-hero {

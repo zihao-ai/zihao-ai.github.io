@@ -390,15 +390,33 @@ function renderNewsPage() {
   const list = document.querySelector("[data-news-list]");
   if (!list) return;
 
-  list.innerHTML = [...news]
+  const groupedNews = [...news]
     .sort((a, b) => new Date(`${b.date}T00:00:00Z`) - new Date(`${a.date}T00:00:00Z`))
+    .reduce((groups, item) => {
+      const year = new Date(`${item.date}T00:00:00Z`).getUTCFullYear();
+      if (!groups.has(year)) groups.set(year, []);
+      groups.get(year).push(item);
+      return groups;
+    }, new Map());
+
+  list.innerHTML = [...groupedNews.entries()]
     .map(
-      (item) => `
-        <li>
-          <time datetime="${escapeHtml(item.date)}">${formatDate(item.date)}</time>
-          <p>${newsText(item)}</p>
-          <div class="news-tags">${(item.tags || []).map((tag) => `<span>${escapeHtml(tag)}</span>`).join("")}</div>
-        </li>
+      ([year, items]) => `
+        <section class="news-year-group" aria-labelledby="news-year-${year}">
+          <h2 class="news-year" id="news-year-${year}">${year}</h2>
+          <ol class="news-year-list">
+            ${items
+              .map(
+                (item) => `
+                  <li>
+                    <time datetime="${escapeHtml(item.date)}">${formatDate(item.date)}</time>
+                    <p>${newsText(item)}</p>
+                  </li>
+                `,
+              )
+              .join("")}
+          </ol>
+        </section>
       `,
     )
     .join("");
