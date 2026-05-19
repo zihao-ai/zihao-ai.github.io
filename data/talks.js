@@ -19,7 +19,7 @@ window.SITE_TALKS = [
     date: "2024",
     event: "AI Time ICLR 2024 Workshop Talk",
     location: "Online",
-    type: "Invited Talk",
+    type: "Online Talk",
     links: {
       video: "https://www.bilibili.com/video/BV1RF4m157Uh?vd_source=cbd4d728444580ebfdbcb41276983a9a&spm_id_from=333.788.videopod.sections",
       report: "https://example.com/news-report",
