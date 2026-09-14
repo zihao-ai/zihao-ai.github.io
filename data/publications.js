@@ -1,5 +1,17 @@
 window.SITE_PUBLICATIONS = [
   {
+    id: "distributed-implicit-harm",
+    title: "Distributed Implicit Harm: A Compositional Safety Blind Spot in MLLM-Based Video Moderation",
+    authors: ["Ruotong Wang", "Zihao Zhu", "Siwei Lyu", "Xin Tao", "Baoyuan Wu"],
+    venue: "arXiv",
+    venueFull: "arXiv preprint",
+    year: 2026,
+    type: "preprint",
+    topics: ["Multimodal Learning", "Trustworthy AI"],
+    selected: false,
+    links: { paper: "https://arxiv.org/pdf/2609.00206" },
+  },
+  {
     id: "advchain",
     title: "AdvChain: Adversarial Chain-of-Thought Tuning for Robust Safety Alignment of Large Reasoning Models",
     authors: ["Zihao Zhu", "Xinyu Wu", "Gehan Hu", "Siwei Lyu", "Ke Xu", "Baoyuan Wu"],
