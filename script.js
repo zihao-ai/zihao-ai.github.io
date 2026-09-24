@@ -113,7 +113,11 @@ function renderIcons() {
 }
 
 function sortPublications(items) {
-  return [...items].sort((a, b) => b.year - a.year || a.title.localeCompare(b.title));
+  return [...items].sort((a, b) =>
+    b.year - a.year ||
+    (b.date || `${b.year}-01-01`).localeCompare(a.date || `${a.year}-01-01`) ||
+    a.title.localeCompare(b.title)
+  );
 }
 
 function sortBlogPosts(items) {

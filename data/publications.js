@@ -6,6 +6,7 @@ window.SITE_PUBLICATIONS = [
     venue: "NeurIPS",
     venueFull: "Advances in Neural Information Processing Systems",
     year: 2026,
+    date: "2026-09-25",
     type: "conference",
     topics: ["AI Agents", "Trustworthy AI"],
     selected: true,

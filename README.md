@@ -36,3 +36,5 @@ Most content updates should be made in the data files:
 - Add or edit news items in `data/news.js`
 
 Homepage publications are controlled by the `selected` field in `data/publications.js`. Homepage news is rendered from the most recent items in `data/news.js`.
+
+Publications are sorted by year and then by the optional `date` field (`YYYY-MM-DD`), newest first. Papers without an exact date use January 1 of their year for sorting; ties are sorted by title.
