@@ -1,5 +1,17 @@
 window.SITE_PUBLICATIONS = [
   {
+    id: "skillcascade",
+    title: "Stealth Apart, Harm Together: Skill Cascading Attacks on Skill-Based Agent Systems",
+    authors: ["Zihao Zhu", "Siwei Lyu", "Adel Bibi", "Baoyuan Wu"],
+    venue: "NeurIPS",
+    venueFull: "Advances in Neural Information Processing Systems",
+    year: 2026,
+    type: "conference",
+    topics: ["AI Agents", "Trustworthy AI"],
+    selected: true,
+    links: { paper: "https://openreview.net/pdf?id=gP2hPTzpfh" },
+  },
+  {
     id: "distributed-implicit-harm",
     title: "Distributed Implicit Harm: A Compositional Safety Blind Spot in MLLM-Based Video Moderation",
     authors: ["Ruotong Wang", "Zihao Zhu", "Siwei Lyu", "Xin Tao", "Baoyuan Wu"],

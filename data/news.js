@@ -1,5 +1,15 @@
 window.SITE_NEWS = [
   {
+    date: "2026-09-25",
+    text: "Our paper, Stealth Apart, Harm Together: Skill Cascading Attacks on Skill-Based Agent Systems, has been accepted to NeurIPS 2026.",
+    links: [
+      {
+        label: "OpenReview",
+        href: "https://openreview.net/forum?id=gP2hPTzpfh",
+      },
+    ],
+  },
+  {
     date: "2026-05-19",
     text: "One paper has been accepted to Neurocomputing.",
   },
