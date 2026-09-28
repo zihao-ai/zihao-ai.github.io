@@ -10,7 +10,7 @@ window.SITE_PUBLICATIONS = [
     type: "conference",
     topics: ["AI Agents", "Trustworthy AI"],
     selected: true,
-    links: { paper: "https://openreview.net/pdf?id=gP2hPTzpfh" },
+    links: { paper: "https://arxiv.org/pdf/2609.30383" },
   },
   {
     id: "distributed-implicit-harm",

@@ -4,6 +4,10 @@ window.SITE_NEWS = [
     text: "Our paper on the safety of skill-based agent systems has been accepted to NeurIPS 2026.",
     links: [
       {
+        label: "arXiv",
+        href: "https://arxiv.org/abs/2609.30383",
+      },
+      {
         label: "OpenReview",
         href: "https://openreview.net/forum?id=gP2hPTzpfh",
       },
