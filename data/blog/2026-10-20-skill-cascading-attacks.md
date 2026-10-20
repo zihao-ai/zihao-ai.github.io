@@ -154,5 +154,3 @@ The scalable evaluation also relies on an LLM judge. A separate human check on 3
 The central lesson is that skill safety has an interaction dimension. Once an agent shares information across reusable components, the way those components reinterpret, prioritize, and discard that information becomes part of the security problem.
 
 For the full definitions, experiments, and analysis, read the **[paper on arXiv](https://arxiv.org/abs/2609.30383)**. The **[SkillCascade-Bench repository](https://github.com/zihao-ai/SkillCascade-Bench)** provides the case index, scenario descriptions, skill packages, and input files for further study. The **[OpenReview page](https://openreview.net/forum?id=gP2hPTzpfh)** is also available.
-
-*This post describes the results in arXiv:2609.30383v1. The cover is an AI-generated technical explainer; the mechanism diagrams are explanatory redraws, and the result chart is generated from the published table values.*

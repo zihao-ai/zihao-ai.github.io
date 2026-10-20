@@ -106,5 +106,3 @@ Several boundaries remain important. The attack methods assume knowledge of the 
 For our own evaluation practice, this suggests recording phase-control behavior alongside accuracy, checking clean and adversarial conditions separately, and charging monitoring overhead to the efficiency budget. The experiments support the need for those checks; they do not establish that any single checklist closes the vulnerability.
 
 Read the **[full paper](https://arxiv.org/abs/2502.12202)** for the threat models, experimental details, and ablations. The **[official repository](https://github.com/zihao-ai/unthinking_vulnerability)** contains the implementations and model configurations. The central question remains useful beyond this particular study: when a reasoning model stops thinking, whose decision was it, and what evidence supports that decision?
-
-*The post date follows the first arXiv release on February 16, 2025. This retrospective article summarizes arXiv:2502.12202v2, revised May 16, 2025. The cover is AI-generated; the diagrams are conceptual redraws, and the charts use published numerical values.*

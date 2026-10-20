@@ -110,5 +110,3 @@ Naturalness also creates a product responsibility. Making a placement less visua
 BrandFusion offers a concrete way to reason about placements before generation: build the necessary visual knowledge, give the brand a contextual role, and check whether the revised prompt still serves the user's idea. The next challenge is to connect that planning more closely to reliable video-level verification and user control.
 
 Explore the **[project website and video gallery](https://zihao-ai.github.io/brandfusion/)** or read the **[full paper](https://arxiv.org/abs/2603.02816)** for the implementation, evaluation protocol, and additional examples.
-
-*The post date follows the first arXiv release on March 3, 2026. This retrospective explanation summarizes arXiv:2603.02816v2, revised March 11, 2026. The cover is an AI-generated schematic; the separately presented video frames are project outputs; diagrams and charts are explanatory redraws from the cited source.*
