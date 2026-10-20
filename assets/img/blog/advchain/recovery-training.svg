@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="930" viewBox="0 0 800 930" role="img" aria-labelledby="title desc">
+<title id="title">Training recovery instead of only ideal paths</title><desc id="desc">AdvChain rewrites existing safe reasoning into 800 temptation-correction and 200 hesitation-correction examples, then uses supervised fine-tuning.</desc>
+<rect width="800" height="930" fill="#fdfcfa"/>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 1 L8 5 L0 9" fill="none" stroke="#166a6f" stroke-width="1.5"/></marker></defs><g font-family="Arial, Helvetica, sans-serif">
+<text x="42" y="60" fill="#19383c" font-size="32" font-weight="700" text-anchor="start">Put recovery into the training example</text>
+<text x="42" y="100" fill="#53686c" font-size="23" font-weight="400" text-anchor="start">The final response remains appropriate to the request.</text>
+<text x="42" y="156" fill="#166a6f" font-size="23" font-weight="700" text-anchor="start">Temptation–Correction</text>
+<text x="42" y="187" fill="#53686c" font-size="21" font-weight="400" text-anchor="start">800 examples</text>
+<rect x="42" y="216" width="338" height="78" rx="16" fill="#edf5f2" stroke="#cfddd8"/>
+<text x="211" y="262" fill="#19383c" font-size="18" font-weight="400" text-anchor="middle">Harmful prompt + safe reasoning</text>
+<path d="M211 300 V325" fill="none" stroke="#166a6f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="42" y="334" width="338" height="78" rx="16" fill="#fae9e3" stroke="#cfddd8"/>
+<text x="211" y="380" fill="#19383c" font-size="18" font-weight="400" text-anchor="middle">Flawed justification</text>
+<path d="M211 418 V443" fill="none" stroke="#166a6f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="42" y="452" width="338" height="78" rx="16" fill="#edf5f2" stroke="#cfddd8"/>
+<text x="211" y="498" fill="#19383c" font-size="18" font-weight="400" text-anchor="middle">Recognize and reject the drift</text>
+<path d="M211 536 V561" fill="none" stroke="#166a6f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="42" y="570" width="338" height="78" rx="16" fill="#edf5f2" stroke="#cfddd8"/>
+<text x="211" y="616" fill="#19383c" font-size="18" font-weight="400" text-anchor="middle">Safe final response</text>
+<text x="420" y="156" fill="#166a6f" font-size="23" font-weight="700" text-anchor="start">Hesitation–Correction</text>
+<text x="420" y="187" fill="#53686c" font-size="21" font-weight="400" text-anchor="start">200 examples</text>
+<rect x="420" y="216" width="338" height="78" rx="16" fill="#edf5f2" stroke="#cfddd8"/>
+<text x="589" y="262" fill="#19383c" font-size="18" font-weight="400" text-anchor="middle">Benign prompt + helpful reasoning</text>
+<path d="M589 300 V325" fill="none" stroke="#166a6f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="420" y="334" width="338" height="78" rx="16" fill="#fae9e3" stroke="#cfddd8"/>
+<text x="589" y="380" fill="#19383c" font-size="18" font-weight="400" text-anchor="middle">Unnecessary caution</text>
+<path d="M589 418 V443" fill="none" stroke="#166a6f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="420" y="452" width="338" height="78" rx="16" fill="#edf5f2" stroke="#cfddd8"/>
+<text x="589" y="498" fill="#19383c" font-size="18" font-weight="400" text-anchor="middle">Recognize the false alarm</text>
+<path d="M589 536 V561" fill="none" stroke="#166a6f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="420" y="570" width="338" height="78" rx="16" fill="#edf5f2" stroke="#cfddd8"/>
+<text x="589" y="616" fill="#19383c" font-size="18" font-weight="400" text-anchor="middle">Helpful final response</text>
+<path d="M211 656 V694 H589 V656 M400 694 V730" fill="none" stroke="#166a6f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="42" y="745" width="716" height="114" rx="16" fill="#edf5f2" stroke="#cfddd8"/>
+<text x="400" y="786" fill="#166a6f" font-size="26" font-weight="700" text-anchor="middle">Supervised fine-tuning on 1,000 examples</text>
+<text x="400" y="826" fill="#19383c" font-size="22" font-weight="400" text-anchor="middle">Learn the whole corrected trajectory and final response.</text>
+<text x="42" y="902" fill="#53686c" font-size="19" font-weight="400" text-anchor="start">Source: arXiv:2509.24269v1, §4 and §5.1. Explanatory diagram.</text>
+</g></svg>

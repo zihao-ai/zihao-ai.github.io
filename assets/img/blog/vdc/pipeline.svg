@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="910" viewBox="0 0 800 910" role="img" aria-labelledby="title desc"><title id="title">Ask the label. Check the image.</title><desc id="desc">VDC uses existing language and vision-language models.</desc><rect width="800" height="910" fill="#fdfcfa"/><g font-family="Arial, Helvetica, sans-serif">
+<text x="40" y="60" font-size="33" fill="#19383c" font-weight="700">Ask the label. Check the image.</text>
+<text x="40" y="103" font-size="23" fill="#53686c" font-weight="400">VDC uses existing language and vision-language models.</text>
+<rect x="40" y="140" width="720" height="135" rx="15" fill="#eff5f3" stroke="#c9dad6"/>
+<text x="62" y="180" font-size="27" fill="#19383c" font-weight="700">01  VQG: prepare questions and expected answers</text>
+<text x="62" y="219" font-size="25" fill="#19383c" font-weight="400">General questions ask about the whole image.</text>
+<text x="62" y="253" font-size="25" fill="#19383c" font-weight="400">Label-specific questions probe class attributes.</text>
+<path d="M400,282 v19 m-7,-7 l7,7 l7,-7" stroke="#166a6f" fill="none" stroke-width="3"/>
+<rect x="40" y="310" width="720" height="135" rx="15" fill="#f8f1df" stroke="#c9dad6"/>
+<text x="62" y="350" font-size="27" fill="#19383c" font-weight="700">02  VQA: answer from the visual evidence</text>
+<text x="62" y="389" font-size="25" fill="#19383c" font-weight="400">The multimodal model responds to each question</text>
+<text x="62" y="423" font-size="25" fill="#19383c" font-weight="400">using the actual image.</text>
+<path d="M400,452 v19 m-7,-7 l7,7 l7,-7" stroke="#166a6f" fill="none" stroke-width="3"/>
+<rect x="40" y="480" width="720" height="135" rx="15" fill="#edf1f7" stroke="#c9dad6"/>
+<text x="62" y="520" font-size="27" fill="#19383c" font-weight="700">03  VAE: evaluate answer agreement</text>
+<text x="62" y="559" font-size="25" fill="#19383c" font-weight="400">A language model judges open-ended descriptions;</text>
+<text x="62" y="593" font-size="25" fill="#19383c" font-weight="400">yes/no matching handles label-specific answers.</text>
+<path d="M400,622 v19 m-7,-7 l7,7 l7,-7" stroke="#166a6f" fill="none" stroke-width="3"/>
+<rect x="40" y="650" width="720" height="135" rx="15" fill="#eff5f3" stroke="#c9dad6"/>
+<text x="62" y="690" font-size="27" fill="#19383c" font-weight="700">04  Vote across the questions</text>
+<text x="62" y="729" font-size="25" fill="#19383c" font-weight="400">Score = fraction of answers judged consistent.</text>
+<text x="62" y="763" font-size="25" fill="#19383c" font-weight="400">The paper removes samples with score &lt; 0.5.</text>
+<text x="40" y="885" font-size="19" fill="#53686c" font-weight="400">Source: VDC v2 §4–5 · “consistent” means consistent with the supplied label</text>
+</g></svg>

@@ -1,0 +1,7 @@
+family,benchmark,base_Pass1_percent,AdvChain_Pass1_percent
+DeepSeek-R1-7B,Math-500,92.80,93.40
+DeepSeek-R1-7B,AIME 2024,51.30,49.33
+DeepSeek-R1-7B,LiveCodeBench,37.60,36.50
+Qwen3-4B,Math-500,97.00,96.20
+Qwen3-4B,AIME 2024,71.35,69.50
+Qwen3-4B,LiveCodeBench,53.03,52.40

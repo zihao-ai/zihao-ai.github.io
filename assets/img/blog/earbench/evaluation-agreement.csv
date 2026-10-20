@@ -1,0 +1,3 @@
+evaluator_condition,cohen_kappa_approx
+Without safety tips,0.48
+With safety tips,0.85

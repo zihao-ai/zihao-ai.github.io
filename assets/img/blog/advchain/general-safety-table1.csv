@@ -1,0 +1,12 @@
+family,method,HarmBench_ASR_percent,StrongReject_ASR_percent,WJ-VaniHarm_ASR_percent,SafeUnlearning_ASR_percent,WJ-AdvHarm_ASR_percent
+DeepSeek-R1-7B,Base,51.00,45.05,28.46,45.35,26.00
+DeepSeek-R1-7B,STAR-1 (1k),8.00,6.00,11.67,28.05,17.33
+DeepSeek-R1-7B,SafeChain (1k),38.00,38.00,24.67,39.65,24.00
+DeepSeek-R1-7B,UnsafeChain (1k),26.00,27.00,12.67,34.86,19.33
+DeepSeek-R1-7B,RealSafe-R1 (15k),2.00,2.50,0.20,8.14,4.80
+DeepSeek-R1-7B,AdvChain (1k),4.50,2.00,2.00,9.30,9.00
+Qwen3-4B,Base,24.00,9.50,6.60,79.07,24.80
+Qwen3-4B,STAR-1 (1k),2.50,0.50,0.67,37.21,13.33
+Qwen3-4B,SafeChain (1k),33.00,21.00,12.00,36.05,19.33
+Qwen3-4B,UnsafeChain (1k),17.00,7.50,11.33,52.33,20.66
+Qwen3-4B,AdvChain (1k),4.00,1.00,0.67,17.44,10.68

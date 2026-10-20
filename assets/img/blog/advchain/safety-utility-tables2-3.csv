@@ -1,0 +1,12 @@
+family,method,CoT_Hijack_ASR_percent,CoT_Hijack_RR_percent,XSTest_ORR_percent,WJ_Benign_ORR_percent
+DeepSeek-R1-7B,Base,74.67,35.33,16.80,10.40
+DeepSeek-R1-7B,STAR-1,54.67,43.33,42.00,33.33
+DeepSeek-R1-7B,SafeChain,44.00,58.00,28.80,14.67
+DeepSeek-R1-7B,UnsafeChain,60.67,45.33,24.80,21.33
+DeepSeek-R1-7B,RealSafe-R1 (15k),14.67,84.67,66.40,60.60
+DeepSeek-R1-7B,AdvChain,9.33,74.00,18.00,12.67
+Qwen3-4B,Base,30.00,72.67,10.80,16.00
+Qwen3-4B,STAR-1,12.67,82.67,26.80,22.00
+Qwen3-4B,SafeChain,14.00,68.00,15.40,20.67
+Qwen3-4B,UnsafeChain,39.33,62.00,16.00,22.33
+Qwen3-4B,AdvChain,8.67,84.00,12.50,18.00

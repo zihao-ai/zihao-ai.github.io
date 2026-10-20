@@ -1,0 +1,5 @@
+source_video,timestamp_seconds,transformation
+brandfusion/examples/nike/Serene_Beach_Yoga_Sunrise_Video.mp4,2,full frame; uniformly resized; no content editing
+brandfusion/examples/nike/Basketball_Dunk_Video_Generated.mp4,4,full frame; uniformly resized; no content editing
+brandfusion/examples/bmw/Businesswoman_s_City_Call.mp4,6,full frame; uniformly resized; no content editing
+brandfusion/examples/nike/Fashion_Designer_Creates_Nike_Sportswear.mp4,5,full frame; uniformly resized; no content editing

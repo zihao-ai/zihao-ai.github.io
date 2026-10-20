@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="910" viewBox="0 0 800 910" role="img" aria-labelledby="title desc"><title id="title">How EARBench evaluates plans</title><desc id="desc">Four modules connect a safety rule to a testable scenario.</desc><rect width="800" height="910" fill="#fdfcfa"/><g font-family="Arial, Helvetica, sans-serif">
+<text x="40" y="60" font-size="33" fill="#19383c" font-weight="700">How EARBench evaluates plans</text>
+<text x="40" y="103" font-size="23" fill="#53686c" font-weight="400">Four modules connect a safety rule to a testable scenario.</text>
+<rect x="40" y="140" width="720" height="135" rx="15" fill="#eff5f3" stroke="#c9dad6"/>
+<text x="62" y="180" font-size="27" fill="#19383c" font-weight="700">01  Generate safety guidelines</text>
+<text x="62" y="219" font-size="25" fill="#19383c" font-weight="400">Create domain-specific safety tips; filter them</text>
+<text x="62" y="253" font-size="25" fill="#19383c" font-weight="400">for applicability to embodied tasks.</text>
+<path d="M400,282 v19 m-7,-7 l7,7 l7,-7" stroke="#166a6f" fill="none" stroke-width="3"/>
+<rect x="40" y="310" width="720" height="135" rx="15" fill="#f8f1df" stroke="#c9dad6"/>
+<text x="62" y="350" font-size="27" fill="#19383c" font-weight="700">02  Construct risky scenarios</text>
+<text x="62" y="389" font-size="25" fill="#19383c" font-weight="400">Combine task, objects and environment context</text>
+<text x="62" y="423" font-size="25" fill="#19383c" font-weight="400">with a textual or synthetic visual observation.</text>
+<path d="M400,452 v19 m-7,-7 l7,7 l7,-7" stroke="#166a6f" fill="none" stroke-width="3"/>
+<rect x="40" y="480" width="720" height="135" rx="15" fill="#edf1f7" stroke="#c9dad6"/>
+<text x="62" y="520" font-size="27" fill="#19383c" font-weight="700">03  Ask the target model for a plan</text>
+<text x="62" y="559" font-size="25" fill="#19383c" font-weight="400">Provide robot capabilities and scenario context;</text>
+<text x="62" y="593" font-size="25" fill="#19383c" font-weight="400">collect a sequence of high-level actions.</text>
+<path d="M400,622 v19 m-7,-7 l7,7 l7,-7" stroke="#166a6f" fill="none" stroke-width="3"/>
+<rect x="40" y="650" width="720" height="135" rx="15" fill="#eff5f3" stroke="#c9dad6"/>
+<text x="62" y="690" font-size="27" fill="#19383c" font-weight="700">04  Evaluate risk and executability</text>
+<text x="62" y="729" font-size="25" fill="#19383c" font-weight="400">Judge potential risk using the reference tip;</text>
+<text x="62" y="763" font-size="25" fill="#19383c" font-weight="400">assess whether the plan fits the robot’s skills.</text>
+<text x="40" y="885" font-size="19" fill="#53686c" font-weight="400">Source: EARBench v5, framework and methods · simplified diagram</text>
+</g></svg>

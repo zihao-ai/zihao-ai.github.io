@@ -1,0 +1,13 @@
+method,match_level,LLMScore,NS
+Direct append,High,0.8234,3.95
+Direct append,Medium,0.7876,3.21
+Direct append,Low,0.7353,1.33
+Template rewriting,High,0.9456,4.01
+Template rewriting,Medium,0.9178,3.97
+Template rewriting,Low,0.9068,1.38
+Single rewriting,High,0.9512,4.68
+Single rewriting,Medium,0.9489,4.05
+Single rewriting,Low,0.9235,2.97
+BrandFusion,High,0.9734,4.9
+BrandFusion,Medium,0.9601,4.78
+BrandFusion,Low,0.9333,4.42

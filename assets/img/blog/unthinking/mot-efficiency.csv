@@ -1,0 +1,5 @@
+deepseek_r1_model_size,math500_relative_token_change_percent,math500_relative_pass1_change_percent,aime2024_relative_token_change_percent,aime2024_relative_pass1_change_percent
+1.5B,-71.78,7.57,-69.14,15.31
+7B,-68.98,1.51,-60.25,11.75
+14B,-69.87,0.42,-55.48,5.26
+32B,-73.5,1.24,-63.02,1.01

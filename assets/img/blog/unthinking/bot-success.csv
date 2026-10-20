@@ -1,0 +1,9 @@
+model,training_based_math500_asr_percent,training_free_whitebox_math500_asr_percent,training_based_aime2024_asr_percent,training_free_whitebox_aime2024_asr_percent
+DeepSeek-R1-1.5B,97.6,100,100,100
+DeepSeek-R1-7B,100,97,100,100
+DeepSeek-R1-14B,100,99,100,93.3
+DeepSeek-R1-32B,99.8,94.2,100,86.6
+Marco-o1-7B,99.8,91.4,90,100
+Light-R1-7B-DS,100,100,100,100
+Open-R1-7B,100,86.19,100,73.33
+QwQ,100,100,100,100

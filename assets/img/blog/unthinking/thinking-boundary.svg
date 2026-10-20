@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="650" viewBox="0 0 1000 650" role="img" aria-labelledby="title desc"><title id="title">A boundary that changes model behavior</title><desc id="desc">Conceptual comparison of normal reasoning, unauthorized suppression, and owner-authorized monitoring. Widths do not encode measured token counts.</desc><rect width="1000" height="650" fill="#fdfcfa"/><defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="none" stroke="#53686c" stroke-width="1.5"/></marker></defs><g font-family="Arial, Helvetica, sans-serif">
+<text x="45" y="65" font-size="38" fill="#19383c" font-weight="700" text-anchor="start">Who controls the end of thinking?</text>
+<text x="45" y="108" font-size="24" fill="#53686c" font-weight="400" text-anchor="start">The same phase boundary can support an attack or a useful control.</text>
+<text x="45" y="160" font-size="25" fill="#19383c" font-weight="700" text-anchor="start">Normal generation</text>
+<rect x="45" y="180" width="620" height="60" rx="12" fill="#deece8"/>
+<text x="355.0" y="219" font-size="22" fill="#19383c" font-weight="400" text-anchor="middle">Reasoning continues</text>
+<path d="M675 210 L705 210" stroke="#53686c" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="715" y="180" width="190" height="60" rx="12" fill="#e9edee"/>
+<text x="810" y="219" font-size="22" fill="#19383c" font-weight="400" text-anchor="middle">Final answer</text>
+<text x="45" y="300" font-size="25" fill="#19383c" font-weight="700" text-anchor="start">BoT: unauthorized suppression</text>
+<rect x="45" y="320" width="120" height="60" rx="12" fill="#f3d7cf"/>
+<text x="105.0" y="359" font-size="22" fill="#19383c" font-weight="400" text-anchor="middle">Skipped</text>
+<path d="M175 350 L205 350" stroke="#53686c" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="215" y="320" width="190" height="60" rx="12" fill="#e9edee"/>
+<text x="310" y="359" font-size="22" fill="#19383c" font-weight="400" text-anchor="middle">Early answer</text>
+<text x="45" y="440" font-size="25" fill="#19383c" font-weight="700" text-anchor="start">MoT: owner-authorized stop</text>
+<rect x="45" y="460" width="365" height="60" rx="12" fill="#e8e1c8"/>
+<text x="227.5" y="499" font-size="22" fill="#19383c" font-weight="400" text-anchor="middle">Reasoning until sufficient</text>
+<path d="M420 490 L450 490" stroke="#53686c" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<rect x="460" y="460" width="190" height="60" rx="12" fill="#e9edee"/>
+<text x="555" y="499" font-size="22" fill="#19383c" font-weight="400" text-anchor="middle">Final answer</text>
+<text x="45" y="558" font-size="21" fill="#166a6f" font-weight="400" text-anchor="start">Monitor judges sufficiency or risk; the owner controls intervention.</text>
+<text x="45" y="618" font-size="19" fill="#53686c" font-weight="400" text-anchor="start">Conceptual timeline · lengths are schematic · source: paper §§3–5</text>
+</g></svg>

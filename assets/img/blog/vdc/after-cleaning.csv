@@ -1,0 +1,10 @@
+method,mean_ASR_percent,mean_clean_ACC_percent
+No detection,98.0,93.02
+STRIP,59.33,92.88
+SS,93.61,86.78
+SCAn,13.94,93.06
+Frequency,70.44,91.8
+CT,1.98,93.09
+D-BR,96.14,92.76
+SPECTRE,56.38,87.76
+VDC,1.63,93.21

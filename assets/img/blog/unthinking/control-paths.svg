@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="870" viewBox="0 0 1000 870" role="img" aria-labelledby="title desc"><title id="title">Different access, different authority</title><desc id="desc">Training-based BoT changes a learned conditional behavior via poisoned training data. Training-free BoT alters inference inputs without changing weights. Owner-controlled MoT assesses reasoning and can stop it.</desc><rect width="1000" height="870" fill="#fdfcfa"/><defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="none" stroke="#53686c" stroke-width="1.5"/></marker></defs><g font-family="Arial, Helvetica, sans-serif">
+<text x="45" y="62" font-size="35" fill="#19383c" font-weight="700" text-anchor="start">Three routes to a shorter reasoning trace</text>
+<text x="45" y="105" font-size="24" fill="#53686c" font-weight="400" text-anchor="start">Access and authorization determine what the intervention means.</text>
+<rect x="45" y="145" width="435" height="315" rx="12" fill="#f8e9e3"/>
+<text x="69" y="189" font-size="28" fill="#b34d37" font-weight="700" text-anchor="start">Training-based BoT</text>
+<text x="69" y="226" font-size="23" fill="#19383c" font-weight="400" text-anchor="start">Attacker controls training data</text>
+<text x="69" y="281" font-size="24" fill="#19383c" font-weight="700" text-anchor="start">Poisoned learning signal</text>
+<text x="69" y="319" font-size="22" fill="#19383c" font-weight="400" text-anchor="start">Conditional behavior is learned</text>
+<path d="M263 340 L263 376" stroke="#53686c" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text x="263" y="414" font-size="25" fill="#b34d37" font-weight="700" text-anchor="middle">Reasoning is suppressed</text>
+<rect x="520" y="145" width="435" height="315" rx="12" fill="#f8e9e3"/>
+<text x="544" y="189" font-size="28" fill="#b34d37" font-weight="700" text-anchor="start">Training-free BoT</text>
+<text x="544" y="226" font-size="23" fill="#19383c" font-weight="400" text-anchor="start">Attacker controls inference input</text>
+<text x="544" y="281" font-size="24" fill="#19383c" font-weight="700" text-anchor="start">Adversarial input influence</text>
+<text x="544" y="319" font-size="22" fill="#19383c" font-weight="400" text-anchor="start">Model weights remain unchanged</text>
+<path d="M738 340 L738 376" stroke="#53686c" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text x="738" y="414" font-size="25" fill="#b34d37" font-weight="700" text-anchor="middle">Reasoning is suppressed</text>
+<rect x="45" y="500" width="910" height="265" rx="12" fill="#e5efeb"/>
+<text x="69" y="547" font-size="29" fill="#166a6f" font-weight="700" text-anchor="start">Monitoring of Thought</text>
+<text x="69" y="586" font-size="24" fill="#19383c" font-weight="400" text-anchor="start">Model owner controls the generation process</text>
+<text x="69" y="637" font-size="25" fill="#19383c" font-weight="700" text-anchor="start">Reasoning trace</text>
+<path d="M270 630 L335 630" stroke="#53686c" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text x="360" y="637" font-size="25" fill="#19383c" font-weight="700" text-anchor="start">External monitor</text>
+<path d="M562 630 L630 630" stroke="#53686c" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+<text x="659" y="637" font-size="25" fill="#19383c" font-weight="700" text-anchor="start">Continue or stop</text>
+<text x="69" y="700" font-size="23" fill="#19383c" font-weight="400" text-anchor="start">Efficiency: sufficient evidence     Safety: emerging harmful direction</text>
+<text x="69" y="739" font-size="22" fill="#53686c" font-weight="400" text-anchor="start">Stopping is a policy decision; correctness and safety still need evaluation.</text>
+<text x="45" y="825" font-size="20" fill="#53686c" font-weight="400" text-anchor="start">Conceptual summary · source: paper §§4–5 · no attack payloads shown</text>
+</g></svg>

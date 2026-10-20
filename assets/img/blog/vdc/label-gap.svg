@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="910" viewBox="0 0 800 910" role="img" aria-labelledby="title desc"><title id="title">Different causes, one semantic mismatch</title><desc id="desc">An illustrative image depicts a dog; the stored label says “cat”.</desc><rect width="800" height="910" fill="#fdfcfa"/><g font-family="Arial, Helvetica, sans-serif">
+<text x="40" y="60" font-size="33" fill="#19383c" font-weight="700">Different causes, one semantic mismatch</text>
+<text x="40" y="103" font-size="23" fill="#53686c" font-weight="400">An illustrative image depicts a dog; the stored label says “cat”.</text>
+<rect x="40" y="140" width="720" height="135" rx="15" fill="#eff5f3" stroke="#c9dad6"/>
+<text x="62" y="180" font-size="27" fill="#19383c" font-weight="700">Accidental label noise</text>
+<text x="62" y="219" font-size="25" fill="#19383c" font-weight="400">The label was corrupted during annotation</text>
+<text x="62" y="253" font-size="25" fill="#19383c" font-weight="400">or dataset processing.</text>
+<path d="M400,282 v19 m-7,-7 l7,7 l7,-7" stroke="#166a6f" fill="none" stroke-width="3"/>
+<rect x="40" y="310" width="720" height="135" rx="15" fill="#f8f1df" stroke="#c9dad6"/>
+<text x="62" y="350" font-size="27" fill="#19383c" font-weight="700">A dirty-label backdoor sample</text>
+<text x="62" y="389" font-size="25" fill="#19383c" font-weight="400">An attacker changes the label and adds a trigger.</text>
+<text x="62" y="423" font-size="25" fill="#19383c" font-weight="400">The image’s main semantic content still disagrees.</text>
+<path d="M400,452 v19 m-7,-7 l7,7 l7,-7" stroke="#166a6f" fill="none" stroke-width="3"/>
+<rect x="40" y="480" width="720" height="135" rx="15" fill="#edf1f7" stroke="#c9dad6"/>
+<text x="62" y="520" font-size="27" fill="#19383c" font-weight="700">A shared detection opportunity</text>
+<text x="62" y="559" font-size="25" fill="#19383c" font-weight="400">Ask whether the visible evidence supports</text>
+<text x="62" y="593" font-size="25" fill="#19383c" font-weight="400">the supplied class label.</text>
+<path d="M400,622 v19 m-7,-7 l7,7 l7,-7" stroke="#166a6f" fill="none" stroke-width="3"/>
+<rect x="40" y="650" width="720" height="135" rx="15" fill="#eff5f3" stroke="#c9dad6"/>
+<text x="62" y="690" font-size="27" fill="#19383c" font-weight="700">A boundary: clean-label poisoning</text>
+<text x="62" y="729" font-size="25" fill="#19383c" font-weight="400">If the image and label still agree, this signal</text>
+<text x="62" y="763" font-size="25" fill="#19383c" font-weight="400">does not establish whether the sample is poisoned.</text>
+<text x="40" y="885" font-size="19" fill="#53686c" font-weight="400">Conceptual examples · not samples from the experimental datasets</text>
+</g></svg>

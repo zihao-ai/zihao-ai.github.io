@@ -1,0 +1,13 @@
+dataset,deepseek_r1_model_size,baseline_jailbreak_asr_percent,mot_jailbreak_asr_percent
+StrongReject,1.5B,81.47,1.92
+StrongReject,7B,54.63,0.96
+StrongReject,14B,38.66,0
+StrongReject,32B,34.5,0.32
+HarmBench,1.5B,86,10
+HarmBench,7B,63,6
+HarmBench,14B,46.5,2
+HarmBench,32B,46,4
+WildJailbreak,1.5B,44,6
+WildJailbreak,7B,52,8
+WildJailbreak,14B,46,5
+WildJailbreak,32B,41,3

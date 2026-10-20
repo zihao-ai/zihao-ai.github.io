@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="910" viewBox="0 0 800 910" role="img" aria-labelledby="title desc"><title id="title">Two questions for the same plan</title><desc id="desc">A kitchen example, simplified from the paper’s case study.</desc><rect width="800" height="910" fill="#fdfcfa"/><g font-family="Arial, Helvetica, sans-serif">
+<text x="40" y="60" font-size="33" fill="#19383c" font-weight="700">Two questions for the same plan</text>
+<text x="40" y="103" font-size="23" fill="#53686c" font-weight="400">A kitchen example, simplified from the paper’s case study.</text>
+<rect x="40" y="140" width="720" height="135" rx="15" fill="#eff5f3" stroke="#c9dad6"/>
+<text x="62" y="180" font-size="27" fill="#19383c" font-weight="700">The instruction</text>
+<text x="62" y="219" font-size="25" fill="#19383c" font-weight="400">Heat a pie. The observation says that it is</text>
+<text x="62" y="253" font-size="25" fill="#19383c" font-weight="400">wrapped in aluminum foil.</text>
+<path d="M400,282 v19 m-7,-7 l7,7 l7,-7" stroke="#166a6f" fill="none" stroke-width="3"/>
+<rect x="40" y="310" width="720" height="135" rx="15" fill="#f8f1df" stroke="#c9dad6"/>
+<text x="62" y="350" font-size="27" fill="#19383c" font-weight="700">Executability: can the robot do this?</text>
+<text x="62" y="389" font-size="25" fill="#19383c" font-weight="400">A robot may have all the actions needed</text>
+<text x="62" y="423" font-size="25" fill="#19383c" font-weight="400">to carry out the proposed plan.</text>
+<path d="M400,452 v19 m-7,-7 l7,7 l7,-7" stroke="#166a6f" fill="none" stroke-width="3"/>
+<rect x="40" y="480" width="720" height="135" rx="15" fill="#edf1f7" stroke="#c9dad6"/>
+<text x="62" y="520" font-size="27" fill="#19383c" font-weight="700">Safety: should this plan be executed?</text>
+<text x="62" y="559" font-size="25" fill="#19383c" font-weight="400">The plan must account for material properties</text>
+<text x="62" y="593" font-size="25" fill="#19383c" font-weight="400">and the safety constraints of the appliance.</text>
+<path d="M400,622 v19 m-7,-7 l7,7 l7,-7" stroke="#166a6f" fill="none" stroke-width="3"/>
+<rect x="40" y="650" width="720" height="135" rx="15" fill="#eff5f3" stroke="#c9dad6"/>
+<text x="62" y="690" font-size="27" fill="#19383c" font-weight="700">The missing bridge</text>
+<text x="62" y="729" font-size="25" fill="#19383c" font-weight="400">Task completion requires checking consequences,</text>
+<text x="62" y="763" font-size="25" fill="#19383c" font-weight="400">not merely listing available actions.</text>
+<text x="40" y="885" font-size="19" fill="#53686c" font-weight="400">Conceptual explanation · not a robot rollout or incident record</text>
+</g></svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1250" viewBox="0 0 900 1250" role="img" aria-labelledby="title desc"><title id="title">BrandFusion: prepare brand knowledge, then refine the prompt</title><desc id="desc">Offline probing and optional LoRA adaptation populate a knowledge base. Online brand selection, strategy, rewriting, critique and experience learning use that knowledge. The critic evaluates the prompt before video generation.</desc><rect width="900" height="1250" fill="#fdfcfa"/><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,1 L8,5 L0,9" fill="none" stroke="#166a6f" stroke-width="1.5"/></marker></defs><g font-family="Arial, Helvetica, sans-serif">
+<text x="40" y="57" fill="#19383c" font-size="34" font-weight="700">Prepare knowledge. Then refine the prompt.</text>
+<text x="40" y="99" fill="#53686c" font-size="24" font-weight="400">A shared knowledge base connects two phases.</text>
+<rect x="40" y="135" width="820" height="200" rx="14" fill="#f8f1df" stroke="#c9dad6"/>
+<text x="65" y="172" fill="#166a6f" font-size="23" font-weight="700">OFFLINE · advertiser-facing</text>
+<text x="65" y="216" fill="#19383c" font-size="26" font-weight="400">Probe the video model’s knowledge of the brand.</text>
+<text x="65" y="257" fill="#19383c" font-size="24" font-weight="400">Sufficient prior → register profile and visual patterns.</text>
+<text x="65" y="297" fill="#19383c" font-size="24" font-weight="400">Insufficient prior → synthetic videos + LoRA adapter.</text>
+<path d="M450,343 V377" fill="none" stroke="#166a6f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="40" y="390" width="820" height="98" rx="14" fill="#eff5f3" stroke="#c9dad6"/>
+<text x="65" y="428" fill="#166a6f" font-size="23" font-weight="700">BRAND KNOWLEDGE BASE · long-term memory</text>
+<text x="65" y="465" fill="#19383c" font-size="22" font-weight="400">Profiles · optional adapters · successful and failed experiences</text>
+<text x="40" y="535" fill="#166a6f" font-size="24" font-weight="700">ONLINE · user prompt + shared session context</text>
+<rect x="40" y="560" width="760" height="103" rx="14" fill="#eff5f3" stroke="#c9dad6"/>
+<text x="65" y="598" fill="#19383c" font-size="27" font-weight="700">1  Select a compatible brand</text>
+<text x="65" y="637" fill="#19383c" font-size="23" font-weight="400">Retrieve the profile and any required adapter.</text>
+<path d="M420,668 V684" fill="none" stroke="#166a6f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="40" y="690" width="760" height="103" rx="14" fill="#eff5f3" stroke="#c9dad6"/>
+<text x="65" y="728" fill="#19383c" font-size="27" font-weight="700">2  Plan an integration strategy</text>
+<text x="65" y="767" fill="#19383c" font-size="23" font-weight="400">Choose the object, placement and contextual role.</text>
+<path d="M420,798 V814" fill="none" stroke="#166a6f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="40" y="820" width="760" height="103" rx="14" fill="#eff5f3" stroke="#c9dad6"/>
+<text x="65" y="858" fill="#19383c" font-size="27" font-weight="700">3  Rewrite the prompt</text>
+<text x="65" y="897" fill="#19383c" font-size="23" font-weight="400">Preserve subjects, actions, logic and visual style.</text>
+<path d="M420,928 V944" fill="none" stroke="#166a6f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="40" y="950" width="760" height="103" rx="14" fill="#eff5f3" stroke="#c9dad6"/>
+<text x="65" y="988" fill="#19383c" font-size="27" font-weight="700">4  Critique the rewritten prompt</text>
+<text x="65" y="1027" fill="#19383c" font-size="23" font-weight="400">Accept it, revise its wording, or replan the strategy.</text>
+<path d="M800,1003 H842 V742 H807" fill="none" stroke="#166a6f" stroke-width="2" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+<path d="M420,1062 V1090" fill="none" stroke="#166a6f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="40" y="1100" width="820" height="105" rx="14" fill="#f8f1df" stroke="#c9dad6"/>
+<text x="65" y="1138" fill="#19383c" font-size="27" font-weight="700">Generate video → 5  Learn from feedback</text>
+<text x="65" y="1177" fill="#19383c" font-size="23" font-weight="400">Store experiences for future requests in the knowledge base.</text>
+<text x="40" y="1232" fill="#53686c" font-size="20" font-weight="400">Method redraw · §4, pp. 3–5 · Critic reviews prompts, not rendered video.</text>
+</g></svg>

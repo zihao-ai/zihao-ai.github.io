@@ -1,0 +1,5 @@
+variant,VBench_Quality,CLIPScore,VQAScore,LLMScore,BPR,NS
+Full BrandFusion,0.8283,0.3274,0.9098,0.9556,0.9474,4.7
+Without strategy agent,0.8281,0.3168,0.8945,0.9478,0.9289,4.42
+Without critic agent,0.8279,0.3021,0.8834,0.9401,0.9045,4.15
+Without strategy + critic,0.8275,0.2912,0.8756,0.9278,0.8812,3.82

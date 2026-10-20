@@ -1,0 +1,13 @@
+model,method,VBench_Quality,CLIPScore,VQAScore,LLMScore,BPR,NS
+Veo3,Direct append,0.8112,0.2671,0.8342,0.7821,0.7221,2.83
+Veo3,Template rewriting,0.8267,0.2842,0.8756,0.9234,0.8845,3.12
+Veo3,Single rewriting,0.8289,0.2956,0.8891,0.9412,0.8968,3.9
+Veo3,BrandFusion,0.8283,0.3274,0.9098,0.9556,0.9474,4.7
+Sora2,Direct append,0.7945,0.2645,0.8298,0.8756,0.6434,2.71
+Sora2,Template rewriting,0.8033,0.2868,0.8712,0.9187,0.7845,3.84
+Sora2,Single rewriting,0.8029,0.2968,0.8867,0.9368,0.8278,3.98
+Sora2,BrandFusion,0.8031,0.3177,0.9231,0.9875,0.9066,4.6
+Kling2.1,Direct append,0.7754,0.2634,0.8276,0.8742,0.6989,2.65
+Kling2.1,Template rewriting,0.7803,0.2855,0.8689,0.9165,0.7812,3.73
+Kling2.1,Single rewriting,0.7883,0.2951,0.8823,0.9351,0.8145,3.84
+Kling2.1,BrandFusion,0.7818,0.3165,0.9208,0.9853,0.8834,4.48

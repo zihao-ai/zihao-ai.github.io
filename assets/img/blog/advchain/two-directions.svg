@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="810" viewBox="0 0 800 810" role="img" aria-labelledby="title desc">
+<title id="title">Two ways a reasoning chain can drift</title><desc id="desc">Conceptual diagram of harmfulness escalation and over-refusal, not a plot of measured scores.</desc>
+<rect width="800" height="810" fill="#fdfcfa"/>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 1 L8 5 L0 9" fill="none" stroke="#166a6f" stroke-width="1.5"/></marker></defs><g font-family="Arial, Helvetica, sans-serif">
+<text x="42" y="62" fill="#19383c" font-size="32" font-weight="700" text-anchor="start">One recovery problem, two directions</text>
+<text x="42" y="104" fill="#53686c" font-size="23" font-weight="400" text-anchor="start">A small mistake can shape every step that follows.</text>
+<text x="42" y="165" fill="#166a6f" font-size="21" font-weight="700" text-anchor="start">HARMFUL REQUEST</text>
+<rect x="42" y="195" width="338" height="112" rx="16" fill="#edf5f2" stroke="#cfddd8"/>
+<text x="62" y="237" fill="#19383c" font-size="23" font-weight="700" text-anchor="start">Safe assessment</text>
+<text x="62" y="275" fill="#19383c" font-size="19" font-weight="400" text-anchor="start">Recognize the risk</text>
+<path d="M211 314 V340" fill="none" stroke="#166a6f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="42" y="350" width="338" height="112" rx="16" fill="#fae9e3" stroke="#cfddd8"/>
+<text x="62" y="392" fill="#19383c" font-size="23" font-weight="700" text-anchor="start">Misleading justification</text>
+<text x="62" y="430" fill="#19383c" font-size="19" font-weight="400" text-anchor="start">Begin rationalizing harm</text>
+<path d="M211 469 V495" fill="none" stroke="#166a6f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="42" y="505" width="338" height="112" rx="16" fill="#fae9e3" stroke="#cfddd8"/>
+<text x="62" y="547" fill="#19383c" font-size="23" font-weight="700" text-anchor="start">Harmful compliance</text>
+<text x="62" y="585" fill="#19383c" font-size="19" font-weight="400" text-anchor="start">The final answer is unsafe</text>
+<text x="420" y="165" fill="#166a6f" font-size="21" font-weight="700" text-anchor="start">BENIGN REQUEST</text>
+<rect x="420" y="195" width="338" height="112" rx="16" fill="#edf5f2" stroke="#cfddd8"/>
+<text x="440" y="237" fill="#19383c" font-size="23" font-weight="700" text-anchor="start">Helpful assessment</text>
+<text x="440" y="275" fill="#19383c" font-size="19" font-weight="400" text-anchor="start">Engage with the task</text>
+<path d="M589 314 V340" fill="none" stroke="#166a6f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="420" y="350" width="338" height="112" rx="16" fill="#f8f1df" stroke="#cfddd8"/>
+<text x="440" y="392" fill="#19383c" font-size="23" font-weight="700" text-anchor="start">Unnecessary hesitation</text>
+<text x="440" y="430" fill="#19383c" font-size="19" font-weight="400" text-anchor="start">Misread a safe request</text>
+<path d="M589 469 V495" fill="none" stroke="#166a6f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="420" y="505" width="338" height="112" rx="16" fill="#f8f1df" stroke="#cfddd8"/>
+<text x="440" y="547" fill="#19383c" font-size="23" font-weight="700" text-anchor="start">Unnecessary refusal</text>
+<text x="440" y="585" fill="#19383c" font-size="19" font-weight="400" text-anchor="start">The final answer withholds help</text>
+<rect x="42" y="680" width="716" height="86" rx="16" fill="#edf5f2" stroke="#cfddd8"/>
+<text x="400" y="715" fill="#166a6f" font-size="25" font-weight="700" text-anchor="middle">The target skill: detect a wrong turn and recover.</text>
+<text x="400" y="748" fill="#53686c" font-size="20" font-weight="400" text-anchor="middle">A conceptual explanation of §3; no empirical scale.</text>
+</g></svg>
