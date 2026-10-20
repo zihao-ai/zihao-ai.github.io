@@ -6,8 +6,8 @@ tags: Video Generation, Multi-Agent Systems, Brand Integration
 ---
 
 <figure>
-  <img src="../../assets/img/blog/brandfusion/hero.png" alt="Conceptual illustration of three linked film frames showing a woman at a sunlit café, with a cup remaining part of the scene across camera views." width="1536" height="1024">
-  <figcaption>A recognizable brand should fit the scene without taking over the user's idea. AI-generated conceptual illustration; not a generated-video result from the paper.</figcaption>
+  <a href="assets/img/blog/brandfusion/hero-diagram.png"><img src="../../assets/img/blog/brandfusion/hero-diagram.png" alt="BrandFusion diagram showing a beach-yoga video request, brand-profile retrieval, planning, prompt rewriting and critique, then schematic branded video frames." width="1536" height="1024" loading="lazy"></a>
+  <figcaption>BrandFusion connects the original video request to brand-aware planning and prompt refinement. DEMO is a fictional placeholder; the illustrated frames are not experimental video outputs. AI-generated technical illustration. Select the image to view it at full size.</figcaption>
 </figure>
 
 A person asks for a quiet yoga scene on a beach at sunrise. A video service wants to include a sportswear brand. Putting the brand on a yoga mat sounds straightforward. Making that mat recognizable, keeping the movement and atmosphere intact, and avoiding a sudden product close-up is a more demanding problem.
@@ -111,4 +111,4 @@ BrandFusion offers a concrete way to reason about placements before generation: 
 
 Explore the **[project website and video gallery](https://zihao-ai.github.io/brandfusion/)** or read the **[full paper](https://arxiv.org/abs/2603.02816)** for the implementation, evaluation protocol, and additional examples.
 
-*The post date follows the first arXiv release on March 3, 2026. This retrospective explanation summarizes arXiv:2603.02816v2, revised March 11, 2026. The cover is conceptual; the video frames are project outputs; diagrams and charts are explanatory redraws from the cited source.*
+*The post date follows the first arXiv release on March 3, 2026. This retrospective explanation summarizes arXiv:2603.02816v2, revised March 11, 2026. The cover is an AI-generated schematic; the separately presented video frames are project outputs; diagrams and charts are explanatory redraws from the cited source.*

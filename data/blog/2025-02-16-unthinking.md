@@ -6,8 +6,8 @@ tags: Reasoning Models, AI Safety, Efficient Inference
 ---
 
 <figure>
-  <img src="../../assets/img/blog/unthinking/hero.png" alt="Conceptual illustration of a reasoning pathway whose continuation or interruption changes the route to an answer." width="1536" height="1024">
-  <figcaption>A reasoning model's stopping boundary can become a point of failure or a useful control. AI-generated conceptual illustration; not an experimental result.</figcaption>
+  <a href="assets/img/blog/unthinking/hero-diagram.png"><img src="../../assets/img/blog/unthinking/hero-diagram.png" alt="Three labeled timelines compare normal reasoning, attacker-induced early stopping with BoT, and owner-controlled monitored stopping with MoT." width="1536" height="1024" loading="lazy"></a>
+  <figcaption>Normal reasoning, BoT suppression, and MoT monitoring differ in who controls the stopping decision. Timeline lengths are schematic, not measured token counts. AI-generated technical illustration. Select the image to view it at full size.</figcaption>
 </figure>
 
 Reasoning models spend tokens working through a problem before giving an answer. That extra computation can support calculation, reflection, and checking. But what happens if someone can make the model behave as though its thinking is already finished?

@@ -10,7 +10,7 @@ Verified official repository: https://github.com/zihao-ai/unthinking_vulnerabili
 
 | Asset | Source and transformation |
 | --- | --- |
-| `hero.png` | AI-generated conceptual cover. Separate generation record: `hero-prompt.md`. Not experimental evidence. |
+| `hero-diagram.png` | AI-generated technical explainer. Separate generation record: `hero-prompt.md`. Not experimental evidence. |
 | `thinking-boundary.svg` | Native SVG conceptual redraw based on §§3–5, pp. 3–9. Timeline lengths are schematic, not measured token counts. |
 | `control-paths.svg` | Native SVG summary of the two BoT access assumptions (§4) and owner-controlled MoT (§5). No executable payloads or attack procedures. |
 | `bot-success.svg` | Matplotlib paired-dot chart, exact ASR entries in Tables 1–2, p. 6. Table 1: default semantic-trigger SFT. Table 2: training-free, per-input white-box optimization. |
@@ -34,3 +34,5 @@ Run `python scripts/build_unthinking_blog_figures.py` from the repository with m
 - The article avoids strong claims based on Table 12's internally inconsistent monitor-call row and avoids treating Appendix F's prose assertion of 100% as identical to the 98.70% forced-template result in Table 13.
 - All five generated figures were rendered and visually inspected. Legend/axis spacing was adjusted after the first preview. Hero inspected for consistency with caption.
 - Source grounding and figure validation were performed in the same agent context; no independent numerical review has been claimed.
+
+Cover revision: abstract artwork was replaced by `hero-diagram.png` on 2026-10-20. The new cover names the paper and shows its specific problem and mechanism. Original artwork remains recoverable in Git history.

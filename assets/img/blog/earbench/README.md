@@ -15,4 +15,6 @@ Regenerate the ten EARBench/VDC supporting figures with:
 python scripts/build_earbench_vdc_blog_figures.py
 ```
 
-Requires matplotlib. Native SVG diagrams use Python standard-library XML strings; plots use matplotlib with zero-based axes. CSV files preserve source values, with approximate values labeled. No uncertainty intervals are invented. Covers were generated with OpenAI imagegen; see hero-prompt.md for full prompt. They are conceptual editorial illustrations. Original generated files retained outside the repository.
+Requires matplotlib. Native SVG diagrams use Python standard-library XML strings; plots use matplotlib with zero-based axes. CSV files preserve source values, with approximate values labeled. No uncertainty intervals are invented. Covers were generated with OpenAI imagegen; see hero-prompt.md for full prompt. They are technical method illustrations. Original generated files retained outside the repository.
+
+Cover revision: abstract artwork was replaced by `hero-diagram.png` on 2026-10-20. The new cover names the paper and shows its specific problem and mechanism. Original artwork remains recoverable in Git history.

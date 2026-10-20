@@ -6,8 +6,8 @@ tags: AI Agents, Agent Safety, NeurIPS 2026
 ---
 
 <figure>
-  <img src="../../assets/img/blog/skillcascade/hero.png" alt="Three individually approved skill modules share a ribbon of information that turns into a red warning at the end of the workflow." width="1536" height="1024">
-  <figcaption>Local approval does not establish the safety of a whole workflow. AI-generated conceptual illustration; not an experimental result.</figcaption>
+  <a href="assets/img/blog/skillcascade/hero-diagram.png"><img src="../../assets/img/blog/skillcascade/hero-diagram.png" alt="SkillCascade prescription-review workflow: history extraction weakens a medication signal, interaction checking downgrades an alert, and summary generation omits the critical warning." width="1536" height="1024" loading="lazy"></a>
+  <figcaption>A prescription-review cascade spreads a harmful objective across three skills: weaken a signal, downgrade an alert, and omit the warning. Simplified threat illustration; per-skill passes describe this example, not a universal scanner result. AI-generated technical illustration. Select the image to view it at full size.</figcaption>
 </figure>
 
 A skill extracts the facts. Another evaluates them. A third writes the final report. Each has a sensible job, readable instructions, and a plausible reason for the choices it makes. Yet the report can still omit the one fact the user most needed to see.
@@ -155,4 +155,4 @@ The central lesson is that skill safety has an interaction dimension. Once an ag
 
 For the full definitions, experiments, and analysis, read the **[paper on arXiv](https://arxiv.org/abs/2609.30383)**. The **[SkillCascade-Bench repository](https://github.com/zihao-ai/SkillCascade-Bench)** provides the case index, scenario descriptions, skill packages, and input files for further study. The **[OpenReview page](https://openreview.net/forum?id=gP2hPTzpfh)** is also available.
 
-*This post describes the results in arXiv:2609.30383v1. The cover is an AI-generated conceptual illustration; the mechanism diagrams are explanatory redraws, and the result chart is generated from the published table values.*
+*This post describes the results in arXiv:2609.30383v1. The cover is an AI-generated technical explainer; the mechanism diagrams are explanatory redraws, and the result chart is generated from the published table values.*

@@ -11,7 +11,7 @@ Primary source: **AdvChain: Adversarial Chain-of-Thought Tuning for Robust Safet
 
 | Asset | Evidence source | What it represents |
 | --- | --- | --- |
-| `hero.png` | See `hero-prompt.md` | AI-generated conceptual artwork, never a result figure. |
+| `hero-diagram.png` | See `hero-prompt.md` | AI-generated technical explainer, never a result figure. |
 | `two-directions.svg` | §3, pp. 3–4 | Original explanatory diagram of harmful drift and unnecessary refusal. No empirical values or implied frequency. |
 | `recovery-training.svg` | §4, pp. 5–6; §5.1, p. 6 | Original explanatory diagram of the two correction types and the published 800/200 sample split. |
 | `general-safety.svg` | Table 1, p. 7 | Exact ASR columns for every method in the DeepSeek-R1-7B and Qwen3-4B sections. Other model-size sections are explicitly outside this figure. |
@@ -43,3 +43,5 @@ Run `python scripts/build_advchain_blog_figures.py` with Matplotlib installed. T
 The two mechanism SVGs are native vector markup; the numerical charts use Matplotlib. The website has no Python runtime dependency. Every figure is wrapped in semantic HTML with an explicit size, alt description, and source-aware caption in the blog. Numerical CSV downloads provide a machine-readable alternative.
 
 Visual review: rendered each SVG at **760 px wide** with `rsvg-convert`, then inspected the resulting PNGs for clipping, legibility, labels, and data encodings. Review renders are temporary files in `/tmp/advchain-blog/`. The cover was also visually inspected. No paper figure was raster-cropped or altered.
+
+Cover revision: abstract artwork was replaced by `hero-diagram.png` on 2026-10-20. The new cover names the paper and shows its specific problem and mechanism. Original artwork remains recoverable in Git history.
