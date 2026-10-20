@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="890" viewBox="0 0 1000 890" role="img" aria-labelledby="title desc"><title id="title">BoT: how often is thinking suppressed?</title><desc id="desc">All 32 ASR values from Tables 1 and 2. Twenty values equal 100 percent. Columns distinguish datasets and attack access conditions.</desc><rect width="1000" height="890" fill="#fdfcfa"/><defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8" fill="none" stroke="#53686c" stroke-width="1.5"/></marker></defs><g font-family="Arial, Helvetica, sans-serif">
+<text x="35" y="58" font-size="34" fill="#19383c" font-weight="700" text-anchor="start">BoT: how often is thinking suppressed?</text>
+<text x="35" y="101" font-size="24" fill="#53686c" font-weight="400" text-anchor="start">ASR = inputs that skip thinking / evaluated inputs × 100%</text>
+<text x="35" y="140" font-size="22" fill="#53686c" font-weight="400" text-anchor="start">20 of the 32 reported results are 100%. These are not answer accuracies.</text>
+<rect x="315" y="178" width="332" height="50" rx="12" fill="#e5efeb"/>
+<rect x="651" y="178" width="332" height="50" rx="12" fill="#e5efeb"/>
+<text x="481" y="212" font-size="26" fill="#166a6f" font-weight="700" text-anchor="middle">MATH-500</text>
+<text x="817" y="212" font-size="26" fill="#166a6f" font-weight="700" text-anchor="middle">AIME 2024</text>
+<text x="35" y="272" font-size="23" fill="#19383c" font-weight="700" text-anchor="start">Model</text>
+<text x="397" y="268" font-size="20" fill="#19383c" font-weight="700" text-anchor="middle">Training-based</text>
+<text x="565" y="268" font-size="20" fill="#19383c" font-weight="700" text-anchor="middle">Training-free</text>
+<text x="733" y="268" font-size="20" fill="#19383c" font-weight="700" text-anchor="middle">Training-based</text>
+<text x="901" y="268" font-size="20" fill="#19383c" font-weight="700" text-anchor="middle">Training-free</text>
+<path d="M25 289 H983" stroke="#aebfbd" stroke-width="1.5"/>
+<rect x="25" y="292" width="958" height="53" rx="12" fill="#f0f4f3"/>
+<text x="35" y="327" font-size="22" fill="#19383c" font-weight="400" text-anchor="start">DeepSeek-R1-1.5B</text>
+<text x="397" y="327" font-size="23" fill="#19383c" font-weight="500" text-anchor="middle">97.60%</text>
+<text x="565" y="327" font-size="23" fill="#19383c" font-weight="500" text-anchor="middle">100.00%</text>
+<text x="733" y="327" font-size="23" fill="#19383c" font-weight="500" text-anchor="middle">100.00%</text>
+<text x="901" y="327" font-size="23" fill="#19383c" font-weight="500" text-anchor="middle">100.00%</text>
+<text x="35" y="380" font-size="22" fill="#19383c" font-weight="400" text-anchor="start">DeepSeek-R1-7B</text>
+<text x="397" y="380" font-size="23" fill="#19383c" font-weight="500" text-anchor="middle">100.00%</text>
+<text x="565" y="380" font-size="23" fill="#19383c" font-weight="500" text-anchor="middle">97.00%</text>
+<text x="733" y="380" font-size="23" fill="#19383c" font-weight="500" text-anchor="middle">100.00%</text>
+<text x="901" y="380" font-size="23" fill="#19383c" font-weight="500" text-anchor="middle">100.00%</text>
+<rect x="25" y="398" width="958" height="53" rx="12" fill="#f0f4f3"/>
+<text x="35" y="433" font-size="22" fill="#19383c" font-weight="400" text-anchor="start">DeepSeek-R1-14B</text>
+<text x="397" y="433" font-size="23" fill="#19383c" font-weight="500" text-anchor="middle">100.00%</text>
+<text x="565" y="433" font-size="23" fill="#19383c" font-weight="500" text-anchor="middle">99.00%</text>
+<text x="733" y="433" font-size="23" fill="#19383c" font-weight="500" text-anchor="middle">100.00%</text>
+<text x="901" y="433" font-size="23" fill="#19383c" font-weight="500" text-anchor="middle">93.30%</text>
+<text x="35" y="486" font-size="22" fill="#19383c" font-weight="400" text-anchor="start">DeepSeek-R1-32B</text>
+<text x="397" y="486" font-size="23" fill="#19383c" font-weight="500" text-anchor="middle">99.80%</text>
+<text x="565" y="486" font-size="23" fill="#19383c" font-weight="500" text-anchor="middle">94.20%</text>
+<text x="733" y="486" font-size="23" fill="#19383c" font-weight="500" text-anchor="middle">100.00%</text>
+<text x="901" y="486" font-size="23" fill="#19383c" font-weight="500" text-anchor="middle">86.60%</text>
+<rect x="25" y="504" width="958" height="53" rx="12" fill="#f0f4f3"/>
+<text x="35" y="539" font-size="22" fill="#19383c" font-weight="400" text-anchor="start">Marco-o1-7B</text>
+<text x="397" y="539" font-size="23" fill="#19383c" font-weight="500" text-anchor="middle">99.80%</text>
+<text x="565" y="539" font-size="23" fill="#19383c" font-weight="500" text-anchor="middle">91.40%</text>
+<text x="733" y="539" font-size="23" fill="#19383c" font-weight="500" text-anchor="middle">90.00%</text>
+<text x="901" y="539" font-size="23" fill="#19383c" font-weight="500" text-anchor="middle">100.00%</text>
+<text x="35" y="592" font-size="22" fill="#19383c" font-weight="400" text-anchor="start">Light-R1-7B-DS</text>
+<text x="397" y="592" font-size="23" fill="#19383c" font-weight="500" text-anchor="middle">100.00%</text>
+<text x="565" y="592" font-size="23" fill="#19383c" font-weight="500" text-anchor="middle">100.00%</text>
+<text x="733" y="592" font-size="23" fill="#19383c" font-weight="500" text-anchor="middle">100.00%</text>
+<text x="901" y="592" font-size="23" fill="#19383c" font-weight="500" text-anchor="middle">100.00%</text>
+<rect x="25" y="610" width="958" height="53" rx="12" fill="#f0f4f3"/>
+<text x="35" y="645" font-size="22" fill="#19383c" font-weight="400" text-anchor="start">Open-R1-7B</text>
+<text x="397" y="645" font-size="23" fill="#19383c" font-weight="500" text-anchor="middle">100.00%</text>
+<text x="565" y="645" font-size="23" fill="#19383c" font-weight="500" text-anchor="middle">86.19%</text>
+<text x="733" y="645" font-size="23" fill="#19383c" font-weight="500" text-anchor="middle">100.00%</text>
+<text x="901" y="645" font-size="23" fill="#19383c" font-weight="500" text-anchor="middle">73.33%</text>
+<text x="35" y="698" font-size="22" fill="#19383c" font-weight="400" text-anchor="start">QwQ</text>
+<text x="397" y="698" font-size="23" fill="#19383c" font-weight="500" text-anchor="middle">100.00%</text>
+<text x="565" y="698" font-size="23" fill="#19383c" font-weight="500" text-anchor="middle">100.00%</text>
+<text x="733" y="698" font-size="23" fill="#19383c" font-weight="500" text-anchor="middle">100.00%</text>
+<text x="901" y="698" font-size="23" fill="#19383c" font-weight="500" text-anchor="middle">100.00%</text>
+<path d="M649 178 V716" stroke="#c5d4d1" stroke-width="2"/>
+<text x="35" y="756" font-size="21" fill="#53686c" font-weight="400" text-anchor="start">Training-based: SFT with a semantic trigger (Table 1).</text>
+<text x="35" y="794" font-size="21" fill="#53686c" font-weight="400" text-anchor="start">Training-free: white-box optimization for each input (Table 2).</text>
+<text x="35" y="839" font-size="21" fill="#166a6f" font-weight="400" text-anchor="start">Different attack settings; neither column is a clean-model baseline.</text>
+<text x="35" y="875" font-size="18" fill="#53686c" font-weight="400" text-anchor="start">Source: arXiv:2502.12202v2, p. 6. Published values, not a new replication.</text>
+</g></svg>

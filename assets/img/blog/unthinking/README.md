@@ -13,7 +13,7 @@ Verified official repository: https://github.com/zihao-ai/unthinking_vulnerabili
 | `hero-diagram.png` | AI-generated technical explainer. Separate generation record: `hero-prompt.md`. Not experimental evidence. |
 | `thinking-boundary.svg` | Native SVG conceptual redraw based on §§3–5, pp. 3–9. Timeline lengths are schematic, not measured token counts. |
 | `control-paths.svg` | Native SVG summary of the two BoT access assumptions (§4) and owner-controlled MoT (§5). No executable payloads or attack procedures. |
-| `bot-success.svg` | Matplotlib paired-dot chart, exact ASR entries in Tables 1–2, p. 6. Table 1: default semantic-trigger SFT. Table 2: training-free, per-input white-box optimization. |
+| `bot-success-table.svg` | Native SVG numeric table, exact ASR entries in Tables 1–2, p. 6. Table 1: default semantic-trigger SFT. Table 2: training-free, per-input white-box optimization. |
 | `mot-efficiency.svg` | Matplotlib grouped bars, four DeepSeek-R1 rows of Table 5, p. 8. The s1 comparator is intentionally not plotted. Values are relative generated-token and pass@1 changes, not percentage-point changes or absolute accuracy. |
 | `mot-safety.svg` | Matplotlib dumbbells, exact ASR entries of Table 6, p. 9. Four models × three safety datasets; values are Llama-Guard–judged jailbreak outcomes. |
 
@@ -36,3 +36,11 @@ Run `python scripts/build_unthinking_blog_figures.py` from the repository with m
 - Source grounding and figure validation were performed in the same agent context; no independent numerical review has been claimed.
 
 Cover revision: abstract artwork was replaced by `hero-diagram.png` on 2026-10-20. The new cover names the paper and shows its specific problem and mechanism. Original artwork remains recoverable in Git history.
+
+## ASR figure audit (2026-10-20)
+
+All 32 values in `bot-success.csv` were compared against the ASR columns of Tables 1–2 in a fresh copy of arXiv:2502.12202v2, PDF p. 6; all match. Twenty are exactly 100%. The paired-dot graphic was replaced with an explicitly labeled table because ceiling values overlap and connecting lines can be mistaken for uncertainty. No source values changed. Training-based and training-free denote distinct access/training settings, not baseline and treatment.
+
+Rebuild only this figure with `python scripts/build_unthinking_blog_figures.py --figure bot-success`. The figure uses exact numeric labels and no color normalization.
+
+Figure-review methodology used the scientific-visualization skill from Kassis, T., Agarwal, V., He, Y., Patel, D., & Brueckner, A. M. (2026), *Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents*, [arXiv:2609.00065](https://arxiv.org/abs/2609.00065). This is a tooling reference; the experimental data source remains the Unthinking paper.

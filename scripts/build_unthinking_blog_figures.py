@@ -5,10 +5,15 @@ Run: python scripts/build_unthinking_blog_figures.py (requires matplotlib).
 from pathlib import Path
 from html import escape
 import csv
+import argparse
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import numpy as np
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--figure', choices=['all', 'bot-success'], default='all')
+SELECTED = parser.parse_args().figure
 
 OUT = Path(__file__).resolve().parents[1] / 'assets/img/blog/unthinking'
 OUT.mkdir(parents=True, exist_ok=True)
@@ -26,8 +31,10 @@ def rect(x,y,w,h,color):
 def line(x1,y1,x2,y2,color=MUTED,dash=False):
     return f'<path d="M{x1} {y1} L{x2} {y2}" stroke="{color}" stroke-width="3" fill="none"'+(' stroke-dasharray="7 6"' if dash else '')+' marker-end="url(#arrow)"/>'
 def save_svg(name,s):
+    if SELECTED == 'bot-success' and name != 'bot-success-table.svg': return
     (OUT/name).write_text('\n'.join(s+['</g></svg>']))
 def csvsave(name,headers,rows):
+    if SELECTED == 'bot-success' and name != 'bot-success.csv': return
     with (OUT/name).open('w',newline='') as f:
         w=csv.writer(f); w.writerow(headers); w.writerows(rows)
 def clean(ax):
@@ -36,6 +43,9 @@ def clean(ax):
     ax.tick_params(length=0,pad=9)
     ax.set_axisbelow(True)
 def save(fig,name,title,desc):
+    if SELECTED == 'bot-success':
+        plt.close(fig)
+        return
     fig.savefig(OUT/name,facecolor=BG,metadata={'Title':title,'Description':desc})
     fig.savefig(PREVIEW/name.replace('.svg','.png'),dpi=130,facecolor=BG)
     plt.close(fig)
@@ -63,22 +73,33 @@ free_math=[100,97,99,94.2,91.4,100,86.19,100]
 training_aime=[100,100,100,100,90,100,100,100]
 free_aime=[100,100,93.3,86.6,100,100,73.33,100]
 csvsave('bot-success.csv',['model','training_based_math500_asr_percent','training_free_whitebox_math500_asr_percent','training_based_aime2024_asr_percent','training_free_whitebox_aime2024_asr_percent'],zip(names,training_math,free_math,training_aime,free_aime))
-fig,axes=plt.subplots(1,2,figsize=(11,7.8),sharey=True,facecolor=BG)
-fig.subplots_adjust(left=.23,right=.96,top=.74,bottom=.28,wspace=.15)
-y=np.arange(8)
-for ax,a,b,title in zip(axes,[training_math,training_aime],[free_math,free_aime],['MATH-500','AIME 2024']):
-    clean(ax); ax.set_xlim(0,106); ax.set_xticks([0,25,50,75,100]); ax.grid(axis='x',alpha=.17); ax.set_title(title,pad=20,fontsize=17,weight='bold')
-    for i,(v1,v2) in enumerate(zip(a,b)):
-        ax.plot([v1,v2],[i,i],color='#c5ccca',lw=3)
-    ax.scatter(a,y-.09,s=62,color=RED,zorder=3,label='Training-based (SFT)')
-    ax.scatter(b,y+.09,s=62,color=TEAL,marker='D',zorder=3,label='Training-free (white-box)')
-    ax.set_xlabel('Thinking-suppression ASR (%)',labelpad=13,fontsize=12)
-axes[0].set_yticks(y,names,fontsize=12); axes[0].invert_yaxis()
-fig.text(.045,.945,'Two ways to suppress reasoning',size=25,weight='bold')
-fig.text(.045,.89,'ASR counts inputs that skip thinking; it does not count wrong answers.',size=14,color=MUTED)
-handles,labels=axes[0].get_legend_handles_labels();fig.legend(handles,labels,loc='lower center',bbox_to_anchor=(.5,.08),ncol=2,frameon=False,fontsize=12)
-fig.text(.045,.04,'Source: Tables 1–2, p. 6. SFT + semantic trigger; per-sample white-box suffix optimization.',size=10,color=MUTED)
-save(fig,'bot-success.svg','BoT attack success by model and dataset','Exact Table 1 and 2 attack success rates. Axes span 0–100%; ASR means bypassed thinking, not harmful output.')
+# The results are near ceiling: an explicit table is clearer than overlapping dots.
+# Preserve all 32 values; no stretched color scale or implied error bars.
+s=start(890,'BoT: how often is thinking suppressed?',
+        'All 32 ASR values from Tables 1 and 2. Twenty values equal 100 percent. Columns distinguish datasets and attack access conditions.')
+s += [text(35,58,'BoT: how often is thinking suppressed?',34,weight='700'),
+      text(35,101,'ASR = inputs that skip thinking / evaluated inputs × 100%',24,MUTED),
+      text(35,140,'20 of the 32 reported results are 100%. These are not answer accuracies.',22,MUTED)]
+centers=[397,565,733,901]
+s += [rect(315,178,332,50,'#e5efeb'),rect(651,178,332,50,'#e5efeb'),
+      text(481,212,'MATH-500',26,TEAL,'700','middle'),
+      text(817,212,'AIME 2024',26,TEAL,'700','middle'),
+      text(35,272,'Model',23,weight='700')]
+for x,label in zip(centers,['Training-based','Training-free','Training-based','Training-free']):
+    s.append(text(x,268,label,20,weight='700',anchor='middle'))
+s.append('<path d="M25 289 H983" stroke="#aebfbd" stroke-width="1.5"/>')
+for i,name in enumerate(names):
+    y=292+i*53
+    if i%2==0:s.append(rect(25,y,958,53,'#f0f4f3'))
+    s.append(text(35,y+35,name,22))
+    for x,v in zip(centers,[training_math[i],free_math[i],training_aime[i],free_aime[i]]):
+        s.append(text(x,y+35,f'{v:.2f}%',23,INK,'500','middle'))
+s += ['<path d="M649 178 V716" stroke="#c5d4d1" stroke-width="2"/>',
+      text(35,756,'Training-based: SFT with a semantic trigger (Table 1).',21,MUTED),
+      text(35,794,'Training-free: white-box optimization for each input (Table 2).',21,MUTED),
+      text(35,839,'Different attack settings; neither column is a clean-model baseline.',21,TEAL),
+      text(35,875,'Source: arXiv:2502.12202v2, p. 6. Published values, not a new replication.',18,MUTED)]
+save_svg('bot-success-table.svg',s)
 
 sizes=['1.5B','7B','14B','32B']
 rtc_math=[-71.78,-68.98,-69.87,-73.50];rpc_math=[7.57,1.51,.42,1.24]
@@ -126,7 +147,7 @@ handles,labels=axes[0].get_legend_handles_labels();fig.legend(handles,labels,loc
 fig.text(.045,.06,'Source: Table 6, p. 9. Here ASR measures jailbreak outcomes, not suppression of thinking.',size=11,color=MUTED)
 fig.text(.045,.025,'Benchmark and evaluator specific; a low observed ASR is not a guarantee of safe output.',size=11,color=MUTED)
 save(fig,'mot-safety.svg','MoT jailbreak attack success rates','Exact Table 6 jailbreak ASR before and after owner-controlled MoT, across three safety benchmarks. All axes use 0–100 percent ticks.')
-print('Created five SVGs, three CSVs, and three temporary PNG previews.')
+print('Created BoT ASR table and CSV.' if SELECTED == 'bot-success' else 'Created five SVGs, three CSVs, and two temporary PNG previews.')
 
 # Normalize generated text files for clean Git diffs.
 for _slug in ['unthinking']:
