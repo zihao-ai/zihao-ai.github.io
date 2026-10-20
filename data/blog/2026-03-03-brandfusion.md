@@ -2,7 +2,7 @@
 title: "BrandFusion: Keeping Brand Placement Aligned with Creative Intent"
 date: 2026-03-03
 description: "Inside BrandFusion: how brand knowledge, multi-agent prompt refinement, and selective model adaptation balance creative intent, recognizable brands, and natural video scenes."
-tags: ["Video Generation"]
+tags: ["AI Agents", "Video Generation"]
 ---
 
 <figure>

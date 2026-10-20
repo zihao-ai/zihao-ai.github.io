@@ -2,7 +2,7 @@
 title: "Stealth Apart, Harm Together: When Agent Skills Become Unsafe in Combination"
 date: 2026-10-20
 description: "Inside SkillCascade: how individually plausible skills can produce joint harm, what our benchmark reveals, and why agent safety needs to follow information across a workflow."
-tags: ["AI Safety"]
+tags: ["LLMs", "AI Agents", "AI Safety"]
 ---
 
 <figure>
