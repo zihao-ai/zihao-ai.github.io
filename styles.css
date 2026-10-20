@@ -1543,6 +1543,32 @@ h2 {
   border: 1px solid var(--line-soft);
 }
 
+.post-body figure {
+  margin: 2em 0;
+}
+
+.post-body figure img {
+  display: block;
+  margin: 0 auto;
+}
+
+.post-body figcaption {
+  margin-top: 0.8em;
+  color: var(--muted-strong);
+  font-size: 0.88rem;
+  line-height: 1.6;
+}
+
+.post-body summary {
+  color: var(--accent);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.post-body details[open] summary {
+  margin-bottom: 1em;
+}
+
 .post-body pre {
   overflow-x: auto;
   margin: 1.6em 0;

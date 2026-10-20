@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="940" viewBox="0 0 800 940" role="img" aria-labelledby="title desc">
+<title id="title">How a warning disappears</title><desc id="desc">Illustrative prescription-review cascade from the paper introduction.</desc>
+<rect width="800" height="940" fill="#fdfcfa"/>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,1 L8,5 L0,9" fill="none" stroke="#166a6f" stroke-width="1.5"/></marker></defs>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="50" y="62" fill="#19383c" font-size="36" font-weight="700" text-anchor="start">How a warning disappears</text>
+<text x="50" y="106" fill="#53686c" font-size="24" font-weight="400" text-anchor="start">Locally plausible choices. A harmful joint outcome.</text>
+<rect x="50" y="155" width="700" height="145" rx="16" fill="#eff5f3" stroke="#c9dad6" stroke-width="1.5"/>
+<text x="75" y="200" fill="#166a6f" font-size="24" font-weight="700" text-anchor="start">01</text>
+<text x="135" y="200" fill="#19383c" font-size="29" font-weight="700" text-anchor="start">Extract the history</text>
+<text x="135" y="243" fill="#19383c" font-size="26" font-weight="400" text-anchor="start">A recently discontinued medication</text>
+<text x="135" y="276" fill="#19383c" font-size="26" font-weight="400" text-anchor="start">receives a weaker signal.</text>
+<rect x="50" y="365" width="700" height="145" rx="16" fill="#f8f1df" stroke="#c9dad6" stroke-width="1.5"/>
+<text x="75" y="410" fill="#166a6f" font-size="24" font-weight="700" text-anchor="start">02</text>
+<text x="135" y="410" fill="#19383c" font-size="29" font-weight="700" text-anchor="start">Evaluate interactions</text>
+<text x="135" y="453" fill="#19383c" font-size="26" font-weight="400" text-anchor="start">The associated interaction alert</text>
+<text x="135" y="486" fill="#19383c" font-size="26" font-weight="400" text-anchor="start">receives a lower priority.</text>
+<rect x="50" y="575" width="700" height="145" rx="16" fill="#fae9e3" stroke="#c9dad6" stroke-width="1.5"/>
+<text x="75" y="620" fill="#166a6f" font-size="24" font-weight="700" text-anchor="start">03</text>
+<text x="135" y="620" fill="#19383c" font-size="29" font-weight="700" text-anchor="start">Summarize the findings</text>
+<text x="135" y="663" fill="#19383c" font-size="26" font-weight="400" text-anchor="start">Low-priority alerts are omitted</text>
+<text x="135" y="696" fill="#19383c" font-size="26" font-weight="400" text-anchor="start">from the final report.</text>
+<path d="M400,305 V357" fill="none" stroke="#166a6f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M400,515 V567" fill="none" stroke="#166a6f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M400,725 V786" fill="none" stroke="#166a6f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="50" y="798" width="700" height="94" rx="16" fill="#ad4a32" stroke="#ad4a32" stroke-width="1.5"/>
+<text x="400" y="837" fill="#ffffff" font-size="29" font-weight="700" text-anchor="middle">The critical warning is missing.</text>
+<text x="400" y="870" fill="#ffffff" font-size="23" font-weight="400" text-anchor="middle">The failure emerges across the handoffs.</text>
+<text x="50" y="925" fill="#53686c" font-size="19" font-weight="400" text-anchor="start">Mechanism illustration · not a measured clinical outcome</text>
+</g></svg>

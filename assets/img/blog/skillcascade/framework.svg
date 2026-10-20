@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1110" viewBox="0 0 800 1110" role="img" aria-labelledby="title desc">
+<title id="title">From a scenario to an audited case</title><desc id="desc">Five SkillCascade agent roles, sandbox execution, and expert audit.</desc>
+<rect width="800" height="1110" fill="#fdfcfa"/>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,1 L8,5 L0,9" fill="none" stroke="#166a6f" stroke-width="1.5"/></marker></defs>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="45" y="58" fill="#19383c" font-size="34" font-weight="700" text-anchor="start">From a scenario to an audited case</text>
+<text x="45" y="100" fill="#53686c" font-size="23" font-weight="400" text-anchor="start">Five agent roles + sandbox execution + expert audit</text>
+<rect x="45" y="130" width="660" height="100" rx="16" fill="#eff5f3" stroke="#c9dad6" stroke-width="1.5"/>
+<text x="66" y="170" fill="#19383c" font-size="28" font-weight="700" text-anchor="start">01  Scenario Discovery Agent</text>
+<text x="66" y="208" fill="#19383c" font-size="23" font-weight="400" text-anchor="start">Find a realistic task and a skill combination.</text>
+<path d="M375,235 V253" fill="none" stroke="#166a6f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="45" y="260" width="660" height="100" rx="16" fill="#eff5f3" stroke="#c9dad6" stroke-width="1.5"/>
+<text x="66" y="300" fill="#19383c" font-size="28" font-weight="700" text-anchor="start">02  Attack Agent</text>
+<text x="66" y="338" fill="#19383c" font-size="23" font-weight="400" text-anchor="start">Propose coordinated skill modifications.</text>
+<path d="M375,365 V383" fill="none" stroke="#166a6f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="45" y="390" width="660" height="100" rx="16" fill="#eff5f3" stroke="#c9dad6" stroke-width="1.5"/>
+<text x="66" y="430" fill="#19383c" font-size="28" font-weight="700" text-anchor="start">03  Scanner Agent</text>
+<text x="66" y="468" fill="#19383c" font-size="23" font-weight="400" text-anchor="start">Review each skill in an independent session.</text>
+<path d="M375,495 V513" fill="none" stroke="#166a6f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="45" y="520" width="660" height="100" rx="16" fill="#eff5f3" stroke="#c9dad6" stroke-width="1.5"/>
+<text x="66" y="560" fill="#19383c" font-size="28" font-weight="700" text-anchor="start">04  Test Case Generator Agent</text>
+<text x="66" y="598" fill="#19383c" font-size="23" font-weight="400" text-anchor="start">Prepare task inputs and evaluation criteria.</text>
+<path d="M375,625 V643" fill="none" stroke="#166a6f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="45" y="650" width="660" height="100" rx="16" fill="#f8f1df" stroke="#c9dad6" stroke-width="1.5"/>
+<text x="66" y="690" fill="#19383c" font-size="28" font-weight="700" text-anchor="start">Sandbox execution</text>
+<text x="66" y="728" fill="#19383c" font-size="23" font-weight="400" text-anchor="start">Run the target agent; capture output and trace.</text>
+<path d="M375,755 V773" fill="none" stroke="#166a6f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="45" y="780" width="660" height="100" rx="16" fill="#eff5f3" stroke="#c9dad6" stroke-width="1.5"/>
+<text x="66" y="820" fill="#19383c" font-size="28" font-weight="700" text-anchor="start">05  Judge Agent</text>
+<text x="66" y="858" fill="#19383c" font-size="23" font-weight="400" text-anchor="start">Evaluate the outcome against the criteria.</text>
+<path d="M705,831 H753 V310 H712" fill="none" stroke="#166a6f" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#arrow)"/>
+<text x="780" y="720" transform="rotate(-90 780 720)" font-size="21" fill="#53686c">Failed candidate: revise and retest</text>
+<path d="M375,885 V940" fill="none" stroke="#166a6f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="390" y="921" fill="#53686c" font-size="20" font-weight="400" text-anchor="start">Successful candidate</text>
+<rect x="45" y="950" width="660" height="100" rx="16" fill="#166a6f" stroke="#166a6f" stroke-width="1.5"/>
+<text x="66" y="990" fill="#ffffff" font-size="27" font-weight="700" text-anchor="start">Expert audit → benchmark admission</text>
+<text x="66" y="1028" fill="#ffffff" font-size="24" font-weight="400" text-anchor="start">213 validated cases across 10 domains</text>
+<text x="45" y="1088" fill="#53686c" font-size="19" font-weight="400" text-anchor="start">Simplified from paper §3–4; feedback can return to earlier stages.</text>
+</g></svg>
