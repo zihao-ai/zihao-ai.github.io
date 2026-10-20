@@ -10,7 +10,10 @@ window.SITE_PUBLICATIONS = [
     type: "conference",
     topics: ["AI Agents", "Trustworthy AI"],
     selected: true,
-    links: { paper: "https://arxiv.org/pdf/2609.30383" },
+    links: {
+      paper: "https://arxiv.org/pdf/2609.30383",
+      code: "https://github.com/zihao-ai/SkillCascade-Bench",
+    },
   },
   {
     id: "distributed-implicit-harm",
