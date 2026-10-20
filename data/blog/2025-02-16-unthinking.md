@@ -2,7 +2,7 @@
 title: "To Think or Not to Think: Who Controls a Reasoning Model's Thought Process?"
 date: 2025-02-16
 description: "Inside the Unthinking Vulnerability: how reasoning can be suppressed, why recovery alignment is incomplete, and how owner-controlled monitoring can improve efficiency and safety."
-tags: Reasoning Models, AI Safety, Efficient Inference
+tags: ["Reasoning Models", "AI Safety"]
 ---
 
 <figure>

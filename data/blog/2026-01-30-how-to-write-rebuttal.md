@@ -3,7 +3,7 @@ layout: post
 title: How to Write a Good Rebuttal
 date: 2026-01-30 10:00:00
 description: Practical tips and strategies for writing effective rebuttals in academic paper submissions
-tags: academic-writing rebuttal paper
+tags: ["Academic Writing"]
 categories: research
 giscus_comments: true
 related_posts: false
