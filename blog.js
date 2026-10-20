@@ -147,7 +147,7 @@ async function renderPostPage() {
   document.querySelector("[data-post-tags]").innerHTML = (post.tags || []).map((tag) => `<span>${escapeHtml(tag)}</span>`).join("");
 
   try {
-    const response = await fetch(post.file);
+    const response = await fetch(post.file, { cache: "no-cache" });
     if (!response.ok) throw new Error(`Could not load ${post.file}`);
 
     const markdown = stripFrontMatter(await response.text());
