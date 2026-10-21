@@ -13,6 +13,7 @@ window.SITE_PUBLICATIONS = [
     links: {
       paper: "https://arxiv.org/pdf/2609.30383",
       code: "https://github.com/zihao-ai/SkillCascade-Bench",
+      blog: "post.html?slug=skill-cascading-attacks",
     },
   },
   {
@@ -37,7 +38,10 @@ window.SITE_PUBLICATIONS = [
     type: "conference",
     topics: ["LLMs", "Trustworthy AI"],
     selected: true,
-    links: { paper: "https://arxiv.org/pdf/2509.24269" },
+    links: {
+      paper: "https://arxiv.org/pdf/2509.24269",
+      blog: "post.html?slug=advchain",
+    },
   },
   {
     id: "brandfusion",
@@ -52,6 +56,7 @@ window.SITE_PUBLICATIONS = [
     links: {
       paper: "https://arxiv.org/pdf/2603.02816",
       project: "https://zihao-ai.github.io/brandfusion/",
+      blog: "post.html?slug=brandfusion",
     },
   },
   {
@@ -79,6 +84,7 @@ window.SITE_PUBLICATIONS = [
     links: {
       paper: "https://arxiv.org/pdf/2502.12202",
       code: "https://github.com/zihao-zhu/unthinking_vulnerability",
+      blog: "post.html?slug=unthinking",
     },
   },
   {
@@ -173,6 +179,7 @@ window.SITE_PUBLICATIONS = [
       paper: "https://arxiv.org/pdf/2408.04449",
       code: "https://github.com/zihao-ai/EARBench",
       press: "https://mp.weixin.qq.com/s/n_c2MFcixSSC2sDELdJaTA",
+      blog: "post.html?slug=earbench",
     },
   },
   {
@@ -202,6 +209,7 @@ window.SITE_PUBLICATIONS = [
       code: "https://github.com/zihao-zhu/vdc",
       project: "https://versatile-data-cleanser.github.io/",
       press: "https://www.techbeat.net/article-info?id=5853",
+      blog: "post.html?slug=vdc",
     },
   },
   {

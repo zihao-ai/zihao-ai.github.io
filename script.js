@@ -9,6 +9,7 @@ const talks = window.SITE_TALKS || [];
 const linkIcons = {
   paper: "file-text",
   code: "github",
+  blog: "book-open",
   project: "globe",
   dataset: "database",
   slides: "presentation",
@@ -18,6 +19,7 @@ const linkIcons = {
 const linkLabels = {
   paper: "Paper",
   code: "Code",
+  blog: "Blog",
   project: "Project",
   dataset: "Dataset",
   slides: "Slides",
