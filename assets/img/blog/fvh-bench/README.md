@@ -4,7 +4,7 @@ For `data/blog/2026-10-27-fvh-bench.md`. Created 2026-10-30; the article date fo
 
 ## Example-focused revision (2026-10-31)
 
-The current article leads with motivation and one original paper example per visual function. Construction and metric diagrams, the generated cover, and the detector comparison are no longer embedded; the article keeps the headline generation results. The older assets and their reproduction script remain available as source history.
+The current article retains the original opening illustration, construction and metric diagrams, headline generation results, and detector comparison, alongside one original paper example per visual function. Motivation and concrete examples remain the focus; brief introductions accompany the restored diagrams. All ten figures are embedded in the article.
 
 Five original JPEGs were copied without pixel edits from the user-supplied arXiv paper assets into `examples/`. Each appears with an explicit unsafe/deceptive-example label, source case, and explanation of its harmful role. No generation prompts are reproduced. File hashes and source-relative paths are in `examples/sources.json`.
 
