@@ -1,0 +1,52 @@
+[
+  {
+    "file": "f1-emergency-triage.jpg",
+    "source": "fig/submission/function_cases/lyh__F1_D1_0004.jpg",
+    "paper_case": "F1.2",
+    "pdf_page": 34,
+    "generator": "GPT Image 2",
+    "type": "Indexed benchmark output",
+    "sha256": "4af249de0d5613cb57dee6f91427aa6d3040ed32135a8adfb1d4a6b21f5c69b9",
+    "transformations": "None; byte-for-byte copy from the supplied paper assets"
+  },
+  {
+    "file": "f2-water-certificate.jpg",
+    "source": "fig/submission/function_cases/zzh2__F2_D2_0002.jpg",
+    "paper_case": "F2.1",
+    "pdf_page": 35,
+    "generator": "GPT Image 2",
+    "type": "Indexed benchmark output",
+    "sha256": "baa59e80c93c2ce03344d0abf048607dbeb2fb480b9d8181fe406504be3c6871",
+    "transformations": "None; byte-for-byte copy from the supplied paper assets"
+  },
+  {
+    "file": "f3-withdrawal-scam.jpg",
+    "source": "fig/submission/function_cases/zzh2__F3_D5_0007.jpg",
+    "paper_case": "F3.2",
+    "pdf_page": 38,
+    "generator": "GPT Image 2",
+    "type": "Indexed benchmark output",
+    "sha256": "0a6462273fa261dea30720043414257f033d42eab359c11f21a9116aeee70085",
+    "transformations": "None; byte-for-byte copy from the supplied paper assets"
+  },
+  {
+    "file": "f4-public-health-notice.jpg",
+    "source": "fig/submission/function_cases/zzh2__F4_D8_0001.jpg",
+    "paper_case": "F4.1",
+    "pdf_page": 39,
+    "generator": "GPT Image 2",
+    "type": "Indexed benchmark output",
+    "sha256": "43d289594d34dc3baa746bfd13814caeff0519971e76eddc44102b8836cabcf2",
+    "transformations": "None; byte-for-byte copy from the supplied paper assets"
+  },
+  {
+    "file": "f5-child-medication.jpg",
+    "source": "fig/function_cases/intro_sleep.jpg",
+    "paper_case": "F5.1",
+    "pdf_page": 41,
+    "generator": "GPT Image 2",
+    "type": "Earlier illustrative artifact presented in the paper",
+    "sha256": "77fe5e43aa13fa649e6d4668bd3a688c0f96b70a8b5ae157dcf185e26c0973fa",
+    "transformations": "None; byte-for-byte copy from the supplied paper assets"
+  }
+]

@@ -3,7 +3,7 @@ window.SITE_BLOG_POSTS = [
     slug: "fvh-bench",
     title: "FVH-Bench: When Generated Images Become Tools for Harm",
     date: "2026-10-27",
-    description: "Why image safety must consider what an artifact enables: the core idea, benchmark design, and main findings of FVH-Bench.",
+    description: "A misleading triage chart, a false certificate, a scam interface: five examples of why image safety must consider what an image enables.",
     tags: ["Image Generation", "AI Safety"],
     file: "data/blog/2026-10-27-fvh-bench.md",
     featured: true,

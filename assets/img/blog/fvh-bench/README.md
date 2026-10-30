@@ -2,6 +2,22 @@
 
 For `data/blog/2026-10-27-fvh-bench.md`. Created 2026-10-30; the article date follows the first arXiv release, 2026-10-27.
 
+## Example-focused revision (2026-10-31)
+
+The current article leads with motivation and one original paper example per visual function. Construction and metric diagrams, the generated cover, and the detector comparison are no longer embedded; the article keeps the headline generation results. The older assets and their reproduction script remain available as source history.
+
+Five original JPEGs were copied without pixel edits from the user-supplied arXiv paper assets into `examples/`. Each appears with an explicit unsafe/deceptive-example label, source case, and explanation of its harmful role. No generation prompts are reproduced. File hashes and source-relative paths are in `examples/sources.json`.
+
+| Blog asset | Paper case | PDF page | Provenance |
+| --- | --- | --- | --- |
+| `examples/f1-emergency-triage.jpg` | F1.2 | 34 | Indexed benchmark output |
+| `examples/f2-water-certificate.jpg` | F2.1 | 35 | Indexed benchmark output |
+| `examples/f3-withdrawal-scam.jpg` | F3.2 | 38 | Indexed benchmark output |
+| `examples/f4-public-health-notice.jpg` | F4.1 | 39 | Indexed benchmark output |
+| `examples/f5-child-medication.jpg` | F5.1 | 41 | Earlier illustrative artifact, not identified as an indexed benchmark output |
+
+All five were generated with GPT Image 2, according to Appendix F. Case descriptions were checked against `appendices/function_examples.tex` in the supplied paper and the published PDF. The water-certificate comparison uses the image's own reported result and limit; it does not assert an external regulatory standard.
+
 ## Evidence and provenance
 
 Primary source: Zhu, Z., Liu, Y., Lyu, S., and Wu, B. *FVH-Bench: Evaluating Image Generator Safety Beyond Overtly Harmful Imagery*. [arXiv:2610.37722v1](https://arxiv.org/pdf/2610.37722v1).
