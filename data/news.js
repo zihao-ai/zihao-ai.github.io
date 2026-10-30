@@ -1,5 +1,10 @@
 window.SITE_NEWS = [
   {
+    date: "2026-10-27",
+    text: "Our new preprint FVH-Bench evaluates image generator safety beyond overtly harmful imagery.",
+    links: [{ label: "arXiv", href: "https://arxiv.org/abs/2610.37722" }],
+  },
+  {
     date: "2026-09-25",
     text: "Our paper on the safety of skill-based agent systems has been accepted to NeurIPS 2026.",
     links: [

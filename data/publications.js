@@ -1,5 +1,18 @@
 window.SITE_PUBLICATIONS = [
   {
+    id: "fvh-bench",
+    title: "FVH-Bench: Evaluating Image Generator Safety Beyond Overtly Harmful Imagery",
+    authors: ["Zihao Zhu", "Yuhan Liu", "Siwei Lyu", "Baoyuan Wu"],
+    venue: "arXiv",
+    venueFull: "arXiv preprint",
+    year: 2026,
+    date: "2026-10-27",
+    type: "preprint",
+    topics: ["Multimodal Learning", "Trustworthy AI"],
+    selected: true,
+    links: { paper: "https://arxiv.org/abs/2610.37722" },
+  },
+  {
     id: "skillcascade",
     title: "Stealth Apart, Harm Together: Skill Cascading Attacks on Skill-Based Agent Systems",
     authors: ["Zihao Zhu", "Siwei Lyu", "Adel Bibi", "Baoyuan Wu"],
