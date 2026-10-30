@@ -10,7 +10,10 @@ window.SITE_PUBLICATIONS = [
     type: "preprint",
     topics: ["Multimodal Learning", "Trustworthy AI"],
     selected: true,
-    links: { paper: "https://arxiv.org/abs/2610.37722" },
+    links: {
+      paper: "https://arxiv.org/abs/2610.37722",
+      blog: "post.html?slug=fvh-bench",
+    },
   },
   {
     id: "skillcascade",

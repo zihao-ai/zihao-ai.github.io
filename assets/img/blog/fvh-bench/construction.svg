@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1120" viewBox="0 0 1000 1120" role="img" aria-labelledby="title desc">
+<title id="title">From a harmful function to a curated test</title><desc id="desc">Four construction agents, iterative review, then independent human curation. 669 of 750 candidates retained.</desc>
+<rect width="1000" height="1120" fill="#fdfcfa"/>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,1 L8,5 L0,9" fill="none" stroke="#166a6f" stroke-width="1.5"/></marker></defs>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="45" y="62" fill="#19383c" font-size="36" font-weight="700" text-anchor="start">From a function to a benchmark prompt</text>
+<text x="45" y="104" fill="#53686c" font-size="25" font-weight="400" text-anchor="start">5 visual functions × 10 risk domains guide coverage</text>
+<rect x="45" y="150" width="910" height="118" rx="14" fill="#eff5f3" stroke="#c9dad6"/>
+<text x="70" y="194" fill="#19383c" font-size="28" font-weight="700" text-anchor="start">1  Coverage Planner</text>
+<text x="70" y="236" fill="#19383c" font-size="24" font-weight="400" text-anchor="start">Choose function–domain pairs; use scenario memory.</text>
+<rect x="45" y="310" width="910" height="118" rx="14" fill="#eff5f3" stroke="#c9dad6"/>
+<text x="70" y="354" fill="#19383c" font-size="28" font-weight="700" text-anchor="start">2  Scenario Designer</text>
+<text x="70" y="396" fill="#19383c" font-size="24" font-weight="400" text-anchor="start">Specify the harmful objective and the artifact’s role.</text>
+<rect x="45" y="470" width="910" height="118" rx="14" fill="#eff5f3" stroke="#c9dad6"/>
+<text x="70" y="514" fill="#19383c" font-size="28" font-weight="700" text-anchor="start">3  Prompt Composer</text>
+<text x="70" y="556" fill="#19383c" font-size="24" font-weight="400" text-anchor="start">Translate the scenario into an image request.</text>
+<rect x="45" y="630" width="910" height="118" rx="14" fill="#eff5f3" stroke="#c9dad6"/>
+<text x="70" y="674" fill="#19383c" font-size="28" font-weight="700" text-anchor="start">4  Prompt Reviewer</text>
+<text x="70" y="716" fill="#19383c" font-size="24" font-weight="400" text-anchor="start">Pass, revise, or discard; at most 3 revision rounds.</text>
+<rect x="45" y="790" width="910" height="118" rx="14" fill="#eff5f3" stroke="#c9dad6"/>
+<text x="70" y="834" fill="#19383c" font-size="28" font-weight="700" text-anchor="start">5  Human curation</text>
+<text x="70" y="876" fill="#19383c" font-size="24" font-weight="400" text-anchor="start">5 independent reviewers; at least 4 must approve.</text>
+<path d="M500,270 V302" fill="none" stroke="#166a6f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M500,430 V462" fill="none" stroke="#166a6f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M500,590 V622" fill="none" stroke="#166a6f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M500,750 V782" fill="none" stroke="#166a6f" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="45" y="970" fill="#166a6f" font-size="30" font-weight="700" text-anchor="start">750 candidates → 669 retained prompts</text>
+<text x="45" y="1015" fill="#19383c" font-size="24" font-weight="400" text-anchor="start">Acceptance checks the request, not successful harmful generation.</text>
+<text x="45" y="1080" fill="#53686c" font-size="20" font-weight="400" text-anchor="start">Source: §3.3 and Appendix A.1 · simplified workflow</text>
+</g></svg>

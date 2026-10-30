@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="468pt" viewBox="0 0 864 468" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <title>Selected FVH-Bench detection results</title>
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>Selected FVH-Bench detection results</dc:title>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 468
+L 864 468
+L 864 0
+L 0 0
+z
+" style="fill: #fdfcfa"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 267.84 341.64
+L 803.52 341.64
+L 803.52 131.04
+L 267.84 131.04
+z
+" style="fill: #fdfcfa"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <path d="M 267.84 341.64
+L 267.84 131.04
+" clip-path="url(#p6314b0b0b4)" style="fill: none; stroke: #dde3e1; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_2">
+      <defs>
+       <path id="m156af243ab" d="M 0 0
+L 0 3.5
+" style="stroke: #53686c; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m156af243ab" x="267.84" y="341.64" style="fill: #53686c; stroke: #53686c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #53686c" x="267.84" y="358.516953" transform="rotate(-0 267.84 358.516953)">0</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_3">
+      <path d="M 374.976 341.64
+L 374.976 131.04
+" clip-path="url(#p6314b0b0b4)" style="fill: none; stroke: #dde3e1; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m156af243ab" x="374.976" y="341.64" style="fill: #53686c; stroke: #53686c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #53686c" x="374.976" y="358.516953" transform="rotate(-0 374.976 358.516953)">20</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_5">
+      <path d="M 482.112 341.64
+L 482.112 131.04
+" clip-path="url(#p6314b0b0b4)" style="fill: none; stroke: #dde3e1; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m156af243ab" x="482.112" y="341.64" style="fill: #53686c; stroke: #53686c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #53686c" x="482.112" y="358.516953" transform="rotate(-0 482.112 358.516953)">40</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_7">
+      <path d="M 589.248 341.64
+L 589.248 131.04
+" clip-path="url(#p6314b0b0b4)" style="fill: none; stroke: #dde3e1; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_8">
+      <g>
+       <use xlink:href="#m156af243ab" x="589.248" y="341.64" style="fill: #53686c; stroke: #53686c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #53686c" x="589.248" y="358.516953" transform="rotate(-0 589.248 358.516953)">60</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_9">
+      <path d="M 696.384 341.64
+L 696.384 131.04
+" clip-path="url(#p6314b0b0b4)" style="fill: none; stroke: #dde3e1; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m156af243ab" x="696.384" y="341.64" style="fill: #53686c; stroke: #53686c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #53686c" x="696.384" y="358.516953" transform="rotate(-0 696.384 358.516953)">80</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_11">
+      <path d="M 803.52 341.64
+L 803.52 131.04
+" clip-path="url(#p6314b0b0b4)" style="fill: none; stroke: #dde3e1; stroke-width: 0.8; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m156af243ab" x="803.52" y="341.64" style="fill: #53686c; stroke: #53686c; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #53686c" x="803.52" y="358.516953" transform="rotate(-0 803.52 358.516953)">100</text>
+     </g>
+    </g>
+    <g id="text_7">
+     <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #19383c" x="535.68" y="383.517969" transform="rotate(-0 535.68 383.517969)">Recall on 500 harmful images (%)</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_13"/>
+     <g id="text_8">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #19383c" transform="translate(126.015625 154.525749)">General Safety Policy</text>
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #19383c" transform="translate(164.389375 168.928093)">Qwen3-VL (8B)</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_14"/>
+     <g id="text_9">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #19383c" transform="translate(113.779375 207.707567)">Condition-Decomposed</text>
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #19383c" transform="translate(164.389375 222.109911)">Qwen3-VL (8B)</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_15"/>
+     <g id="text_10">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #19383c" transform="translate(126.015625 260.889386)">General Safety Policy</text>
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #19383c" transform="translate(207.664375 275.291729)">GPT-5.4</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_16"/>
+     <g id="text_11">
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #19383c" transform="translate(113.779375 314.071204)">Condition-Decomposed</text>
+      <text style="font-size: 12px; font-family: 'DejaVu Sans'; fill: #19383c" transform="translate(207.664375 328.473548)">GPT-5.4</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 267.84 140.612727
+L 534.60864 140.612727
+L 534.60864 172.521818
+L 267.84 172.521818
+z
+" clip-path="url(#p6314b0b0b4)" style="fill: #73898a"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 267.84 193.794545
+L 698.52672 193.794545
+L 698.52672 225.703636
+L 267.84 225.703636
+z
+" clip-path="url(#p6314b0b0b4)" style="fill: #166a6f"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 267.84 246.976364
+L 603.17568 246.976364
+L 603.17568 278.885455
+L 267.84 278.885455
+z
+" clip-path="url(#p6314b0b0b4)" style="fill: #73898a"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 267.84 300.158182
+L 754.23744 300.158182
+L 754.23744 332.067273
+L 267.84 332.067273
+z
+" clip-path="url(#p6314b0b0b4)" style="fill: #166a6f"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 267.84 341.64
+L 803.52 341.64
+" style="fill: none; stroke: #ccd6d4; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #19383c" x="539.96544" y="159.944226" transform="rotate(-0 539.96544 159.944226)">49.80</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #19383c" x="703.88352" y="213.126044" transform="rotate(-0 703.88352 213.126044)">80.40</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #19383c" x="608.53248" y="266.307862" transform="rotate(-0 608.53248 266.307862)">62.60</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #19383c" x="759.59424" y="319.48968" transform="rotate(-0 759.59424 319.48968)">90.80</text>
+   </g>
+  </g>
+  <g id="text_16">
+   <text style="font-weight: 700; font-size: 24px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #19383c" x="34.56" y="28.08" transform="rotate(-0 34.56 28.08)">Function-aware detection improves recall</text>
+  </g>
+  <g id="text_17">
+   <text style="font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #53686c" x="34.56" y="60.84" transform="rotate(-0 34.56 60.84)">General Safety Policy vs. Condition-Decomposed detection</text>
+  </g>
+  <g id="text_18">
+   <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #19383c" x="34.56" y="407.16" transform="rotate(-0 34.56 407.16)">All four configurations: 0.00% observed false positives on 200 benign controls.</text>
+  </g>
+  <g id="text_19">
+   <text style="font-size: 12px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #53686c" x="34.56" y="439.92" transform="rotate(-0 34.56 439.92)">Source: Table 2, p. 6 · Selected comparison; all inputs are image-only.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p6314b0b0b4">
+   <rect x="267.84" y="131.04" width="535.68" height="210.6"/>
+  </clipPath>
+ </defs>
+</svg>

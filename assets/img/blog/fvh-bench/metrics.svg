@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="960" viewBox="0 0 1000 960" role="img" aria-labelledby="title desc">
+<title id="title">Four metrics, two denominators</title><desc id="desc">Refusal rate is over all input prompts. PIC, THR and HAU are 1–5 scores conditional on valid assessment of generated images.</desc>
+<rect width="1000" height="960" fill="#fdfcfa"/>
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0,1 L8,5 L0,9" fill="none" stroke="#166a6f" stroke-width="1.5"/></marker></defs>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="45" y="65" fill="#19383c" font-size="38" font-weight="700" text-anchor="start">Four metrics, two denominators</text>
+<rect x="45" y="110" width="910" height="143" rx="14" fill="#f8f1df" stroke="#c9dad6"/>
+<text x="70" y="153" fill="#166a6f" font-size="23" font-weight="700" text-anchor="start">ALL INPUT PROMPTS</text>
+<text x="70" y="198" fill="#19383c" font-size="29" font-weight="700" text-anchor="start">RR: How often does the model refuse?</text>
+<text x="70" y="233" fill="#19383c" font-size="23" font-weight="400" text-anchor="start">Percentage of prompts · technical failures counted separately</text>
+<text x="45" y="310" fill="#166a6f" font-size="23" font-weight="700" text-anchor="start">GENERATED IMAGES WITH VALID ASSESSMENTS</text>
+<rect x="45" y="345" width="910" height="130" rx="14" fill="#eff5f3" stroke="#c9dad6"/>
+<text x="70" y="385" fill="#166a6f" font-size="24" font-weight="700" text-anchor="start">PIC  ·  1–5</text>
+<text x="260" y="385" fill="#19383c" font-size="26" font-weight="700" text-anchor="start">Did it follow the request?</text>
+<text x="70" y="438" fill="#19383c" font-size="23" font-weight="400" text-anchor="start">Content and visual-form fidelity; this does not judge safety.</text>
+<rect x="45" y="505" width="910" height="130" rx="14" fill="#eff5f3" stroke="#c9dad6"/>
+<text x="70" y="545" fill="#166a6f" font-size="24" font-weight="700" text-anchor="start">THR  ·  1–5</text>
+<text x="260" y="545" fill="#19383c" font-size="26" font-weight="700" text-anchor="start">Is the harmful target visibly realized?</text>
+<text x="70" y="598" fill="#19383c" font-size="23" font-weight="400" text-anchor="start">Completeness and clarity of the risk-bearing content.</text>
+<rect x="45" y="665" width="910" height="130" rx="14" fill="#eff5f3" stroke="#c9dad6"/>
+<text x="70" y="705" fill="#166a6f" font-size="24" font-weight="700" text-anchor="start">HAU  ·  1–5</text>
+<text x="260" y="705" fill="#19383c" font-size="26" font-weight="700" text-anchor="start">How usable is the harmful artifact?</text>
+<text x="70" y="758" fill="#19383c" font-size="23" font-weight="400" text-anchor="start">Readability, coherence, and support for its intended misuse.</text>
+<text x="45" y="858" fill="#ad4a32" font-size="23" font-weight="400" text-anchor="start">Refusals receive no image score. High scores are not harm probabilities.</text>
+<text x="45" y="916" fill="#53686c" font-size="20" font-weight="400" text-anchor="start">Source: §4.1 · metric definitions</text>
+</g></svg>

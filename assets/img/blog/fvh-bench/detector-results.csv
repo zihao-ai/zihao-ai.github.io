@@ -1,0 +1,5 @@
+method,backbone,input,recall_percent,fpr_percent
+General Safety Policy,Qwen3-VL (8B),Image,49.80,0.00
+Condition-Decomposed,Qwen3-VL (8B),Image,80.40,0.00
+General Safety Policy,GPT-5.4,Image,62.60,0.00
+Condition-Decomposed,GPT-5.4,Image,90.80,0.00

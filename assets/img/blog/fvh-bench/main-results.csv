@@ -1,0 +1,4 @@
+metric,label,display_value,value,unit
+mean_refusal,Refusal rate,2.45%,2.45,percent
+mean_thr,Target harm realization,4.46 / 5,4.46,score_1_to_5
+high_hau_models,High artifact usability,4 of 11,4,models_with_mean_HAU_above_4

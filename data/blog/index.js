@@ -1,5 +1,14 @@
 window.SITE_BLOG_POSTS = [
   {
+    slug: "fvh-bench",
+    title: "FVH-Bench: When Generated Images Become Tools for Harm",
+    date: "2026-10-27",
+    description: "Why image safety must consider what an artifact enables: the core idea, benchmark design, and main findings of FVH-Bench.",
+    tags: ["Image Generation", "AI Safety"],
+    file: "data/blog/2026-10-27-fvh-bench.md",
+    featured: true,
+  },
+  {
     slug: "skill-cascading-attacks",
     title: "Stealth Apart, Harm Together: When Agent Skills Become Unsafe in Combination",
     date: "2026-10-20",
